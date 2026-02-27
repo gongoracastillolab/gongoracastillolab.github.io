@@ -1,0 +1,186 @@
+{
+  "translation": {
+    "nav": {
+      "title": "Góngora-Castillo Lab",
+      "home": "Inicio",
+      "research": "Investigación",
+      "people": "Equipo",
+      "publications": "Publicaciones",
+      "outreach": "Divulgación",
+      "subtitle": "Laboratorio de Bioinformática y Genómica Funcional"
+    },
+    "home": {
+      "title": "Decifrando los mecanismos moleculares de adaptación y defensa",
+      "description": "El laboratorio de Bioinformática y Genómica Funcional, liderado por la Dra. Elsa B. Góngora Castillo, forma parte del Departamento de Recursos del Mar en el Centro de Investigación y de Estudios Avanzados del IPN, Unidad Mérida, ubicado en Mérida Yucatán México.",
+      "description2": "Nuestro programa de investigación se centra en comprender las respuestas moleculares y adaptaciones genómicas, durante la interacción con organismos patógenos y frente a cambios ambientales, en organismos terrestres y costeros de la península de Yucatán, principalmente plantas y animales de interés comercial. Nos enfocamos a descifrar los mecanismos de defensa molecular y su regulación genética mediante el uso de estrategias avanzadas de secuenciación masiva y bioinformáticas.",
+      "cta": "Explorar Nuestra Investigación",
+      "contact": "Para más información contáctanos aquí. Siempre estamos en busca de personas entusiastas que deseen unirse a nuestro lab!",
+      "contactEmail": "gongora.castillo.lab@gmail.com",
+      "bluesky": {
+        "title": "Últimas Actualizaciones",
+        "subtitle": "Sigue nuestras últimas noticias y actualizaciones en Bluesky",
+        "viewAll": "Ver Todo",
+        "loading": "Cargando actualizaciones...",
+        "justNow": "Ahora",
+        "minutesAgo": "hace {{count}}m",
+        "hoursAgo": "hace {{count}}h",
+        "daysAgo": "hace {{count}}d",
+        "chromosomeLabel": "Chr"
+      }
+    },
+    "research": {
+      "title": "Investigación",
+      "history": {
+        "title": "Breve historia del laboratorio",
+        "content": "El Laboratorio de Bioinformática y Genómica Funcional fue establecido por la Dra. Elsa Góngora Castillo, quien realizó sus estudios de doctorado en Cinvestav Irapuato, Guanajuato, México. Posteriormente, llevó a cabo estancias postdoctorales en Michigan State University y North Carolina State University, adquiriendo experiencia en bioinformática y genómica funcional. Al regresar a México, se integró al Centro de Investigación Científica de Yucatán (CICY) como parte del programa Investigadoras e Investigadores por México. Actualmente, lidera este laboratorio en Cinvestav Mérida, con un enfoque en la exploración de los mecanismos moleculares de defensa y adaptación al cambio climático en organismos terrestres y costeros."
+      },
+      "projects": {
+        "title": "Proyectos",
+        "papaya": {
+          "title": "Secuenciación de genomas de papaya silvestre y comercial",
+          "description": "Este proyecto busca identificar genes de defensa en papaya (<em>Carica papaya</em>), analizando las diferencias entre genomas de variedades silvestres y comerciales para entender las modificaciones genéticas durante su domesticación."
+        },
+        "chlamydomonas": {
+          "title": "Regulación genética ante estrés en Chlamydomonas reinhardtii",
+          "description": "Utilizando herramientas de bioinformática, este proyecto utiliza como modelo de estudio la microalga verde <em>Chlamydomonas reinhardtii</em> para estudiar cómo se regulan sus genes en respuesta a diferentes condiciones de estrés, con el objetivo de entender y optimizar su producción de lípidos de interés biotecnológico."
+        },
+        "vanilla": {
+          "title": "Análisis de transcriptomas y metagenomas en vainilla comercial y silvestre",
+          "description": "Mediante el estudio de transcriptomas y metagenomas, este proyecto explora la diversidad genética y funcional en vainilla, comparando variedades comerciales y silvestres para identificar genes clave relacionados con su adaptación y cultivo."
+        },
+        "organisms": {
+          "papaya": "Papaya",
+          "chlamydomonas": "Chlamydomonas",
+          "vanilla": "Vainilla",
+          "mangrove": "Manglares",
+          "ciricote": "Ciricote",
+          "cenotes": "Cenotes"
+        },
+        "status": {
+          "active": "Activo",
+          "new": "Nuevo",
+          "closed": "Cerrado"
+        }
+      }
+    },
+    "people": {
+      "title": "Equipo",
+      "pi": {
+        "title": "Investigadora Principal",
+        "name": "Dra. Elsa B. Góngora Castillo",
+        "position": "Investigadora por México",
+        "institution": "Cinvestav Mérida",
+        "email": "elsa.gongora@cinvestav.mx",
+        "bio": "Mi grupo de investigación se enfoca en la interacción planta-patógeno, sistemas de defensa y regulación genética. Utilizamos secuenciación masiva y bioinformática para analizar metagenomas, transcriptomas y genomas de diferentes organismos.",
+        "education": {
+          "2003": "Ingeniera Bioquímica del Instituto Tecnológico de Mérida. Yucatán, México.",
+          "2012": "Doctorado en Ciencias con especialidad en Biotecnología Vegetal de Cinvestav Irapuato. Guanajuato, México.",
+          "2014": "Profesora Asociada en Michigan State University",
+          "2016": "Investigadora Asociada en North Carolina State University.",
+          "2024": "Investigadora México-CONAHCYT en el Centro de Investigación Científica de Yucatán (CICY).",
+          "title": "Formación Académica",
+          "current": "Actualmente, soy Investigadora México-CONAHCYT en Cinvestav Mérida.",
+          "current_date": "Actual"
+        }
+      },
+      "members": {
+        "title": "Miembros del laboratorio"
+      },
+      "collaborators": {
+        "title": "Colaboradores"
+      },
+      "alumni": {
+        "title": "Alumnos titulados del programa de posgrado",
+        "postdoc": "Posdoctorado",
+        "phd": "Programa de Doctorado",
+        "ms": "Programa de Maestría",
+        "undergraduate": "Alumnos de licenciatura y estancias de investigación",
+        "technicalStaff": "Personal Técnico",
+        "roles": {
+          "pi": "Investigadora Principal",
+          "postdoc": "Posdoctorado",
+          "phd": "Estudiante de Doctorado",
+          "ms": "Estudiante de Maestría",
+          "technical": "Personal Técnico"
+        },
+        "countries": {
+          "mexico": "México",
+          "usa": "EE. UU.",
+          "france": "Francia"
+        }
+      }
+    },
+    "publications": {
+      "title": "Publicaciones",
+      "viewScholar": "Ver en Google Scholar",
+      "loading": "Cargando publicaciones...",
+      "error": "Error al cargar publicaciones. Por favor intenta más tarde.",
+      "searchPlaceholder": "Buscar por título, autor, revista o palabras clave...",
+      "count": "Mostrando {{count}} publicación",
+      "count_other": "Mostrando {{count}} publicaciones",
+      "filteredCount": "Mostrando {{filtered}} de {{total}} publicaciones",
+      "noResults": "No se encontraron publicaciones que coincidan con tu búsqueda.",
+      "citations": "citas",
+      "sort": {
+        "year": "Año",
+        "citations": "Citas",
+        "title": "Título",
+        "asc": "Ascendente",
+        "desc": "Descendente"
+      }
+    },
+    "outreach": {
+      "title": "Comunicación Científica y Divulgación",
+      "podcasts": "Podcasts",
+      "videos": "Videos",
+      "events": "Eventos",
+      "gallery": "Galería",
+      "articles": "Artículos",
+      "groupPhotos": "Fotos Grupales",
+      "description": "Descripción",
+      "viewDetails": "Ver detalles",
+      "noResults": "No se encontraron elementos en esta categoría.",
+      "onSpotify": "Ver en Spotify",
+      "onYouTube": "Ver en YouTube",
+      "article": "Ver Artículo",
+      "links": "Enlaces",
+      "link": "Enlace",
+      "episode": "Episodio",
+      "videoLabel": "Video",
+      "sortByDate": "Ordenar por fecha",
+      "newestFirst": "Más recientes primero",
+      "oldestFirst": "Más antiguos primero",
+      "sortToggleToNewest": "Cambiar a más recientes primero",
+      "sortToggleToOldest": "Cambiar a más antiguos primero"
+    },
+    "publicationDetail": {
+      "title": "Detalles de la Publicación",
+      "authors": "Autores",
+      "publication": "Publicación",
+      "abstract": "Resumen",
+      "keywords": "Palabras clave",
+      "tags": "Etiquetas",
+      "metrics": "Métricas",
+      "links": "Enlaces"
+    },
+    "footer": {
+      "labName": "Góngora-Castillo Lab",
+      "fullName": "Laboratorio de Bioinformática y Genómica Funcional",
+      "institution": "Cinvestav Unidad Mérida",
+      "department": "Departamento de Recursos del Mar",
+      "location": "Mérida, Yucatán, México",
+      "contactTitle": "Contacto",
+      "contactIntro": "Para más información:",
+      "followUs": "Síguenos",
+      "partOf": "Parte del Cinvestav-IPN",
+      "links": {
+        "projects": "Proyectos",
+        "members": "PI y Miembros",
+        "alumni": "Egresados",
+        "bluesky": "Bluesky",
+        "scholar": "Google Scholar"
+      },
+      "copyright": "© 2026 Góngora-Castillo Lab • Cinvestav Mérida"
+    }
+  }
+}

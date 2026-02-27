@@ -1,0 +1,29 @@
+{
+  "graduated": {
+    "postdoc": [],
+    "phd": [
+      { "year": "2024", "name": "Cynthia Soto Cardinault" }
+    ],
+    "ms": [
+      { "year": "2023", "name": "Estefania Ravel Mujica" },
+      { "year": "2023", "name": "Orlando Osorio Pinelo" },
+      { "year": "2022", "name": "Marcos Cohuo Cauich" },
+      { "year": "2022", "name": "Alexa Aguilar Acevedo" },
+      { "year": "2021", "name": "Juan Daniel Macías Hernández" },
+      { "year": "2021", "name": "Juan José Martínez Chan" },
+      { "year": "2020", "name": "Luis Fernando Maceda López" },
+      { "year": "2020", "name": "Perla Contreras de la Rosa" }
+    ]
+  },
+  "undergraduate": [
+    { "year": "2024", "name": "Alexa Andrade Castro", "inst": "Instituto Tecnológico de Mérida" },
+    { "year": "2023", "name": "Jessica Amaro Fuentes", "inst": "Universidad Autónoma de Nuevo León" },
+    { "year": "2023", "name": "Daniel Rodriguez Espinosa", "inst": "Universidad Autónoma de Nuevo León" },
+    { "year": "2023", "name": "María Teresa Alvarado Parra", "inst": "Universidad de Yucatán" },
+    { "year": "2021", "name": "Susana Sofía Arjonilla Becerra", "inst": "Jóvenes Construyendo el Futuro" },
+    { "year": "2020", "name": "Aldo Caamal Pech", "inst": "Instituto Tecnológico de Conkal" },
+    { "year": "2019", "name": "Luis Joaquín Domínguez Díaz", "inst": "Universidad Autónoma de Yucatán" },
+    { "year": "2018", "name": "Mónica Rodríguez González", "inst": "Estancia Académica Cinvestav Irapuato" },
+    { "year": "2018", "name": "Luis Manuel Martín Sánchez", "inst": "Instituto Tecnológico Superior de Valladolid" }
+  ]
+}

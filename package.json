@@ -1,0 +1,47 @@
+{
+  "name": "gongora-castillo-lab-website",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Website for Góngora-Castillo Lab - Bioinformatics and Functional Genomics Laboratory",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "sync:publications": "tsx scripts/sync-publications.ts",
+    "debug:scholar": "tsx scripts/debug-scholar-structure.ts"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "framer-motion": "^10.16.16",
+    "i18next": "^23.7.6",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "lucide-react": "^0.294.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.5.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@rpidanny/google-scholar": "^3.3.0",
+    "@types/cheerio": "^0.22.31",
+    "@types/d3": "^7.4.3",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^7.18.0",
+    "@typescript-eslint/parser": "^7.18.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "cheerio": "^1.0.0-rc.12",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "puppeteer": "^21.6.0",
+    "tailwindcss": "^3.3.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  }
+}

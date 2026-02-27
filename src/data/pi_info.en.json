@@ -1,0 +1,17 @@
+{
+  "name": "Dr. Elsa B. Góngora Castillo",
+  "position": "Mexico-CONAHCYT Researcher",
+  "institution": "Department of Marine Resources, Cinvestav Mérida",
+  "email": "elsa.gongora at cinvestav.mx",
+  "orcidUrl": "https://orcid.org/0000-0001-6327-6993",
+  "researchGateUrl": "https://www.researchgate.net/profile/Elsa-Gongora-Castillo",
+  "bio": "My research focuses on plant-pathogen interaction, defense systems, and genetic regulation, using high-throughput sequencing and bioinformatics to analyze genomes, transcriptomes, and metagenomes.",
+  "education": [
+    { "year": "2003", "text": "Biochemical Engineer from the Technological Institute of Mérida. Yucatán, México." },
+    { "year": "2012", "text": "Ph.D. in Sciences with a specialization in Plant Biotechnology from Cinvestav Irapuato. Guanajuato, México." },
+    { "year": "2014", "text": "Associate Professor at Michigan State University" },
+    { "year": "2016", "text": "Associate Researcher at North Carolina State University." },
+    { "year": "2024", "text": "Mexico-CONAHCYT Researcher at Scientific Research Center of Yucatán (CICY)." },
+    { "year": "Current", "text": "Mexico-CONAHCYT Researcher at Cinvestav Mérida." }
+  ]
+}

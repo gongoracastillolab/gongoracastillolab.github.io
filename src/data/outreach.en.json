@@ -1,0 +1,207 @@
+{
+  "items": [
+    {
+      "id": "cicy-casa-abierta-2023-2025",
+      "type": "event",
+      "title": "CICY Open House (2023-2025)",
+      "description": "Open house activity at the Center for Scientific Research of Yucatán where the laboratory participates with booths and workshops to share bioinformatics and genomics research with the general public.\n\nIncludes demonstrations, outreach materials, and direct engagement with the community to bring the science carried out in the department closer to the public.",
+      "date": "2024-06-01",
+      "url": "https://photos.app.goo.gl/VMoMioZwDeRDbqHz6",
+      "urls": ["https://photos.app.goo.gl/VMoMioZwDeRDbqHz6", "https://photos.app.goo.gl/JMX79yHvzZkFpuN66"],
+      "image": null,
+      "images": [
+        {"src": "Foto-Grupo-2025.jpg", "caption": "Lab team at CICY Open House 2025."},
+        {"src": "Foto-Grupo-2024.jpg", "caption": "Lab booth during Open House 2024."}
+      ]
+    },
+    {
+      "id": "cicy-casa-abierta-2023",
+      "type": "event",
+      "title": "CICY Open House (2023)",
+      "description": "At the 2023 edition of CICY Open House, the lab team participated enthusiastically with activities designed to introduce the public to Bioinformatics and show how this discipline impacts our daily lives. Through hands-on demonstrations, playful exercises, and interactive talks, visitors were able to discover in a dynamic and accessible way the fundamental role that bioinformatics plays in scientific research and in understanding the processes that surround us every day.",
+      "date": "2023-11-09",
+      "url": null,
+      "urls": null,
+      "image": null,
+      "images": [
+        {"src": "div_event_CICY_CasaAbierta_2023_1.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_2.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_3.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_4.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_5.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_6.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_7.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_8.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_9.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "cicy-casa-abierta-2024",
+      "type": "event",
+      "title": "CICY Open House (2024)",
+      "description": "At the 2024 edition of CICY Open House, the lab team participated enthusiastically with activities designed to introduce the public to Bioinformatics and show how this discipline impacts our daily lives. Through hands-on demonstrations, playful exercises, and interactive talks, visitors were able to discover in a dynamic and accessible way the fundamental role that bioinformatics plays in scientific research and in understanding the processes that surround us every day.",
+      "date": "2024-10-24",
+      "url": null,
+      "urls": null,
+      "image": "div_event_CICY_CasaAbierta_2024_1.jpg",
+      "images": [
+        {"src": "div_event_CICY_CasaAbierta_2024_2.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_3.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_4.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_5.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_6.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "11f-mujeres-ninas-ciencia-2023",
+      "type": "event",
+      "title": "11F - International Day of Women and Girls in Science (2023)",
+      "description": "On February 11th, International Day of Women and Girls in Science (11F), Dr. Elsa Góngora gave an interactive talk at the Piaget Secondary School in Mérida, Yucatán. Through demonstrations and experiments, she introduced students to the basics of DNA and highlighted the importance of studying it to understand the biological processes that sustain life. The activity brought science closer in a dynamic way and sparked interest in research among the next generation.",
+      "date": "2023-02-11",
+      "url": null,
+      "urls": null,
+      "image": "div_event_11F_2023_1.jpeg",
+      "images": [
+        {"src": "div_event_11F_2023_2.jpeg", "caption": null},
+        {"src": "div_event_11F_2023_3.jpeg", "caption": null},
+        {"src": "div_event_11F_2023_4.jpeg", "caption": null}
+      ]
+    },
+    {
+      "id": "11f-mujeres-ninas-ciencia-2024",
+      "type": "event",
+      "title": "11F - International Day of Women and Girls in Science (2024)",
+      "description": "As part of February 11th, International Day of Women and Girls in Science (11F), the CICY Botanical Garden Visitor Center welcomed girls who took part in activities and hands-on sessions designed to spark their scientific curiosity. Graduate students from the lab led the activities, sharing their experience and introducing participants to the fascinating world of research. The day became a fun and motivating learning space, highlighting the role of women in science and encouraging scientific vocations from an early age.",
+      "date": "2024-02-09",
+      "url": null,
+      "urls": null,
+      "image": null,
+      "images": [
+        {"src": "div_event_11F_2024_1.jpg", "caption": null},
+        {"src": "div_event_11F_2024_2.jpg", "caption": null},
+        {"src": "div_event_11F_2024_3.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "verano-teleton-crit-2025",
+      "type": "event",
+      "title": "Teletón Summer Program for CRIT Yucatán Community (2025)",
+      "description": "Outreach activity as part of the Teletón Summer Program, aimed at the CRIT Yucatán community. The laboratory brings science and genomics research closer to families and participants.\n\nIncludes workshops and activities adapted to share scientific work and spark curiosity about biology and bioinformatics.",
+      "date": "2025-07-01",
+      "url": null,
+      "urls": null,
+      "image": null
+    },
+    {
+      "id": "taller-manglares-aldea-2025",
+      "type": "event",
+      "title": "Mangrove Workshop for Aldea Community (2025)",
+      "description": "Workshop on mangroves and their ecological importance for children aged 5 to 12 from the Aldea community. It combines environmental education and science outreach on coastal ecosystems and their conservation.\n\nActivities introduce concepts of biodiversity, climate change, and the work the laboratory carries out in mangrove projects in the Yucatán Peninsula.",
+      "date": "2025-06-01",
+      "url": null,
+      "urls": null,
+      "image": null,
+      "images": [
+        {"src": "div_event_Taller_Manglares_Aldea_2025_1.jpg", "caption": null},
+        {"src": "div_event_Taller_Manglares_Aldea_2025_2.jpg", "caption": null},
+        {"src": "div_event_Taller_Manglares_Aldea_2025_3.jpg", "caption": null},
+        {"src": "div_event_Taller_Manglares_Aldea_2025_4.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "cakotanu-cuxtal-molas-2025",
+      "type": "event",
+      "title": "My Scientific CV - Cakotanú, Cuxtal Community, Molas Yucatán (2025)",
+      "description": "Cakotanú project workshop for children and adolescents in the Cuxtal community, Molas, Yucatán. It brings science and the work of scientists closer in a fun way through the \"My scientific CV\" activity.\n\nParticipants learn about the different stages of training in research and reflect on their own interest in science.",
+      "date": "2025-05-01",
+      "url": null,
+      "urls": null,
+      "image": "div_event_Cakotanu_Cuxtal_Molas_2025_1.jpeg",
+      "images": [
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_2.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_3.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_4.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_5.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_6.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_7.jpeg", "caption": null}
+      ]
+    },
+    {
+      "id": "revista-cyn",
+      "type": "article",
+      "title": "CyN Magazine",
+      "description": "Science communication article published in CyN Magazine about the laboratory's bioinformatics and functional genomics research. It is part of the publication's science news section.\n\nIt presents in an accessible way the advances and impact of work in genomics, transcriptomics, and data analysis in organisms of interest to the region.",
+      "date": "2023-01-15",
+      "url": "https://www.revistacyn.com/actual/1083",
+      "urls": null,
+      "image": "div_art_RevistaCyN_2024.png"
+    },
+    {
+      "id": "desde-herbario-desarrollo-floral-2024",
+      "type": "article",
+      "title": "Exploring the mystery of floral development (From the CICY Herbarium)",
+      "description": "Outreach text published in the \"From the Herbarium\" series of CICY, which explores floral development and research in plant reproductive biology. It addresses in an accessible way the genetic and molecular mechanisms that the laboratory studies in species of interest.\n\nIt allows the general public to learn about the science carried out at the center and the questions that guide research in functional genomics.",
+      "date": "2024-02-08",
+      "url": "https://www.cicy.mx/Documentos/CICY/Desde_Herbario/2024/2024-02-08-EVazquez-Explorando-el-misterio-del-desarrollo-floral.pdf",
+      "urls": null,
+      "image": "div_art_DesdeHerbario_Distilia_2024.png"
+    },
+    {
+      "id": "ciencia-cakotanu-genomas-2026",
+      "type": "article",
+      "title": "Life in code: the science of genomes (Ciencia Cakotanú)",
+      "description": "Outreach article in the Ciencia Cakotanú magazine that presents genomics and bioinformatics as \"life in code\". It explains in simple terms how genetic information is read and interpreted and what the laboratory does in its projects.\n\nAimed at a broad audience, it connects basic science with applications in conservation, agriculture, and health, as part of the outreach promoted by Cakotanú.",
+      "date": "2026-01-01",
+      "url": "https://www.cienciacakotanu.com/contenido/artículos/v7n2-2026/la-vida-en-código-la-ciencia-de-los-genomas",
+      "urls": null,
+      "image": "div_art_CienciaCakotanu_Genomas_2026.png"
+    },
+    {
+      "id": "craneo-podcast",
+      "type": "podcast",
+      "title": "Cráneo: Science for Kids",
+      "description": "Participation in a science communication podcast for children. Episode on genomics and bioinformatics.",
+      "date": "2024-03-15",
+      "url": "https://open.spotify.com/show/2QKUcSrkiHaMZlqieNLzTK",
+      "image": "div_podcast_CraneoPodcast-EP73_01.jpg",
+      "urls": null
+    },
+    {
+      "id": "mas-conciencia",
+      "type": "podcast",
+      "title": "Más Conciencia - CICYoficial",
+      "description": "Science communication podcast from the Center for Scientific Research of Yucatán. Participation in episodes about genomics research.",
+      "date": "2023-11-20",
+      "url": "https://open.spotify.com/show/2QKUcSrkiHaMZlqieNLzTK",
+      "image": "div_podcast_MasConciencia.png",
+      "urls": null
+    },
+    {
+      "id": "cicy-youtube",
+      "type": "video",
+      "title": "CICY YouTube Channel",
+      "description": "Science communication videos from CICY about functional genomics research and bioinformatics.",
+      "date": "2023-08-10",
+      "url": "https://www.youtube.com/watch?v=VQ8b7Rmuo40",
+      "urls": ["https://www.youtube.com/@CICYoficial"],
+      "image": "div_video_cicy.png"
+    },
+    {
+      "id": "covid-videos",
+      "type": "video",
+      "title": "COVID-19 Videos",
+      "description": "Collection of videos about COVID-19 and science communication related to genomics research and molecular response.",
+      "date": "2022-05-15",
+      "url": "https://www.youtube.com/@CICYoficial/search?query=covid",
+      "urls": [
+        "https://youtu.be/UDQz-SlxQqA?si=HooAM6Rn85dB30Ph",
+        "https://youtu.be/wCZM5qOCgHU?si=Jf1inYB0NUdAYteu",
+        "https://youtu.be/qkba7UbnNOQ?si=42t1NZecrXJ3vF7f",
+        "https://youtu.be/2BXRparSbVE?si=YHTx9h0NhumVzKyY",
+        "https://youtu.be/q4XxP3mmLeY?si=qlZOt70ZZN2c2_Qm",
+        "https://youtu.be/U9DJPNbQzbc?si=tm2B70VkAj2BgpIe"
+      ],
+      "image": "div_video_covid.png"
+    }
+  ]
+}

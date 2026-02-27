@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/x-icon" href="/20260123_GongoraCastillo_Lab/logo_gclab.ico" />
+  <title>Content Manager | Góngora-Castillo Lab</title>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Decap CMS -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Estilos para el panel de previsualización (dentro del iframe)
+    CMS.registerPreviewStyle(`
+      img {
+        max-width: 300px !important;
+        height: auto !important;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        margin: 10px 0;
+        display: block;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        padding: 20px;
+        line-height: 1.5;
+        color: #1a202c;
+      }
+      h1, h2, h3 {
+        color: #004aad;
+        margin-top: 1.5em;
+      }
+    `, { raw: true });
+  </script>
+</body>
+</html>

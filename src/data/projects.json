@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": "mangrove",
+      "title": "Bases moleculares, fisiológicas e interacciones microbianas en manglares y su papel en la supervivencia frente al cambio climático",
+      "status": "new",
+      "description": "Este proyecto investiga las adaptaciones moleculares y fisiológicas de <em>Avicennia germinans</em> y <em>Rhizophora mangle</em> frente al estrés salino y al cambio climático. Integra transcriptómica, metagenómica y mediciones ambientales para evaluar su resiliencia y susceptibilidad a patógenos. Los resultados aportarán bases científicas para la conservación y manejo sostenible de los manglares en México. Este proyecto se está llevando a cabo en colaboración con el Centro de Investigación Científica de Yucatán y la ENES-UNAM.",
+      "tags": ["Manglares", "Cambio climático", "Transcriptómica", "Metagenómica"],
+      "image": "project_mangrove.png"
+    },
+    {
+      "id": "papaya",
+      "title": "Secuenciación de genomas de papaya silvestre y comercial",
+      "status": "active",
+      "description": "Este proyecto busca identificar genes de defensa en papaya (<em>Carica papaya</em>) y analizar las diferencias entre los genomas de variedades silvestres y comerciales para comprender las modificaciones genéticas durante su domesticación.",
+      "tags": ["Genomics", "Domestication", "Plant Biology"],
+      "image": "project_papaya.jpg"
+    },
+    {
+      "id": "vanilla",
+      "title": "Análisis de transcriptomas y metagenomas en vainilla comercial y silvestre",
+      "status": "active",
+      "description": "Mediante el estudio de transcriptomas y metagenomas, este proyecto explora la diversidad genética y funcional en vainilla, comparando variedades comerciales y silvestres para identificar genes clave relacionados con su adaptación y cultivo.",
+      "tags": ["Transcriptomics", "Metagenomics", "Biodiversity"],
+      "image": "project_vanilla.jpg"
+    },
+    {
+      "id": "chlamydomonas",
+      "title": "Regulación genética ante estrés en Chlamydomonas reinhardtii",
+      "status": "active",
+      "description": "Utilizando herramientas de bioinformática, este proyecto utiliza como modelo de estudio la microalga verde <em>Chlamydomonas reinhardtii</em> para estudiar cómo se regulan sus genes en respuesta a diferentes condiciones de estrés, con el objetivo de entender y optimizar su producción de lípidos de interés biotecnológico. Este es un proyecto en colaboración con el Centro de Investigación Científica de Yucatán.",
+      "tags": ["Bioinformatics", "Stress Response", "Biotechnology"],
+      "image": "project_chlamydomonas.jpg"
+    },
+    {
+      "id": "ciricote",
+      "title": "Transcriptómica del desarrollo floral del Ciricote",
+      "status": "closed",
+      "description": "Este proyecto investiga las bases moleculares del desarrollo floral del ciricote mediante la comparación de los morfos longistilo y brevistilo. A través de análisis de RNA-seq y herramientas bioinformáticas, se identifican genes y rutas reguladoras asociadas a la heterostilia. Los resultados contribuirán a comprender los mecanismos genéticos que controlan la diferenciación floral y la estrategia reproductiva de la especie. Este es un proyecto en colaboración con la Universidad Autónoma de Yucatán (UADY).",
+      "tags": ["Transcriptómica", "Desarrollo floral", "Heterostilia"],
+      "image": "project_ciricote.jpg"
+    },
+    {
+      "id": "cenotes",
+      "title": "Metagenómica de cenotes y prospección de clusters biosintéticos",
+      "status": "closed",
+      "description": "Este proyecto explora la diversidad microbiana de cenotes mediante secuenciación metagenómica y análisis bioinformático. Se enfoca en la identificación de biosynthetic gene clusters (BGCs) asociados a la producción de metabolitos secundarios con potencial biotecnológico. Los resultados aportarán conocimiento sobre la funcionalidad metabólica de estos ecosistemas y su posible aprovechamiento en biotecnología. Este es un proyecto en colaboración con la UNAM.",
+      "tags": ["Metagenómica", "Cenotes", "BGCs", "Biotecnología"],
+      "image": "project_cenotes.png"
+    }
+  ]
+}

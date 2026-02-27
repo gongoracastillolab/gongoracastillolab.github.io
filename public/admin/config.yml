@@ -1,0 +1,288 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "public"
+public_folder: "/"
+
+logo:
+  src: "/20260123_GongoraCastillo_Lab/logo_GClab.png"
+  show_in_header: true
+
+site_url: "https://tu-usuario.github.io/20260123_GongoraCastillo_Lab"
+display_url: "https://tu-usuario.github.io/20260123_GongoraCastillo_Lab"
+
+# Inicio, Investigación y Equipo: archivos flat por idioma (ES/EN). Sin i18n en CMS.
+
+collections:
+  # ─── Inicio ─────────────────────────────────────────────────────────────────
+  - name: "inicio"
+    label: "Inicio"
+    description: "Hero, descripción y contacto de la página de inicio. Un archivo por idioma."
+    files:
+      - label: "Inicio — ES"
+        name: "inicio_es"
+        file: "src/data/page_home.json"
+        fields:
+          - { label: "Título Principal (Hero)", name: "title", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "text", hint: "Un párrafo por línea. Deja una línea en blanco entre párrafos para que se muestren separados." }
+          - { label: "Texto de Contacto", name: "contactText", widget: "text" }
+          - { label: "Email de Contacto", name: "contactEmail", widget: "string" }
+      - label: "Inicio — EN"
+        name: "inicio_en"
+        file: "src/data/page_home.en.json"
+        fields:
+          - { label: "Título Principal (Hero)", name: "title", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "text", hint: "One paragraph per block. Leave a blank line between paragraphs to render them separately." }
+          - { label: "Texto de Contacto", name: "contactText", widget: "text" }
+          - { label: "Email de Contacto", name: "contactEmail", widget: "string" }
+
+  # ─── Investigación ──────────────────────────────────────────────────────────
+  - name: "investigacion"
+    label: "Investigación"
+    description: "Historia del lab y proyectos. Un archivo por idioma."
+    files:
+      - label: "Historia del laboratorio — ES"
+        name: "historia_es"
+        file: "src/data/page_research.json"
+        fields:
+          - { label: "Título de Historia", name: "historyTitle", widget: "string" }
+          - { label: "Contenido narrativo", name: "historyContent", widget: "text" }
+      - label: "Historia del laboratorio — EN"
+        name: "historia_en"
+        file: "src/data/page_research.en.json"
+        fields:
+          - { label: "Título de Historia", name: "historyTitle", widget: "string" }
+          - { label: "Contenido narrativo", name: "historyContent", widget: "text" }
+      - label: "Proyectos vigentes — ES"
+        name: "proyectos_es"
+        file: "src/data/projects.json"
+        fields:
+          - label: "Lista de Proyectos"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "ID (único, ej. papaya)", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Estado"
+                name: "status"
+                widget: "select"
+                default: "active"
+                options:
+                  - { label: "Activo", value: "active" }
+                  - { label: "Nuevo", value: "new" }
+                  - { label: "Cerrado", value: "closed" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Etiquetas", name: "tags", widget: "list" }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
+      - label: "Proyectos vigentes — EN"
+        name: "proyectos_en"
+        file: "src/data/projects.en.json"
+        fields:
+          - label: "Lista de Proyectos"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "ID (único, ej. papaya)", name: "id", widget: "string" }
+              - { label: "Título", name: "title", widget: "string" }
+              - label: "Estado"
+                name: "status"
+                widget: "select"
+                default: "active"
+                options:
+                  - { label: "Active", value: "active" }
+                  - { label: "New", value: "new" }
+                  - { label: "Closed", value: "closed" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Etiquetas", name: "tags", widget: "list" }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
+
+  # ─── Equipo ─────────────────────────────────────────────────────────────────
+  - name: "equipo"
+    label: "Equipo"
+    description: "PI, miembros activos, personal técnico, colaboradores, egresados y fotos de grupo."
+    files:
+      - label: "Investigadora Principal (PI) — ES"
+        name: "pi_es"
+        file: "src/data/pi_info.json"
+        fields:
+          - { label: "Nombre Completo", name: "name", widget: "string" }
+          - { label: "Cargo / Posición", name: "position", widget: "string" }
+          - { label: "Institución", name: "institution", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false }
+          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false }
+          - { label: "Biografía", name: "bio", widget: "text" }
+          - label: "Formación Académica"
+            name: "education"
+            widget: "list"
+            fields:
+              - { label: "Año", name: "year", widget: "string" }
+              - { label: "Descripción", name: "text", widget: "string" }
+      - label: "Investigadora Principal (PI) — EN"
+        name: "pi_en"
+        file: "src/data/pi_info.en.json"
+        fields:
+          - { label: "Nombre Completo", name: "name", widget: "string" }
+          - { label: "Cargo / Posición", name: "position", widget: "string" }
+          - { label: "Institución", name: "institution", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false }
+          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false }
+          - { label: "Biografía", name: "bio", widget: "text" }
+          - label: "Formación Académica"
+            name: "education"
+            widget: "list"
+            fields:
+              - { label: "Año", name: "year", widget: "string" }
+              - { label: "Descripción", name: "text", widget: "string" }
+      - label: "Miembros activos"
+        name: "miembros"
+        file: "src/data/members.json"
+        fields:
+          - label: "Integrantes"
+            name: "members"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - label: "Rol"
+                name: "roleKey"
+                widget: "select"
+                options:
+                  - { label: "Posdoctorado", value: "people.alumni.roles.postdoc" }
+                  - { label: "Doctorado", value: "people.alumni.roles.phd" }
+                  - { label: "Maestría", value: "people.alumni.roles.ms" }
+                  - { label: "Personal Técnico", value: "people.alumni.roles.technical" }
+              - { label: "Departamento o Unidad", name: "department", widget: "string", required: false }
+              - { label: "Institución", name: "institution", widget: "string", required: false }
+              - { label: "Email", name: "email", widget: "string", required: false }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
+      - label: "Personal técnico y colaboradores"
+        name: "staff_colaboradores"
+        file: "src/data/staff_collaborators.json"
+        fields:
+          - label: "Personal Técnico"
+            name: "technicalStaff"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - label: "Rol"
+                name: "roleKey"
+                widget: "select"
+                options:
+                  - { label: "Técnico", value: "people.alumni.roles.technical" }
+                  - { label: "PI Asociado", value: "people.alumni.roles.pi" }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
+          - label: "Colaboradores"
+            name: "collaborators"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Afiliación", name: "affiliation", widget: "string" }
+              - label: "País"
+                name: "countryKey"
+                widget: "select"
+                options:
+                  - { label: "México", value: "people.alumni.countries.mexico" }
+                  - { label: "USA", value: "people.alumni.countries.usa" }
+                  - { label: "Francia", value: "people.alumni.countries.france" }
+                  - { label: "España", value: "people.alumni.countries.spain" }
+      - label: "Egresados"
+        name: "egresados"
+        file: "src/data/alumni.json"
+        fields:
+          - label: "Posgrado"
+            name: "graduated"
+            widget: "object"
+            fields:
+              - { label: "Posdoctorado", name: "postdoc", widget: "list", fields: [{ label: "Año", name: "year", widget: "string" }, { label: "Nombre", name: "name", widget: "string" }] }
+              - { label: "Doctorado", name: "phd", widget: "list", fields: [{ label: "Año", name: "year", widget: "string" }, { label: "Nombre", name: "name", widget: "string" }] }
+              - { label: "Maestría", name: "ms", widget: "list", fields: [{ label: "Año", name: "year", widget: "string" }, { label: "Nombre", name: "name", widget: "string" }] }
+          - label: "Licenciatura y estancias"
+            name: "undergraduate"
+            widget: "list"
+            fields:
+              - { label: "Año", name: "year", widget: "string" }
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Institución", name: "inst", widget: "string" }
+      - label: "Fotos de grupo"
+        name: "fotos_grupo"
+        file: "src/data/group_photos.json"
+        fields:
+          - label: "Fotos anuales"
+            name: "groupPhotos"
+            widget: "list"
+            fields:
+              - { label: "Año", name: "year", widget: "string" }
+              - { label: "Imagen", name: "image", widget: "image" }
+
+  # ─── Divulgación ────────────────────────────────────────────────────────────
+  - name: "divulgacion"
+    label: "Divulgación"
+    description: "Podcasts, videos, eventos y artículos. Un archivo por idioma."
+    files:
+      - label: "Divulgación — ES"
+        name: "divulgacion_es"
+        file: "src/data/outreach.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Tipo", name: "type", widget: "select", options: ["podcast", "video", "event", "article"] }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Fecha", name: "date", widget: "date" }
+              - { label: "URL principal", name: "url", widget: "string", required: false }
+              - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
+              - label: "Galería de fotos (varias imágenes para eventos)"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Foto", name: "src", widget: "image" }
+                  - { label: "Subtítulo", name: "caption", widget: "string", required: false }
+      - label: "Divulgación — EN"
+        name: "divulgacion_en"
+        file: "src/data/outreach.en.json"
+        fields:
+          - label: "Items"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "Tipo", name: "type", widget: "select", options: ["podcast", "video", "event", "article"] }
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Descripción", name: "description", widget: "text" }
+              - { label: "Fecha", name: "date", widget: "date" }
+              - { label: "URL principal", name: "url", widget: "string", required: false }
+              - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
+              - { label: "Imagen", name: "image", widget: "image", required: false }
+              - label: "Photo gallery (multiple images for events)"
+                name: "images"
+                widget: "list"
+                required: false
+                fields:
+                  - { label: "Photo", name: "src", widget: "image" }
+                  - { label: "Caption", name: "caption", widget: "string", required: false }
+
+  # ─── Configuración ──────────────────────────────────────────────────────────
+  # Textos de interfaz (menú, botones, etiquetas, mensajes). Se usan en i18n aparte del contenido por página.
+  - name: "config"
+    label: "Configuración"
+    description: "Traducciones de la interfaz: menú de navegación, botones, etiquetas, mensajes (loading, errores, etc.). Archivos usados por i18n. Editar con cuidado."
+    files:
+      - label: "Traducciones (ES)"
+        name: "traducciones_es"
+        file: "src/i18n/locales/es/translation.json"
+        fields:
+          - { label: "JSON (ES)", name: "translation", widget: "code", default_language: "json" }
+      - label: "Traducciones (EN)"
+        name: "traducciones_en"
+        file: "src/i18n/locales/en/translation.json"
+        fields:
+          - { label: "JSON (EN)", name: "translation", widget: "code", default_language: "json" }

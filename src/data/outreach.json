@@ -1,0 +1,200 @@
+{
+  "items": [
+    {
+      "id": "cicy-casa-abierta-2023-2025",
+      "type": "event",
+      "title": "CICY Casa Abierta (2023-2025)",
+      "description": "Actividad de puertas abiertas del Centro de Investigación Científica de Yucatán en la que el laboratorio participa con stands y talleres para dar a conocer la investigación en bioinformática y genómica al público general.\n\nIncluye demostraciones, material divulgativo y contacto directo con la comunidad para acercar la ciencia que se realiza en el departamento.",
+      "date": "2024-06-01",
+      "url": "https://photos.app.goo.gl/VMoMioZwDeRDbqHz6",
+      "urls": ["https://photos.app.goo.gl/VMoMioZwDeRDbqHz6", "https://photos.app.goo.gl/JMX79yHvzZkFpuN66"],
+      "image": null,
+      "images": [
+        {"src": "Foto-Grupo-2025.jpg", "caption": "Equipo del laboratorio en CICY Casa Abierta 2025."},
+        {"src": "Foto-Grupo-2024.jpg", "caption": "Stand del laboratorio durante la Casa Abierta 2024."}
+      ]
+    },
+    {
+      "id": "cicy-casa-abierta-2023",
+      "type": "event",
+      "title": "CICY Casa Abierta (2023)",
+      "description": "En la edición 2023 de Casa Abierta CICY, el equipo del laboratorio participó con entusiasmo presentando actividades diseñadas para acercar al público a la Bioinformática y mostrar cómo esta disciplina impacta nuestra vida cotidiana. A través de demostraciones prácticas, ejercicios lúdicos y charlas interactivas, los visitantes pudieron descubrir de manera dinámica y accesible el papel fundamental que juega la bioinformática en la investigación científica y en la comprensión de procesos que nos rodean día a día.",
+      "date": "2023-11-09",
+      "url": null,
+      "urls": null,
+      "image": null,
+      "images": [
+        {"src": "div_event_CICY_CasaAbierta_2023_1.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_2.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_3.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_4.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_5.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_6.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_7.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_8.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2023_9.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "cicy-casa-abierta-2024",
+      "type": "event",
+      "title": "CICY Casa Abierta (2024)",
+      "description": "En la edición 2023 de Casa Abierta CICY, el equipo del laboratorio participó con entusiasmo presentando actividades diseñadas para acercar al público a la Bioinformática y mostrar cómo esta disciplina impacta nuestra vida cotidiana. A través de demostraciones prácticas, ejercicios lúdicos y charlas interactivas, los visitantes pudieron descubrir de manera dinámica y accesible el papel fundamental que juega la bioinformática en la investigación científica y en la comprensión de procesos que nos rodean día a día.",
+      "date": "2024-10-24",
+      "url": null,
+      "urls": null,
+      "image": "div_event_CICY_CasaAbierta_2024_1.jpg",
+      "images": [
+        {"src": "div_event_CICY_CasaAbierta_2024_2.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_3.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_4.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_5.jpg", "caption": null},
+        {"src": "div_event_CICY_CasaAbierta_2024_6.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "11f-mujeres-ninas-ciencia-2023",
+      "type": "event",
+      "title": "11F - Día Internacional de las Mujeres y las Niñas en la Ciencia (2023) ",
+      "description": "Con motivo del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), la Dra. Elsa Góngora impartió una charla interactiva en la Escuela Secundaria Piaget de Mérida, Yucatán. A través de demostraciones y experimentos, introdujo a las y los estudiantes en las bases del ADN y destacó la importancia de su estudio para comprender los procesos biológicos que sustentan la vida. La actividad permitió acercar la ciencia de manera dinámica y despertar el interés por la investigación en las nuevas generaciones.",
+      "date": "2023-02-11",
+      "url": null,
+      "urls": null,
+      "image": "div_event_11F_2023_1.jpeg",
+      "images": [
+        {"src": "div_event_11F_2023_2.jpeg", "caption": null},
+        {"src": "div_event_11F_2023_3.jpeg", "caption": null},
+        {"src": "div_event_11F_2023_4.jpeg", "caption": null}
+      ]
+    },
+    {
+      "id": "11f-mujeres-ninas-ciencia-2024",
+      "type": "event",
+      "title": "11F - Día Internacional de las Mujeres y las Niñas en la Ciencia (2024)",
+      "description": "En el marco del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), el Centro de Visitantes del Jardín Botánico del CICY recibió a niñas que participaron en dinámicas y actividades lúdicas diseñadas para despertar su curiosidad científica. Las estudiantes de posgrado del grupo de laboratorio guiaron las actividades, compartiendo su experiencia y acercando a las participantes al fascinante mundo de la investigación. La jornada se convirtió en un espacio de aprendizaje divertido y motivador, resaltando el papel de las mujeres en la ciencia y fomentando vocaciones científicas desde edades tempranas",
+      "date": "2024-02-09",
+      "url": null,
+      "urls": null,
+      "image": null,
+      "images": [
+        {"src": "div_event_11F_2024_1.jpg", "caption": null},
+        {"src": "div_event_11F_2024_2.jpg", "caption": null},
+        {"src": "div_event_11F_2024_3.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "verano-teleton-crit-2025",
+      "type": "event",
+      "title": "Verano Teletón dirigido a comunidad CRIT Yucatán (2025)",
+      "description": "Actividad de divulgación en el marco del Verano Teletón, dirigida a la comunidad del CRIT Yucatán. El laboratorio acerca la ciencia y la investigación en genómica a las familias y participantes del programa.\n\nIncluye talleres y dinámicas adaptadas para compartir el quehacer científico y despertar curiosidad por la biología y la bioinformática.",
+      "date": "2025-07-01",
+      "url": null,
+      "urls": null,
+      "image": null
+    },
+    {
+      "id": "taller-manglares-aldea-2025",
+      "type": "event",
+      "title": "Taller manglares dirigido a comunidad Aldea (2025)",
+      "description": "Taller sobre manglares y su importancia ecológica dirigido a niños de 5 a 12 años de la comunidad Aldea. Combina educación ambiental y divulgación científica sobre ecosistemas costeros y su conservación.\n\nLas actividades acercan conceptos de biodiversidad, cambio climático y el trabajo que el laboratorio realiza en proyectos de manglares en la península de Yucatán.",
+      "date": "2025-06-01",
+      "url": null,
+      "urls": null,
+      "image": null,
+      "images": [
+        {"src": "div_event_Taller_Manglares_Aldea_2025_1.jpg", "caption": null},
+        {"src": "div_event_Taller_Manglares_Aldea_2025_2.jpg", "caption": null},
+        {"src": "div_event_Taller_Manglares_Aldea_2025_3.jpg", "caption": null},
+        {"src": "div_event_Taller_Manglares_Aldea_2025_4.jpg", "caption": null}
+      ]
+    },
+    {
+      "id": "cakotanu-cuxtal-molas-2025",
+      "type": "event",
+      "title": "Mi currículum científico Cakotanú - Comunidad de Cuxtal, Molas Yucatán (2025)",
+      "description": "Taller del proyecto Cakotanú dirigido a niños y adolescentes de la comunidad de Cuxtal en Molas, Yucatán. Acerca la ciencia y el quehacer científico de forma lúdica mediante la actividad \"Mi currículum científico\".\n\nPermite a los participantes conocer las distintas etapas de la formación en investigación y reflexionar sobre su propio interés por la ciencia.",
+      "date": "2025-05-01",
+      "url": null,
+      "urls": null,
+      "image": "div_event_Cakotanu_Cuxtal_Molas_2025_1.jpeg",
+      "images": [
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_2.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_3.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_4.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_5.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_6.jpeg", "caption": null},
+        {"src": "div_event_Cakotanu_Cuxtal_Molas_2025_7.jpeg", "caption": null}
+      ]
+    },
+    {
+      "id": "revista-cyn",
+      "type": "article",
+      "title": "Revista CyN",
+      "description": "Artículo de divulgación científica publicado en Revista CyN sobre investigación en bioinformática y genómica funcional del laboratorio. Forma parte de la sección de actualidad científica de la publicación.\n\nPresenta de forma accesible los avances y el impacto del trabajo en genómica, transcriptómica y análisis de datos en organismos de interés para la región.",
+      "date": "2023-01-15",
+      "url": "https://www.revistacyn.com/actual/1083",
+      "urls": null,
+      "image": "div_art_RevistaCyN_2024.png"
+    },
+    {
+      "id": "desde-herbario-desarrollo-floral-2024",
+      "type": "article",
+      "title": "Explorando el misterio del desarrollo floral (Desde el Herbario CICY)",
+      "description": "Texto de divulgación publicado en la serie \"Desde el Herbario\" del CICY, que explora el desarrollo floral y la investigación en biología reproductiva de plantas. Aborda de forma amena los mecanismos genéticos y moleculares que estudia el laboratorio en especies de interés.\n\nPermite al público no especializado acercarse a la ciencia que se realiza en el centro y a las preguntas que guían la investigación en genómica funcional.",
+      "date": "2024-02-08",
+      "url": "https://www.cicy.mx/Documentos/CICY/Desde_Herbario/2024/2024-02-08-EVazquez-Explorando-el-misterio-del-desarrollo-floral.pdf",
+      "urls": null,
+      "image": "div_art_DesdeHerbario_Distilia_2024.png"
+    },
+    {
+      "id": "ciencia-cakotanu-genomas-2026",
+      "type": "article",
+      "title": "La vida en código: la ciencia de los genomas (Ciencia Cakotanú)",
+      "description": "Artículo de divulgación en la revista Ciencia Cakotanú que presenta la genómica y la bioinformática como \"la vida en código\". Explica de forma sencilla cómo se lee y se interpreta la información genética y qué hace el laboratorio en sus proyectos.\n\nDirigido a un público amplio, conecta la ciencia básica con aplicaciones en conservación, agricultura y salud, en el marco de la divulgación que promueve Cakotanú.",
+      "date": "2026-01-01",
+      "url": "https://www.cienciacakotanu.com/contenido/artículos/v7n2-2026/la-vida-en-código-la-ciencia-de-los-genomas",
+      "urls": null,
+      "image":"div_art_CienciaCakotanu_Genomas_2026.png"
+    },
+    {
+      "id": "craneo-podcast",
+      "type": "podcast",
+      "title": "Cráneo: Ciencia para Niños",
+      "description": "Participación en podcast de divulgación científica para niños. Episodio sobre genómica y bioinformática.",
+      "date": "2024-03-15",
+      "url": "https://open.spotify.com/show/2QKUcSrkiHaMZlqieNLzTK",
+      "image": "div_podcast_CraneoPodcast-EP73_01.jpg",
+      "urls": null
+    },
+    {
+      "id": "mas-conciencia",
+      "type": "podcast",
+      "title": "Más Conciencia - CICYoficial",
+      "description": "Podcast de divulgación científica del Centro de Investigación Científica de Yucatán. Participación en episodios sobre investigación genómica.",
+      "date": "2023-11-20",
+      "url": "https://open.spotify.com/show/2QKUcSrkiHaMZlqieNLzTK",
+      "image": "div_podcast_MasConciencia.png",
+      "urls": null
+    },
+    {
+      "id": "cicy-youtube",
+      "type": "video",
+      "title": "Canal de YouTube CICY",
+      "description": "Videos de divulgación científica del CICY sobre investigación en genómica funcional y bioinformática.",
+      "date": "2023-08-10",
+      "url": "https://www.youtube.com/watch?v=VQ8b7Rmuo40",
+      "urls": ["https://www.youtube.com/@CICYoficial"],
+      "image": "div_video_cicy.png"
+    },
+    {
+      "id": "covid-videos",
+      "type": "video",
+      "title": "Videos COVID-19",
+      "description": "Colección de videos sobre COVID-19 y divulgación científica relacionados con investigación genómica y respuesta molecular.",
+      "date": "2022-05-15",
+      "url": "https://www.youtube.com/@CICYoficial/search?query=covid",
+      "urls": ["https://youtu.be/UDQz-SlxQqA?si=HooAM6Rn85dB30Ph", "https://youtu.be/wCZM5qOCgHU?si=Jf1inYB0NUdAYteu", "https://youtu.be/qkba7UbnNOQ?si=42t1NZecrXJ3vF7f", "https://youtu.be/2BXRparSbVE?si=YHTx9h0NhumVzKyY", "https://youtu.be/q4XxP3mmLeY?si=qlZOt70ZZN2c2_Qm", "https://youtu.be/U9DJPNbQzbc?si=tm2B70VkAj2BgpIe"],
+      "image": "div_video_covid.png"
+    }
+  ]
+}

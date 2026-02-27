@@ -1,0 +1,186 @@
+{
+  "translation": {
+    "nav": {
+      "title": "Góngora-Castillo Lab",
+      "home": "Home",
+      "research": "Research",
+      "people": "People",
+      "publications": "Publications",
+      "outreach": "Outreach",
+      "subtitle": "Bioinformatics and Functional Genomics Laboratory"
+    },
+    "home": {
+      "title": "Deciphering molecular mechanisms of adaptation and defense",
+      "description": "The Bioinformatics and Functional Genomics Laboratory, led by Dr. Elsa Góngora Castillo, is part of the Department of Marine Resources at the Center for Research and Advanced Studies of the National Polytechnic Institute (Cinvestav-IPN), Mérida Unit, located in Mérida, Yucatán, Mexico.",
+      "description2": "Our research program focuses on understanding the molecular responses and genomic adaptations during interactions with pathogenic organisms and environmental changes in coastal and terrestrial organisms, primarily plants and animals. We aim to unravel the mechanisms of molecular defense systems and their genetic regulation using advanced high-throughput sequencing strategies and bioinformatics tools.",
+      "cta": "Explore Our Research",
+      "contact": "For more information, feel free to contact us here. We are always looking for enthusiastic individuals to join our lab!",
+      "contactEmail": "elsa.gongora at cinvestav.mx",
+      "bluesky": {
+        "title": "Latest Updates",
+        "subtitle": "Follow our latest news and updates on Bluesky",
+        "viewAll": "View All",
+        "loading": "Loading updates...",
+        "justNow": "Just now",
+        "minutesAgo": "{{count}}m ago",
+        "hoursAgo": "{{count}}h ago",
+        "daysAgo": "{{count}}d ago",
+        "chromosomeLabel": "Chr"
+      }
+    },
+    "research": {
+      "title": "Research",
+      "history": {
+        "title": "A Brief History of the Laboratory",
+        "content": "The Bioinformatics and Functional Genomics Laboratory was established by Dr. Elsa Góngora Castillo, who completed her Ph.D studies at Cinvestav Irapuato, Guanajuato, Mexico. She then pursued postdoctoral fellowships at Michigan State University and North Carolina State University, gaining bioinformatics and functional genomics expertise. Upon returning to Mexico, she joined the Center for Scientific Research of Yucatán (CICY) as part of the \"Investigadoras e Investigadores por México\" program. Currently, she leads this laboratory at Cinvestav Mérida, focusing on understanding the molecular defense and adaptation mechanisms to climate change of coastal and terrestrial organisms."
+      },
+      "projects": {
+        "title": "Projects",
+        "papaya": {
+          "title": "Genome sequencing of wild and commercial papaya",
+          "description": "This project aims to identify defense-related genes in papaya (<em>Carica papaya</em>) by analyzing the genomic differences between wild and commercial varieties to understand the genetic changes during domestication"
+        },
+        "chlamydomonas": {
+          "title": "Gene regulation in response to stress in Chlamydomonas reinhardtii",
+          "description": "Using bioinformatics tools, this project studies gene regulation of the green microalga <em>Chlamydomonas reinhardtii</em> under various stress conditions. The goal is to understand and optimize lipid production for biotechnological applications."
+        },
+        "vanilla": {
+          "title": "Transcriptome and metagenome analysis in commercial and wild vanilla",
+          "description": "By studying transcriptomes and metagenomes, this project explores the genetic and functional diversity in vanilla, comparing commercial and wild varieties to identify key genes related to adaptation and cultivation."
+        },
+        "organisms": {
+          "papaya": "Papaya",
+          "chlamydomonas": "Chlamydomonas",
+          "vanilla": "Vanilla",
+          "mangrove": "Mangroves",
+          "ciricote": "Ciricote",
+          "cenotes": "Cenotes"
+        },
+        "status": {
+          "active": "Active",
+          "new": "New",
+          "closed": "Closed"
+        }
+      }
+    },
+    "people": {
+      "title": "People",
+      "pi": {
+        "title": "Principal Investigator",
+        "name": "Dr. Elsa B. Góngora Castillo",
+        "position": "Mexico-CONAHCYT Researcher",
+        "institution": "Cinvestav Mérida",
+        "email": "elsa.gongora at cinvestav.mx",
+        "bio": "My research group focuses on plant-pathogen interaction, defense systems, and genetic regulation. We utilize high-throughput sequencing and bioinformatics to analyze different organisms' metagenomes, transcriptomes, and genomes.",
+        "education": {
+          "2003": "Biochemical Engineer from the Technological Institute of Mérida. Yucatán, México.",
+          "2012": "Ph.D. in Sciences with a specialization in Plant Biotechnology from Cinvestav Irapuato. Guanajuato, México.",
+          "2014": "Associate Profesor at Michigan State University",
+          "2016": "Associate Researcher at North Carolina State University.",
+          "2024": "Mexico-CONAHCYT Researcher at Scientific Research Center of Yucatán (CICY).",
+          "title": "Education",
+          "current": "Currently, I'm a Mexico-CONAHCYT Researcher at Cinvestav Mérida.",
+          "current_date": "Current"
+        }
+      },
+      "members": {
+        "title": "Lab Members"
+      },
+      "collaborators": {
+        "title": "Collaborators"
+      },
+      "alumni": {
+        "title": "Graduated Students",
+        "postdoc": "Postdoctoral Researchers",
+        "phd": "Ph.D. Program",
+        "ms": "Master's Program",
+        "undergraduate": "Undergraduate Students and Research Stays",
+        "technicalStaff": "Technical Staff",
+        "roles": {
+          "pi": "Principal Investigator",
+          "postdoc": "Postdoc",
+          "phd": "Ph.D. Student",
+          "ms": "Master's Student",
+          "technical": "Technical Staff"
+        },
+        "countries": {
+          "mexico": "Mexico",
+          "usa": "USA",
+          "france": "France"
+        }
+      }
+    },
+    "publications": {
+      "title": "Publications",
+      "viewScholar": "View on Google Scholar",
+      "loading": "Loading publications...",
+      "error": "Error loading publications. Please try again later.",
+      "searchPlaceholder": "Search by title, author, journal, or keywords...",
+      "count": "Showing {{count}} publication",
+      "count_other": "Showing {{count}} publications",
+      "filteredCount": "Showing {{filtered}} of {{total}} publications",
+      "noResults": "No publications found matching your search criteria.",
+      "citations": "citations",
+      "sort": {
+        "year": "Year",
+        "citations": "Citations",
+        "title": "Title",
+        "asc": "Ascending",
+        "desc": "Descending"
+      }
+    },
+    "outreach": {
+      "title": "Science Communication & Outreach",
+      "podcasts": "Podcasts",
+      "videos": "Videos",
+      "events": "Events",
+      "gallery": "Gallery",
+      "articles": "Articles",
+      "groupPhotos": "Group Photos",
+      "description": "Description",
+      "viewDetails": "View details",
+      "noResults": "No items found in this category.",
+      "onSpotify": "View on Spotify",
+      "onYouTube": "View on YouTube",
+      "article": "View Article",
+      "links": "Links",
+      "link": "Link",
+      "episode": "Episode",
+      "videoLabel": "Video",
+      "sortByDate": "Sort by date",
+      "newestFirst": "Newest first",
+      "oldestFirst": "Oldest first",
+      "sortToggleToNewest": "Switch to newest first",
+      "sortToggleToOldest": "Switch to oldest first"
+    },
+    "publicationDetail": {
+      "title": "Publication Details",
+      "authors": "Authors",
+      "publication": "Publication",
+      "abstract": "Abstract",
+      "keywords": "Keywords",
+      "tags": "Tags",
+      "metrics": "Metrics",
+      "links": "Links"
+    },
+    "footer": {
+      "labName": "Góngora-Castillo Lab",
+      "fullName": "Bioinformatics and Functional Genomics Laboratory",
+      "institution": "Cinvestav Mérida Unit",
+      "department": "Department of Marine Resources",
+      "location": "Mérida, Yucatán, Mexico",
+      "contactTitle": "Contact",
+      "contactIntro": "For more information:",
+      "followUs": "Follow Us",
+      "partOf": "Part of Cinvestav-IPN",
+      "links": {
+        "projects": "Projects",
+        "members": "PI & Members",
+        "alumni": "Alumni",
+        "bluesky": "Bluesky",
+        "scholar": "Google Scholar"
+      },
+      "copyright": "© 2026 Góngora-Castillo Lab • Cinvestav Mérida"
+    }
+  }
+}

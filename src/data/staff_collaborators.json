@@ -1,0 +1,46 @@
+{
+  "technicalStaff": [
+    {
+      "name": "Lic. Mirbella Cáceres Farfán",
+      "roleKey": "people.alumni.roles.technical",
+      "image": "MirbellaCaceres.jpg"
+    },
+    {
+      "name": "M. en C. Adriana Quiroz Moreno",
+      "roleKey": "people.alumni.roles.technical",
+      "image": "AdrianaQuiroz.jpg"
+    }
+  ],
+  "collaborators": [
+    {
+      "name": "Dr. John Smith",
+      "affiliation": "University of California, Berkeley",
+      "countryKey": "people.alumni.countries.usa"
+    },
+    {
+      "name": "Dra. María García",
+      "affiliation": "Universidad Nacional Autónoma de México",
+      "countryKey": "people.alumni.countries.mexico"
+    },
+    {
+      "name": "Dr. Pierre Dubois",
+      "affiliation": "CNRS, France",
+      "countryKey": "people.alumni.countries.france"
+    },
+    {
+      "name": "Dr. Kevin Childs",
+      "affiliation": "Michigan State University",
+      "countryKey": "people.alumni.countries.usa"
+    },
+    {
+      "name": "Dra. Lina Quesada-Ocampo",
+      "affiliation": "North Carolina State University",
+      "countryKey": "people.alumni.countries.usa"
+    },
+    {
+      "name": "Dra. Susana De la Torre-Zavala",
+      "affiliation": "Universidad Autónoma de Nuevo León",
+      "countryKey": "people.alumni.countries.mexico"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "members": [
+    {
+      "name": "Dra. Perla A. Contreras de la Rosa",
+      "roleKey": "people.alumni.roles.postdoc",
+      "department": "Departamento de Recursos del Mar",
+      "institution": "Cinvestav Unidad Mérida",
+      "email": "perla.contreras at cinvestav.mx",
+      "image": "PerlaContreras.jpg"
+    },
+    {
+      "name": "M. en C. Jorge Tzec Interián",
+      "roleKey": "people.alumni.roles.phd",
+      "department": "Unidad de Biotecnología",
+      "institution": "Centro de Investigación Científica de Yucatán",
+      "email": "jorgetzec at gmail.com",
+      "image": "JorgeTzec.jpg"
+    },
+    {
+      "name": "M. en C. Alejandra Sallas",
+      "roleKey": "people.alumni.roles.ms",
+      "department": "Unidad de Biotecnología",
+      "institution": "Centro de Investigación Científica de Yucatán",
+      "email": "ale.bargonz at gmail.com",
+      "image": "AlejandraSallas.jpg"
+    },
+    {
+      "name": "Dr. Diego Garza González",
+      "roleKey": "people.alumni.roles.phd",
+      "department": "Unidad de Biotecnología",
+      "institution": "Centro de Investigación Científica de Yucatán",
+      "email": "diegoagarza@gmail.com",
+      "image": "DiegoGarza.jpeg"
+    }
+  ]
+}
