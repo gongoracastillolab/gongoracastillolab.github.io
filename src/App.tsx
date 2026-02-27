@@ -5,6 +5,7 @@ import Research from './pages/Research'
 import People from './pages/People'
 import Publications from './pages/Publications'
 import Outreach from './pages/Outreach'
+import PublicationsNetworkHero from './pages/PublicationsNetworkHero'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/people" element={<People />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/outreach" element={<Outreach />} />
+          <Route path="/publications-network-hero" element={<PublicationsNetworkHero />} />
         </Routes>
       </Layout>
     </Router>
