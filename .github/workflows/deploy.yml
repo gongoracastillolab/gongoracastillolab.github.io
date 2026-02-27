@@ -29,6 +29,9 @@ jobs:
           cache: 'npm'
       
       - name: Install dependencies
+        env:
+          # Evita que Puppeteer descargue Chromium en CI (evita cuelgues de 1h+ en npm ci)
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
         run: npm ci
       
       - name: Sync Publications
