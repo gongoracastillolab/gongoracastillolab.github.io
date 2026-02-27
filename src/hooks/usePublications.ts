@@ -1,7 +1,17 @@
 import { useState, useEffect } from 'react'
 import type { Publication, PublicationsData } from '../types/publications'
 
-const baseUrl = import.meta.env.BASE_URL
+/** Base path para recursos estáticos: en producción se obtiene de la URL del módulo (más fiable que el DOM). */
+function getDataBaseUrl(): string {
+  if (import.meta.env.DEV) return import.meta.env.BASE_URL || '/'
+  try {
+    // En build, el chunk está en /assets/ o /<base>/assets/; el base es el directorio padre
+    const base = new URL('..', import.meta.url).pathname
+    return base.endsWith('/') ? base : base + '/'
+  } catch (_) {
+    return import.meta.env.BASE_URL || '/'
+  }
+}
 
 export function usePublications() {
   const [publications, setPublications] = useState<Publication[]>([])
@@ -15,7 +25,7 @@ export function usePublications() {
         setLoading(true)
         setError(null)
 
-        // Agregar timestamp para evitar caché en desarrollo
+        const baseUrl = getDataBaseUrl()
         const cacheBuster = import.meta.env.DEV ? `?t=${Date.now()}` : ''
         const response = await fetch(`${baseUrl}data/publications.json${cacheBuster}`)
 
