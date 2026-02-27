@@ -79,7 +79,7 @@ collections:
               - { label: "Descripción", name: "description", widget: "text" }
               - { label: "Etiquetas", name: "tags", widget: "list" }
               - { label: "Imagen", name: "image", widget: "image", required: false }
-      - label: "Proyectos vigentes — EN"
+      - label: "Proyectos vigentes — EN (solo texto; imagen y estado se copian de ES)"
         name: "proyectos_en"
         file: "src/data/projects.en.json"
         fields:
@@ -87,7 +87,7 @@ collections:
             name: "projects"
             widget: "list"
             fields:
-              - { label: "ID (único, ej. papaya)", name: "id", widget: "string" }
+              - { label: "ID (único, debe coincidir con ES)", name: "id", widget: "string" }
               - { label: "Título", name: "title", widget: "string" }
               - label: "Estado"
                 name: "status"
@@ -99,7 +99,6 @@ collections:
                   - { label: "Closed", value: "closed" }
               - { label: "Descripción", name: "description", widget: "text" }
               - { label: "Etiquetas", name: "tags", widget: "list" }
-              - { label: "Imagen", name: "image", widget: "image", required: false }
 
   # ─── Equipo ─────────────────────────────────────────────────────────────────
   - name: "equipo"
@@ -248,7 +247,7 @@ collections:
                 fields:
                   - { label: "Foto", name: "src", widget: "image" }
                   - { label: "Subtítulo", name: "caption", widget: "string", required: false }
-      - label: "Divulgación — EN"
+      - label: "Divulgación — EN (solo texto/URLs; imagen y galería se copian de ES)"
         name: "divulgacion_en"
         file: "src/data/outreach.en.json"
         fields:
@@ -263,14 +262,6 @@ collections:
               - { label: "Fecha", name: "date", widget: "date" }
               - { label: "URL principal", name: "url", widget: "string", required: false }
               - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
-              - { label: "Imagen", name: "image", widget: "image", required: false }
-              - label: "Photo gallery (multiple images for events)"
-                name: "images"
-                widget: "list"
-                required: false
-                fields:
-                  - { label: "Photo", name: "src", widget: "image" }
-                  - { label: "Caption", name: "caption", widget: "string", required: false }
 
   # ─── Configuración ──────────────────────────────────────────────────────────
   # Textos de interfaz (menú, botones, etiquetas, mensajes). Se usan en i18n aparte del contenido por página.
