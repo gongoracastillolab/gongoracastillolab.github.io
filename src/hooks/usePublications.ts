@@ -1,51 +1,36 @@
 import { useState, useEffect } from 'react'
 import type { Publication, PublicationsData } from '../types/publications'
 
-/** Base path para recursos estáticos: en producción se obtiene de la URL del módulo (más fiable que el DOM). */
-function getDataBaseUrl(): string {
-  if (import.meta.env.DEV) return import.meta.env.BASE_URL || '/'
-  try {
-    // En build, el chunk está en /assets/ o /<base>/assets/; el base es el directorio padre
-    const base = new URL('..', import.meta.url).pathname
-    return base.endsWith('/') ? base : base + '/'
-  } catch (_) {
-    return import.meta.env.BASE_URL || '/'
-  }
-}
+// Importación en build: el JSON se incluye en el bundle y evita 404 en producción (GitHub Pages).
+import publicationsDataJson from '../../public/data/publications.json'
+
+const data = publicationsDataJson as PublicationsData
 
 export function usePublications() {
-  const [publications, setPublications] = useState<Publication[]>([])
-  const [loading, setLoading] = useState(true)
+  const [publications, setPublications] = useState<Publication[]>(data.publications ?? [])
+  const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [metadata, setMetadata] = useState<PublicationsData['metadata'] | null>(null)
+  const [metadata, setMetadata] = useState<PublicationsData['metadata'] | null>(data.metadata ?? null)
 
+  // En desarrollo, recargar desde la URL para ver cambios en el JSON sin reiniciar
   useEffect(() => {
-    async function fetchPublications() {
-      try {
-        setLoading(true)
-        setError(null)
-
-        const baseUrl = getDataBaseUrl()
-        const cacheBuster = import.meta.env.DEV ? `?t=${Date.now()}` : ''
-        const response = await fetch(`${baseUrl}data/publications.json${cacheBuster}`)
-
-        if (!response.ok) {
-          throw new Error('Failed to fetch publications')
+    if (!import.meta.env.DEV) return
+    let cancelled = false
+    setLoading(true)
+    const base = import.meta.env.BASE_URL || '/'
+    fetch(`${base}data/publications.json?t=${Date.now()}`)
+      .then((r) => (r.ok ? r.json() : Promise.reject(new Error('Failed to fetch'))))
+      .then((d: PublicationsData) => {
+        if (!cancelled) {
+          setPublications(d.publications ?? [])
+          setMetadata(d.metadata ?? null)
         }
-
-        const data: PublicationsData = await response.json()
-        
-        setPublications(data.publications)
-        setMetadata(data.metadata)
-      } catch (err) {
-        console.error('Error fetching publications:', err)
-        setError(err instanceof Error ? err.message : 'Failed to load publications')
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    fetchPublications()
+      })
+      .catch((err) => {
+        if (!cancelled) setError(err instanceof Error ? err.message : 'Failed to load publications')
+      })
+      .finally(() => { if (!cancelled) setLoading(false) })
+    return () => { cancelled = true }
   }, [])
 
   return { publications, loading, error, metadata }
