@@ -23,6 +23,7 @@ The laboratory focuses on understanding molecular responses and genomic adaptati
 For questions or inquiries, please contact:
 
 Email: elsa.gongora at cinvestav.mx
+
 ---
 
 © 2026 Góngora-Castillo Lab • Cinvestav Mérida
