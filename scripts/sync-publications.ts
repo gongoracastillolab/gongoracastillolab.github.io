@@ -904,6 +904,10 @@ function generatePublicationId(title: string, year: number): string {
 }
 
 function mergePublications(newPubs: Publication[], existingPubs: Publication[]): Publication[] {
+  // Si no hay datos nuevos (ej. sync falló en CI), devolver existentes sin tocar
+  if (newPubs.length === 0) {
+    return [...existingPubs].sort((a, b) => b.year - a.year)
+  }
   // Preservar publicaciones manuales (source: 'manual')
   const manualPubs = existingPubs.filter(p => p.source === 'manual')
   

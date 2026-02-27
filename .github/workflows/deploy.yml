@@ -34,9 +34,9 @@ jobs:
           PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
         run: npm ci --ignore-scripts
       
-      - name: Sync Publications
-        run: npm run sync:publications
-        continue-on-error: true
+      # - name: Sync Publications
+      #   run: npm run sync:publications
+      #   continue-on-error: true
       # No ejecutar sync:publications en CI: en CI no hay Chromium, falla y el script
       # sobrescribe public/data/publications.json con 0 publicaciones. Se usa el JSON
       # commiteado en el repo. Para actualizar desde Scholar, ejecutar localmente:
