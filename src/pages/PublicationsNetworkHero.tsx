@@ -1,5 +1,6 @@
-import { motion } from 'framer-motion'
-import { useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { useState, useEffect } from 'react'
+import { Hand } from 'lucide-react'
 import PublicationSphere from '../components/PublicationSphere'
 import { usePublications } from '../hooks/usePublications'
 import type { Publication } from '../types/publications'
@@ -8,6 +9,13 @@ export default function PublicationsNetworkHero() {
   const { publications } = usePublications()
   const [selectedDoi, setSelectedDoi] = useState<string | null>(null)
   const [cardPositionIndex, setCardPositionIndex] = useState<number>(0)
+  const [showInteractHint, setShowInteractHint] = useState(true)
+
+  // Ocultar hint tras unos segundos o al interactuar (UX sutil: indica que se puede arrastrar)
+  useEffect(() => {
+    const t = setTimeout(() => setShowInteractHint(false), 4500)
+    return () => clearTimeout(t)
+  }, [])
 
   const selectedPublication: Publication | null =
     selectedDoi ? publications.find((p) => p.doi === selectedDoi) ?? null : null
@@ -20,7 +28,20 @@ export default function PublicationsNetworkHero() {
         : 'items-end pb-10'
 
   return (
-    <section className="relative min-h-[90vh] bg-white-smoke overflow-hidden">
+    <section className="relative min-h-[90vh] overflow-hidden">
+      {/* Fondo estético: blancos, grises azulados y toques de azul cobalto muy suaves */}
+      <div
+        className="absolute inset-0 pointer-events-none"
+        aria-hidden
+        style={{
+          background: [
+            'radial-gradient(ellipse 120% 90% at 50% -10%, rgba(0,74,173,0.07) 0%, transparent 50%)',
+            'radial-gradient(ellipse 80% 60% at 85% 90%, rgba(187,196,204,0.18) 0%, transparent 55%)',
+            'radial-gradient(ellipse 70% 50% at 10% 60%, rgba(224,224,224,0.5) 0%, transparent 50%)',
+            'linear-gradient(180deg, #ffffff 0%, #f8fafc 28%, #f1f5f9 55%, #e8eef4 85%, #e2e8f0 100%)',
+          ].join(', '),
+        }}
+      />
       {/* Esfera de publicaciones ocupando todo el hero */}
       <div className="absolute inset-0">
         <PublicationSphere
@@ -29,8 +50,25 @@ export default function PublicationsNetworkHero() {
             setCardPositionIndex((prev) => prev + 1)
           }}
           onBackgroundClick={() => setSelectedDoi(null)}
+          onInteractionStart={() => setShowInteractHint(false)}
         />
       </div>
+
+      {/* Hint sutil: icono de mano que se desvanece (indica “arrastra para explorar” sin texto) */}
+      <AnimatePresence>
+        {showInteractHint && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 0.45 }}
+            exit={{ opacity: 0, transition: { duration: 0.35 } }}
+            transition={{ duration: 0.4 }}
+          className="pointer-events-none absolute bottom-6 left-1/2 z-20 flex -translate-x-1/2 items-center justify-center rounded-full bg-charcoal-blue/10 p-2"
+          aria-hidden
+        >
+          <Hand className="h-5 w-5 text-charcoal-blue/70" strokeWidth={2} />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Contenido del hero: sin pointer-events para que la esfera sea interactiva debajo */}
       <div className="relative z-10 pointer-events-none">

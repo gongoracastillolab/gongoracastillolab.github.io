@@ -6,9 +6,10 @@ import * as THREE from 'three'
 type Props = {
   onOwnNodeClick?: (doi: string) => void
   onBackgroundClick?: () => void
+  onInteractionStart?: () => void
 }
 
-export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }: Props) {
+export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick, onInteractionStart }: Props) {
   const containerRef = useRef<HTMLDivElement | null>(null)
 
   useEffect(() => {
@@ -29,17 +30,42 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
     renderer.setClearColor(0x000000, 0)
     container.appendChild(renderer.domElement)
 
-    const radius = 4.2
+    // Radio mayor para que la esfera se vea más grande (puede salirse de bordes superior e inferior)
+    const radius = 6
+
+    // Textura circular con relleno sólido (sin degradado) para que los nodos sean color plano
+    const createCircleTexture = () => {
+      const size = 64
+      const canvas = document.createElement('canvas')
+      canvas.width = size
+      canvas.height = size
+      const ctx = canvas.getContext('2d')
+      if (!ctx) return null
+      const cx = size / 2
+      const cy = size / 2
+      const r = cx - 1
+      ctx.beginPath()
+      ctx.arc(cx, cy, r, 0, Math.PI * 2)
+      ctx.fillStyle = 'rgba(255,255,255,1)'
+      ctx.fill()
+      const tex = new THREE.CanvasTexture(canvas)
+      tex.needsUpdate = true
+      return tex
+    }
+    const circleTexture = createCircleTexture()
 
     const geometry = new THREE.BufferGeometry()
 
     const material = new THREE.PointsMaterial({
-      size: 0.07,
+      size: 0.09,
       vertexColors: true,
       transparent: true,
       opacity: 0.95,
-      blending: THREE.AdditiveBlending,
-      depthWrite: false,
+      blending: THREE.NormalBlending,
+      depthWrite: true,
+      depthTest: true,
+      map: circleTexture,
+      alphaTest: 0.01,
     })
 
     const points = new THREE.Points(geometry, material)
@@ -116,11 +142,11 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
         // Tres capas esféricas (radio fijo por tipo) para que se vea como esfera
         let r: number
         if (node.type === 'own') {
-          r = radius * 1.0 // capa externa
+          r = radius * 0.92 // capa externa
         } else if (node.type === 'citedBy') {
-          r = radius * 0.92 // capa media
+          r = radius * 0.9 // capa media
         } else {
-          r = radius * 0.82 // capa interna (referencias y otros)
+          r = radius * 0.8 // capa interna (referencias y otros)
         }
 
         const x = r * Math.sin(phi) * Math.cos(theta)
@@ -180,13 +206,16 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
         )
 
         materialOwn = new THREE.PointsMaterial({
-          size: 0.22, // tamaño base de nuestras publicaciones
+          size: 0.3, // tamaño base de nuestras publicaciones (un poco más grande)
           vertexColors: true,
           transparent: true,
           opacity: 0.98,
-          blending: THREE.AdditiveBlending,
-          depthWrite: false,
+          blending: THREE.NormalBlending,
+          depthWrite: true,
+          depthTest: true,
           sizeAttenuation: true,
+          map: circleTexture,
+          alphaTest: 0.01,
         }) as any
 
         pointsOwn = new THREE.Points(geometryOwn, materialOwn)
@@ -213,12 +242,13 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
         const targetPos = nodePositions[link.target]
         if (!sourcePos || !targetPos) continue
 
+        // Tonos grises muy tenues para diferenciar tipos sin dominar
         const colorLine =
           link.relation === 'citedBy'
-            ? new THREE.Color('#bbf7d0') // verde muy tenue
+            ? new THREE.Color('#d4d8dc') // gris muy suave
             : link.relation === 'reference'
-              ? new THREE.Color('#bae6fd') // azul muy tenue
-              : new THREE.Color('#e5e7eb') // gris claro
+              ? new THREE.Color('#e0e0e0') // Border Gray
+              : new THREE.Color('#eaecee') // casi blanco humo
 
         linePositions[idx * 6] = sourcePos[0]
         linePositions[idx * 6 + 1] = sourcePos[1]
@@ -244,7 +274,7 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
       lineMaterial = new THREE.LineBasicMaterial({
         vertexColors: true,
         transparent: true,
-        opacity: 0.22,
+        opacity: 0.42,
       }) as any
 
       lines = new THREE.LineSegments(lineGeometry, lineMaterial)
@@ -278,8 +308,13 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
 
     const domElement = renderer.domElement
 
+    // Cursor grab/grabbing para indicar que la esfera es arrastrable (UX sutil, sin texto)
+    container.style.cursor = 'grab'
+
     const onPointerDown = (event: PointerEvent) => {
+      onInteractionStart?.()
       isDragging = true
+      container.style.cursor = 'grabbing'
       dragMoved = false
       lastX = event.clientX
       lastY = event.clientY
@@ -329,13 +364,16 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
           new THREE.BufferAttribute(new Float32Array([x, y, z]), 3)
         )
         highlightBorderMaterial = new THREE.PointsMaterial({
-          size: 0.9, // ~300% del tamaño base
+          size: 1.05, // borde ~300% del tamaño base (0.26)
           color: '#020617', // casi negro (slate-950)
           transparent: true,
           opacity: 0.7,
-          blending: THREE.AdditiveBlending,
-          depthWrite: false,
+          blending: THREE.NormalBlending,
+          depthWrite: true,
+          depthTest: true,
           sizeAttenuation: true,
+          map: circleTexture,
+          alphaTest: 0.01,
         }) as any
         highlightBorderPoints = new THREE.Points(
           highlightBorderGeometry,
@@ -360,13 +398,16 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
           new THREE.BufferAttribute(new Float32Array([x, y, z]), 3)
         )
         highlightMaterial = new THREE.PointsMaterial({
-          size: 0.66, // 3x el tamaño base (0.22)
+          size: 0.78, // ~3x el tamaño base (0.26)
           color: '#004aad', // azul cobalto, mismo tono que el nodo
           transparent: true,
           opacity: 1,
-          blending: THREE.AdditiveBlending,
-          depthWrite: false,
+          blending: THREE.NormalBlending,
+          depthWrite: true,
+          depthTest: true,
           sizeAttenuation: true,
+          map: circleTexture,
+          alphaTest: 0.01,
         }) as any
         highlightPoints = new THREE.Points(highlightGeometry, highlightMaterial)
         // Añadir después del borde para que quede “encima”
@@ -419,6 +460,7 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
     const onPointerUp = (event: PointerEvent) => {
       if (!isDragging) return
       isDragging = false
+      container.style.cursor = 'grab'
 
       if (!dragMoved) {
         const clickedNode = handleNodeClick(event)
@@ -499,6 +541,7 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick }:
       if (highlightBorderGeometry) highlightBorderGeometry.dispose()
       if (highlightBorderMaterial) highlightBorderMaterial.dispose()
       material.dispose()
+      if (circleTexture) circleTexture.dispose()
       renderer.dispose()
     }
   }, [])
