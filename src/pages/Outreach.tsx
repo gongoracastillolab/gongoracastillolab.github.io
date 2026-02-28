@@ -89,6 +89,16 @@ export default function Outreach() {
     }
   }
 
+  const getTypeStyle = (type: string): { chipBgClass: string; labelKey: string } => {
+    switch (type) {
+      case 'article': return { chipBgClass: 'bg-cobalt-blue', labelKey: 'outreach.typeArticle' }
+      case 'event': return { chipBgClass: 'bg-verdigris', labelKey: 'outreach.typeEvent' }
+      case 'podcast': return { chipBgClass: 'bg-verde-piaget', labelKey: 'outreach.typePodcast' }
+      case 'video': return { chipBgClass: 'bg-charcoal-blue', labelKey: 'outreach.typeVideo' }
+      default: return { chipBgClass: 'bg-cobalt-blue', labelKey: 'outreach.typeArticle' }
+    }
+  }
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -176,6 +186,7 @@ export default function Outreach() {
         >
           {sortedItems.map((item) => {
             const Icon = getIcon(item.type)
+            const { chipBgClass } = getTypeStyle(item.type)
             const title = String(item.title ?? '')
             const description = String(item.description ?? '')
             
@@ -183,23 +194,26 @@ export default function Outreach() {
               <motion.div
                 key={item.id}
                 variants={itemVariants}
-                className="card cursor-pointer hover:shadow-lg transition-shadow"
+                className="group/card card cursor-pointer hover:shadow-xl transition-all duration-300"
                 onClick={() => setSelectedItem(item)}
               >
                 {(item.image || (item.images?.length ? item.images[0].src : null)) ? (
-                  <img
-                    src={item.image || item.images![0].src}
-                    alt={title}
-                    className="card-image-top w-full aspect-video object-cover"
-                  />
-                ) : (
-                  <div className="card-image-top w-full aspect-video bg-gradient-to-br from-cobalt-blue/10 to-verdigris/10 flex items-center justify-center">
-                    <Icon className="w-16 h-16 text-cobalt-blue" strokeWidth={1.5} />
+                  <div className="card-image-top w-full aspect-video overflow-hidden relative">
+                    <img
+                      src={item.image || item.images![0].src}
+                      alt={title}
+                      className="w-full h-full object-cover transition-transform duration-300 group-hover/card:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-charcoal-blue/0 group-hover/card:bg-charcoal-blue/10 transition-colors duration-300 pointer-events-none" aria-hidden />
                   </div>
+                ) : (
+                  <div className="card-image-top w-full aspect-video bg-gradient-to-br from-cobalt-blue/10 to-verdigris/10 group-hover/card:from-cobalt-blue/15 group-hover/card:to-verdigris/15 transition-colors duration-300" />
                 )}
                 <div className="card-body">
-                  <div className="flex items-start justify-between mb-2">
-                    <Icon className="w-5 h-5 text-cobalt-blue flex-shrink-0 mt-1" strokeWidth={2} />
+                  <div className="flex items-center justify-between gap-2 mb-2">
+                    <span className={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white flex-shrink-0 ${chipBgClass}`} aria-hidden>
+                      <Icon className="w-4 h-4" strokeWidth={2} />
+                    </span>
                     <span className="text-xs text-charcoal-blue/60">{formatDate(item.date)}</span>
                   </div>
                   <h3 className="font-serif text-lg font-medium text-charcoal-blue mb-2">
@@ -233,14 +247,17 @@ export default function Outreach() {
         {selectedItem && (
           <div className="space-y-6">
             <div>
-              <div className="flex items-center space-x-2 mb-4">
+              <div className="flex items-center flex-wrap gap-2 mb-4">
                 {(() => {
                   const Icon = getIcon(selectedItem.type)
-                  return <Icon className="w-6 h-6 text-cobalt-blue" strokeWidth={2} />
+                  const { chipBgClass, labelKey } = getTypeStyle(selectedItem.type)
+                  return (
+                    <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-white ${chipBgClass}`}>
+                      <Icon className="w-5 h-5" strokeWidth={2} />
+                      <span className="font-sans font-light text-sm uppercase tracking-wider">{t(labelKey)}</span>
+                    </span>
+                  )
                 })()}
-                <span className="text-sm text-charcoal-blue/60 uppercase tracking-wide">
-                  {selectedItem.type}
-                </span>
                 <span className="text-sm text-charcoal-blue/60">•</span>
                 <span className="text-sm text-charcoal-blue/60">{formatDate(selectedItem.date)}</span>
               </div>

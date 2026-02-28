@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "cicy-casa-abierta-2023-2025",
-      "type": "event",
-      "title": "CICY Casa Abierta (2023-2025)",
-      "description": "Actividad de puertas abiertas del Centro de Investigación Científica de Yucatán en la que el laboratorio participa con stands y talleres para dar a conocer la investigación en bioinformática y genómica al público general.\n\nIncluye demostraciones, material divulgativo y contacto directo con la comunidad para acercar la ciencia que se realiza en el departamento.",
-      "date": "2024-06-01",
-      "url": "https://photos.app.goo.gl/VMoMioZwDeRDbqHz6",
-      "urls": ["https://photos.app.goo.gl/VMoMioZwDeRDbqHz6", "https://photos.app.goo.gl/JMX79yHvzZkFpuN66"],
-      "image": null,
-      "images": [
-        {"src": "Foto-Grupo-2025.jpg", "caption": "Equipo del laboratorio en CICY Casa Abierta 2025."},
-        {"src": "Foto-Grupo-2024.jpg", "caption": "Stand del laboratorio durante la Casa Abierta 2024."}
-      ]
-    },
-    {
       "id": "cicy-casa-abierta-2023",
       "type": "event",
       "title": "CICY Casa Abierta (2023)",

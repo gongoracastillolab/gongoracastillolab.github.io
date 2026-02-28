@@ -125,7 +125,7 @@ export default function Research() {
                   <motion.div
                     key={project.id}
                     variants={itemVariants}
-                    className="group py-8 px-6 lg:px-8 hover:bg-white-smoke/60 transition-colors rounded-lg -mx-4"
+                    className="group py-8 px-6 lg:px-8 bg-white-smoke hover:bg-border-gray hover:shadow-md transition-colors transition-shadow duration-300 rounded-2xl -mx-4"
                   >
                     <div className={`grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center ${!isEven ? 'lg:grid-flow-dense' : ''}`}>
                       {/* Left Column - Text Content */}
@@ -162,7 +162,7 @@ export default function Research() {
                           {(project.tags as string[]).map((tag: string, tagIndex: number) => (
                             <span
                               key={tagIndex}
-                              className="px-3 py-1.5 bg-white-smoke text-charcoal-blue rounded-full text-sm font-sans"
+                              className="px-3 py-1.5 bg-white/90 text-charcoal-blue rounded-full text-sm font-sans"
                             >
                               {tag}
                             </span>
@@ -172,7 +172,7 @@ export default function Research() {
 
                       {/* Right Column - Image/Visual */}
                       <div className={`${!isEven ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
-                        <div className="relative w-full max-w-md mx-auto aspect-[4/3] lg:aspect-[4/4] rounded-lg overflow-hidden bg-gradient-to-br bg-white-smoke group-hover:shadow-2xl transition-all duration-300">
+                        <div className="relative w-full max-w-md mx-auto aspect-[4/3] lg:aspect-[4/4] rounded-xl overflow-hidden bg-white-smoke group-hover:shadow-xl transition-all duration-300">
                           {project.image ? (
                             <img
                               src={`${baseUrl}${project.image}`}

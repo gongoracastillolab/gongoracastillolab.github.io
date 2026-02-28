@@ -151,7 +151,11 @@
       "newestFirst": "Newest first",
       "oldestFirst": "Oldest first",
       "sortToggleToNewest": "Switch to newest first",
-      "sortToggleToOldest": "Switch to oldest first"
+      "sortToggleToOldest": "Switch to oldest first",
+      "typeArticle": "ARTICLE",
+      "typeEvent": "EVENT",
+      "typePodcast": "PODCAST",
+      "typeVideo": "VIDEO"
     },
     "publicationDetail": {
       "title": "Publication Details",

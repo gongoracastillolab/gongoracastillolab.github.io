@@ -166,7 +166,7 @@ export default function Publications() {
   return (
     <div className="relative">
       {/* Page Title */}
-      <section className="py-16 bg-white">
+      <section className="pt-16 pb-6 bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -252,7 +252,7 @@ export default function Publications() {
             </div>
 
             {/* Results Count */}
-            <p className="text-sm text-charcoal-blue/60 mb-6">
+            <p className="text-sm text-charcoal-blue/60 mb-3">
               {filteredPublications.length === publications.length
                 ? t('publications.count', { count: publications.length })
                 : t('publications.filteredCount', { filtered: filteredPublications.length, total: publications.length })}
@@ -262,7 +262,7 @@ export default function Publications() {
       </section>
 
       {/* Publications List */}
-      <section className="py-8 bg-white">
+      <section className="pt-4 pb-8 bg-white">
         <div className="container-custom">
           {filteredPublications.length === 0 ? (
             <motion.div
@@ -284,7 +284,7 @@ export default function Publications() {
                 return (
                   <div
                     key={pub.id}
-                    className="cursor-pointer py-5 px-4 hover:bg-white-smoke/60 transition-colors rounded-lg"
+                    className="cursor-pointer py-5 px-6 bg-white-smoke hover:bg-border-gray hover:shadow-md transition-colors transition-shadow duration-300 rounded-2xl"
                     onClick={() => setSelectedPublication(pub)}
                   >
                     {/* Fecha */}
@@ -300,12 +300,12 @@ export default function Publications() {
                     {/* Métricas en badges */}
                     <div className="flex flex-wrap items-center gap-2 mb-4">
                       {pub.citations !== undefined && pub.citations > 0 && (
-                        <span className="px-3 py-1 bg-white-smoke text-charcoal-blue rounded-full text-xs font-medium">
+                        <span className="px-3 py-1 bg-white/90 text-charcoal-blue rounded-full text-xs font-medium">
                           {pub.citations} {pub.citations === 1 ? 'citation' : 'citations'}
                         </span>
                       )}
                       {pub.journal && (
-                        <span className="px-3 py-1 bg-white-smoke text-charcoal-blue rounded-full text-xs font-medium">
+                        <span className="px-3 py-1 bg-white/90 text-charcoal-blue rounded-full text-xs font-medium">
                           {pub.journal}
                         </span>
                       )}
@@ -330,7 +330,7 @@ export default function Publications() {
                         {pub.keywords.slice(0, 10).map((keyword, index) => (
                           <span
                             key={index}
-                            className="px-3 py-1 bg-white-smoke text-charcoal-blue rounded-full text-xs"
+                            className="px-3 py-1 bg-white/90 text-charcoal-blue rounded-full text-xs"
                           >
                             {keyword}
                           </span>

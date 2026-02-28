@@ -1,20 +1,6 @@
 {
   "items": [
     {
-      "id": "cicy-casa-abierta-2023-2025",
-      "type": "event",
-      "title": "CICY Open House (2023-2025)",
-      "description": "Open house activity at the Center for Scientific Research of Yucatán where the laboratory participates with booths and workshops to share bioinformatics and genomics research with the general public.\n\nIncludes demonstrations, outreach materials, and direct engagement with the community to bring the science carried out in the department closer to the public.",
-      "date": "2024-06-01",
-      "url": "https://photos.app.goo.gl/VMoMioZwDeRDbqHz6",
-      "urls": ["https://photos.app.goo.gl/VMoMioZwDeRDbqHz6", "https://photos.app.goo.gl/JMX79yHvzZkFpuN66"],
-      "image": null,
-      "images": [
-        {"src": "Foto-Grupo-2025.jpg", "caption": "Lab team at CICY Open House 2025."},
-        {"src": "Foto-Grupo-2024.jpg", "caption": "Lab booth during Open House 2024."}
-      ]
-    },
-    {
       "id": "cicy-casa-abierta-2023",
       "type": "event",
       "title": "CICY Open House (2023)",
