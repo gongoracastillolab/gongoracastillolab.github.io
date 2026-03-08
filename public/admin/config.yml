@@ -20,55 +20,58 @@ logo:
 site_url: "https://gongoracastillolab.github.io"
 display_url: "https://gongoracastillolab.github.io"
 
-# Inicio, Investigación y Equipo: archivos flat por idioma (ES/EN). Sin i18n en CMS.
+# i18n: ES y EN en la misma pantalla (un archivo por contenido, claves es/en).
+i18n:
+  structure: single_file
+  locales: [es, en]
+  default_locale: es
 
 collections:
   # ─── Inicio ─────────────────────────────────────────────────────────────────
   - name: "inicio"
     label: "Inicio"
-    description: "Hero, descripción y contacto de la página de inicio. Un archivo por idioma."
+    description: "Hero, descripción y contacto. Edita español e inglés en la misma pantalla."
+    i18n:
+      structure: single_file
+      locales: [es, en]
+      default_locale: es
     files:
-      - label: "Inicio — ES"
-        name: "inicio_es"
+      - name: "inicio"
+        label: "Inicio (ES + EN)"
         file: "src/data/page_home.json"
+        i18n: true
         fields:
-          - { label: "Título Principal (Hero)", name: "title", widget: "string" }
-          - { label: "Descripción", name: "description", widget: "text", hint: "Un párrafo por línea. Deja una línea en blanco entre párrafos para que se muestren separados." }
-          - { label: "Texto de Contacto", name: "contactText", widget: "text" }
-          - { label: "Email de Contacto", name: "contactEmail", widget: "string" }
-      - label: "Inicio — EN"
-        name: "inicio_en"
-        file: "src/data/page_home.en.json"
-        fields:
-          - { label: "Título Principal (Hero)", name: "title", widget: "string" }
-          - { label: "Descripción", name: "description", widget: "text", hint: "One paragraph per block. Leave a blank line between paragraphs to render them separately." }
-          - { label: "Texto de Contacto", name: "contactText", widget: "text" }
-          - { label: "Email de Contacto", name: "contactEmail", widget: "string" }
+          - { label: "Título Principal (Hero)", name: "title", widget: "string", i18n: true }
+          - { label: "Subtítulo / Tagline (Hero)", name: "heroTagline", widget: "string", i18n: true }
+          - { label: "Descripción", name: "description", widget: "text", i18n: true, hint: "Un párrafo por línea. Línea en blanco entre párrafos." }
+          - { label: "Texto de Contacto", name: "contactText", widget: "text", i18n: true }
+          - { label: "Email de Contacto", name: "contactEmail", widget: "string", i18n: true }
 
   # ─── Investigación ──────────────────────────────────────────────────────────
   - name: "investigacion"
     label: "Investigación"
-    description: "Historia del lab y proyectos. Un archivo por idioma."
+    description: "Historia del lab y proyectos. ES y EN en la misma pantalla."
+    i18n:
+      structure: single_file
+      locales: [es, en]
+      default_locale: es
     files:
-      - label: "Historia del laboratorio — ES"
-        name: "historia_es"
+      - name: "historia"
+        label: "Historia del laboratorio (ES + EN)"
         file: "src/data/page_research.json"
+        i18n: true
         fields:
-          - { label: "Título de Historia", name: "historyTitle", widget: "string" }
-          - { label: "Contenido narrativo", name: "historyContent", widget: "text" }
-      - label: "Historia del laboratorio — EN"
-        name: "historia_en"
-        file: "src/data/page_research.en.json"
-        fields:
-          - { label: "Título de Historia", name: "historyTitle", widget: "string" }
-          - { label: "Contenido narrativo", name: "historyContent", widget: "text" }
-      - label: "Proyectos vigentes — ES"
-        name: "proyectos_es"
+          - { label: "Título de Historia", name: "historyTitle", widget: "string", i18n: true }
+          - { label: "Contenido narrativo", name: "historyContent", widget: "text", i18n: true }
+      - name: "proyectos"
+        label: "Proyectos vigentes (ES + EN)"
         file: "src/data/projects.json"
+        i18n: true
         fields:
           - label: "Lista de Proyectos"
             name: "projects"
             widget: "list"
+            i18n: true
             fields:
               - { label: "ID (único, ej. papaya)", name: "id", widget: "string" }
               - { label: "Título", name: "title", widget: "string" }
@@ -83,63 +86,32 @@ collections:
               - { label: "Descripción", name: "description", widget: "text" }
               - { label: "Etiquetas", name: "tags", widget: "list" }
               - { label: "Imagen", name: "image", widget: "image", required: false }
-      - label: "Proyectos vigentes — EN (solo texto; imagen y estado se copian de ES)"
-        name: "proyectos_en"
-        file: "src/data/projects.en.json"
-        fields:
-          - label: "Lista de Proyectos"
-            name: "projects"
-            widget: "list"
-            fields:
-              - { label: "ID (único, debe coincidir con ES)", name: "id", widget: "string" }
-              - { label: "Título", name: "title", widget: "string" }
-              - label: "Estado"
-                name: "status"
-                widget: "select"
-                default: "active"
-                options:
-                  - { label: "Active", value: "active" }
-                  - { label: "New", value: "new" }
-                  - { label: "Closed", value: "closed" }
-              - { label: "Descripción", name: "description", widget: "text" }
-              - { label: "Etiquetas", name: "tags", widget: "list" }
 
   # ─── Equipo ─────────────────────────────────────────────────────────────────
   - name: "equipo"
     label: "Equipo"
-    description: "PI, miembros activos, personal técnico, colaboradores, egresados y fotos de grupo."
+    description: "PI (ES+EN en una pantalla), miembros, personal técnico, colaboradores, egresados y fotos."
+    i18n:
+      structure: single_file
+      locales: [es, en]
+      default_locale: es
     files:
-      - label: "Investigadora Principal (PI) — ES"
-        name: "pi_es"
+      - name: "pi"
+        label: "Investigadora Principal — PI (ES + EN)"
         file: "src/data/pi_info.json"
+        i18n: true
         fields:
-          - { label: "Nombre Completo", name: "name", widget: "string" }
-          - { label: "Cargo / Posición", name: "position", widget: "string" }
-          - { label: "Institución", name: "institution", widget: "string" }
-          - { label: "Email", name: "email", widget: "string" }
-          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false }
-          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false }
-          - { label: "Biografía", name: "bio", widget: "text" }
+          - { label: "Nombre Completo", name: "name", widget: "string", i18n: true }
+          - { label: "Cargo / Posición", name: "position", widget: "string", i18n: true }
+          - { label: "Institución", name: "institution", widget: "string", i18n: true }
+          - { label: "Email", name: "email", widget: "string", i18n: true }
+          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false, i18n: true }
+          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false, i18n: true }
+          - { label: "Biografía", name: "bio", widget: "text", i18n: true }
           - label: "Formación Académica"
             name: "education"
             widget: "list"
-            fields:
-              - { label: "Año", name: "year", widget: "string" }
-              - { label: "Descripción", name: "text", widget: "string" }
-      - label: "Investigadora Principal (PI) — EN"
-        name: "pi_en"
-        file: "src/data/pi_info.en.json"
-        fields:
-          - { label: "Nombre Completo", name: "name", widget: "string" }
-          - { label: "Cargo / Posición", name: "position", widget: "string" }
-          - { label: "Institución", name: "institution", widget: "string" }
-          - { label: "Email", name: "email", widget: "string" }
-          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false }
-          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false }
-          - { label: "Biografía", name: "bio", widget: "text" }
-          - label: "Formación Académica"
-            name: "education"
-            widget: "list"
+            i18n: true
             fields:
               - { label: "Año", name: "year", widget: "string" }
               - { label: "Descripción", name: "text", widget: "string" }
@@ -226,15 +198,21 @@ collections:
   # ─── Divulgación ────────────────────────────────────────────────────────────
   - name: "divulgacion"
     label: "Divulgación"
-    description: "Podcasts, videos, eventos y artículos. Un archivo por idioma."
+    description: "Podcasts, videos, eventos y artículos. ES y EN en la misma pantalla."
+    i18n:
+      structure: single_file
+      locales: [es, en]
+      default_locale: es
     files:
-      - label: "Divulgación — ES"
-        name: "divulgacion_es"
+      - name: "divulgacion"
+        label: "Divulgación (ES + EN)"
         file: "src/data/outreach.json"
+        i18n: true
         fields:
           - label: "Items"
             name: "items"
             widget: "list"
+            i18n: true
             fields:
               - { label: "ID", name: "id", widget: "string" }
               - { label: "Tipo", name: "type", widget: "select", options: ["podcast", "video", "event", "article"] }
@@ -244,28 +222,13 @@ collections:
               - { label: "URL principal", name: "url", widget: "string", required: false }
               - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
               - { label: "Imagen", name: "image", widget: "image", required: false }
-              - label: "Galería de fotos (varias imágenes para eventos)"
+              - label: "Galería de fotos (eventos)"
                 name: "images"
                 widget: "list"
                 required: false
                 fields:
                   - { label: "Foto", name: "src", widget: "image" }
                   - { label: "Subtítulo", name: "caption", widget: "string", required: false }
-      - label: "Divulgación — EN (solo texto/URLs; imagen y galería se copian de ES)"
-        name: "divulgacion_en"
-        file: "src/data/outreach.en.json"
-        fields:
-          - label: "Items"
-            name: "items"
-            widget: "list"
-            fields:
-              - { label: "ID", name: "id", widget: "string" }
-              - { label: "Tipo", name: "type", widget: "select", options: ["podcast", "video", "event", "article"] }
-              - { label: "Título", name: "title", widget: "string" }
-              - { label: "Descripción", name: "description", widget: "text" }
-              - { label: "Fecha", name: "date", widget: "date" }
-              - { label: "URL principal", name: "url", widget: "string", required: false }
-              - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
 
   # ─── Configuración ──────────────────────────────────────────────────────────
   # Textos de interfaz (menú, botones, etiquetas, mensajes). Incluye también la página «Red de citaciones» (publicationsNetwork). Se usan en i18n. Editar con cuidado.

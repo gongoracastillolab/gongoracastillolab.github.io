@@ -1,17 +1,14 @@
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import pageHomeEs from '../data/page_home.json'
-import pageHomeEn from '../data/page_home.en.json'
-import pageResearchEs from '../data/page_research.json'
-import pageResearchEn from '../data/page_research.en.json'
-import piInfoEs from '../data/pi_info.json'
-import piInfoEn from '../data/pi_info.en.json'
-import projectsEs from '../data/projects.json'
-import projectsEn from '../data/projects.en.json'
-import outreachEs from '../data/outreach.json'
-import outreachEn from '../data/outreach.en.json'
+import pageHomeI18n from '../data/page_home.json'
+import pageResearchI18n from '../data/page_research.json'
+import piInfoI18n from '../data/pi_info.json'
+import projectsI18n from '../data/projects.json'
+import outreachI18n from '../data/outreach.json'
 
 export type Locale = 'es' | 'en'
+
+type I18nRecord = Record<string, Record<string, unknown>>
 
 export function useLocalizedData() {
   const { i18n } = useTranslation()
@@ -20,24 +17,29 @@ export function useLocalizedData() {
     [i18n.language]
   )
 
-  const home = lang === 'en' ? (pageHomeEn as Record<string, unknown>) : (pageHomeEs as Record<string, unknown>)
-  const research = lang === 'en' ? (pageResearchEn as Record<string, unknown>) : (pageResearchEs as Record<string, unknown>)
-  const pi = lang === 'en' ? (piInfoEn as Record<string, unknown>) : (piInfoEs as Record<string, unknown>)
-  const projectsEsList = (projectsEs as { projects: Array<{ id: string; image?: string; status?: string; [k: string]: unknown }> }).projects
-  const projectsEnList = (projectsEn as { projects: Array<{ id: string; image?: string; status?: string; [k: string]: unknown }> }).projects
+  const home = (pageHomeI18n as I18nRecord)[lang] as Record<string, unknown>
+  const research = (pageResearchI18n as I18nRecord)[lang] as Record<string, unknown>
+  const pi = (piInfoI18n as I18nRecord)[lang] as Record<string, unknown>
+
+  type ProjectsByLocale = Record<Locale, { projects: Array<{ id: string; image?: string; status?: string; [k: string]: unknown }> }>
+  const projectsByLocale = projectsI18n as ProjectsByLocale
+  const projectsEsList = projectsByLocale.es.projects
+  const projectsEnList = projectsByLocale.en.projects
   const projects =
     lang === 'en'
-      ? projectsEnList.map((pen) => {
+      ? projectsEnList.map((pen: { id: string; image?: string; status?: string; [k: string]: unknown }) => {
           const esProject = projectsEsList.find((p) => p.id === pen.id)
           return { ...pen, image: esProject?.image ?? pen.image, status: esProject?.status ?? pen.status }
         })
       : projectsEsList
 
-  const outreachEsItems = (outreachEs as { items: Array<{ id: string; image?: string; images?: unknown[]; [k: string]: unknown }> }).items
-  const outreachEnItems = (outreachEn as { items: Array<{ id: string; image?: string; images?: unknown[]; [k: string]: unknown }> }).items
+  type OutreachByLocale = Record<Locale, { items: Array<{ id: string; image?: string; images?: unknown[]; [k: string]: unknown }> }>
+  const outreachByLocale = outreachI18n as OutreachByLocale
+  const outreachEsItems = outreachByLocale.es.items
+  const outreachEnItems = outreachByLocale.en.items
   const outreach =
     lang === 'en'
-      ? outreachEnItems.map((enItem) => {
+      ? outreachEnItems.map((enItem: { id: string; image?: string; images?: unknown[]; [k: string]: unknown }) => {
           const esItem = outreachEsItems.find((i) => i.id === enItem.id)
           return {
             ...enItem,
