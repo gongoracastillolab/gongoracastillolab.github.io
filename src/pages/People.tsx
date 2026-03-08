@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Mail, X, ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react'
+import { Mail, X, ChevronLeft, ChevronRight } from 'lucide-react'
+import { OrcidIcon } from '../components/SocialIcons'
 import membersData from '../data/members.json'
 import staffCollaboratorsData from '../data/staff_collaborators.json'
 import alumniData from '../data/alumni.json'
@@ -17,7 +18,6 @@ export default function People() {
   const { t } = useTranslation()
   const { pi: piContent } = useLocalizedData()
   const piOrcidUrl = piContent?.orcidUrl != null ? String(piContent.orcidUrl) : ''
-  const piResearchGateUrl = piContent?.researchGateUrl != null ? String(piContent.researchGateUrl) : ''
   const [selectedImage, setSelectedImage] = useState<{ year: string; image: string } | null>(null)
   
   const groupPhotos = (groupPhotosData as any).groupPhotos.map((photo: any) => ({
@@ -75,10 +75,12 @@ export default function People() {
     image: staff.image ? `${baseUrl}${staff.image}` : null
   }))
 
-  const collaborators = staffCollaboratorsData.collaborators.map(collab => ({
-    ...collab,
-    country: t(collab.countryKey)
-  }))
+  const collaboratingInstitutions = [
+    { logo: `${baseUrl}colab_cicy_logo.jpg`, name: 'CICY' },
+    { logo: `${baseUrl}colab_msu_logo.png`, name: 'Michigan State University' },
+    { logo: `${baseUrl}colab_uady_logo.png`, name: 'Universidad Autónoma de Yucatán' },
+    { logo: `${baseUrl}colab_unam_logo.png`, name: 'UNAM' },
+  ]
 
   return (
     <div className="relative">
@@ -136,41 +138,26 @@ export default function People() {
                 </h3>
                 <p className="text-charcoal-blue/70 mb-1">{String(piContent.position ?? '')}</p>
                 <p className="text-charcoal-blue/70">{String(piContent.institution ?? '')}</p>
-                <a
-                  href={`mailto:${emailToMailtoHref(String(piContent.email ?? ''))}`}
-                  className="inline-flex items-center space-x-2 text-cobalt-blue hover:text-hover-blue transition-colors mt-2"
-                >
-                  <Mail className="w-4 h-4" />
-                  <span>{emailToDisplayText(String(piContent.email ?? ''))}</span>
-                </a>
-                {(piOrcidUrl || piResearchGateUrl) ? (
-                  <div className="flex flex-wrap items-center gap-3 mt-3">
-                    {piOrcidUrl ? (
-                      <a
-                        href={piOrcidUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-sm text-cobalt-blue hover:text-hover-blue transition-colors"
-                        aria-label="ORCID"
-                      >
-                        <ExternalLink className="w-4 h-4 shrink-0" />
-                        <span>ORCID</span>
-                      </a>
-                    ) : null}
-                    {piResearchGateUrl ? (
-                      <a
-                        href={piResearchGateUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 text-sm text-cobalt-blue hover:text-hover-blue transition-colors"
-                        aria-label="ResearchGate"
-                      >
-                        <ExternalLink className="w-4 h-4 shrink-0" />
-                        <span>ResearchGate</span>
-                      </a>
-                    ) : null}
-                  </div>
-                ) : null}
+                <div className="inline-flex items-center gap-3 mt-2 flex-wrap">
+                  <a
+                    href={`mailto:${emailToMailtoHref(String(piContent.email ?? ''))}`}
+                    className="inline-flex items-center space-x-2 text-cobalt-blue hover:text-hover-blue transition-colors"
+                  >
+                    <Mail className="w-4 h-4" />
+                    <span>{emailToDisplayText(String(piContent.email ?? ''))}</span>
+                  </a>
+                  {piOrcidUrl ? (
+                    <a
+                      href={piOrcidUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cobalt-blue hover:text-hover-blue transition-colors p-1 rounded"
+                      aria-label="ORCID"
+                    >
+                      <OrcidIcon size={24} className="w-6 h-6" />
+                    </a>
+                  ) : null}
+                </div>
               </div>
               <div>
                 <div className="space-y-3 mb-4">
@@ -185,7 +172,7 @@ export default function People() {
                       {t('people.pi.education.title')}
                     </h4>
                     <div className="space-y-2">
-                      {(piContent.education as any[]).map((item: any, idx: number) => (
+                      {[...(piContent.education as any[])].reverse().map((item: any, idx: number) => (
                         <div key={idx} className="py-2 px-4 hover:bg-white-smoke/40 transition-colors rounded-lg -mx-4 flex items-start gap-4">
                           <span className="text-xs text-charcoal-blue/50 font-medium min-w-[60px]">
                             {item.year === 'Current' ? t('people.pi.education.current_date', 'Actual') : String(item.year ?? '')}
@@ -308,42 +295,38 @@ export default function People() {
         </div>
       </section>
 
-      {/* Collaborators */}
-      {collaborators.length > 0 && (
-        <section className="py-16 bg-white">
-          <div className="container-custom">
-            <motion.div
-              variants={containerVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-50px" }}
-            >
-              <h2 className="font-serif text-3xl font-light text-charcoal-blue mb-8">
-                {t('people.collaborators.title')}
-              </h2>
-              <div className="max-w-6xl">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  {collaborators.map((collab) => (
-                    <motion.div
-                      key={collab.name}
-                      variants={itemVariants}
-                      className="py-4 px-4 bg-white-smoke/40 hover:bg-white-smoke/60 transition-colors rounded-lg group"
-                    >
-                      <h3 className="font-serif text-lg font-medium text-charcoal-blue mb-1 group-hover:text-cobalt-blue transition-colors">
-                        {collab.name}
-                      </h3>
-                      <p className="text-sm text-charcoal-blue/70 mb-2">{collab.affiliation}</p>
-                      <span className="inline-block px-3 py-1 bg-white-smoke text-charcoal-blue rounded-full text-xs font-medium">
-                        {collab.country}
-                      </span>
-                    </motion.div>
-                  ))}
-                </div>
+      {/* Collaborating institutions — banda móvil: gris por defecto, color + pausa al hover */}
+      <section className="py-16 bg-white overflow-hidden">
+        <div className="container-custom">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, margin: "-50px" }}
+          >
+            <h2 className="font-serif text-3xl font-light text-charcoal-blue mb-10">
+              {t('people.collaborators.title')}
+            </h2>
+          </motion.div>
+        </div>
+        <div className="collab-band w-full overflow-hidden py-4" aria-label={t('people.collaborators.title')}>
+          <div className="collab-band-track flex items-center gap-12 md:gap-16 w-max">
+            {[...collaboratingInstitutions, ...collaboratingInstitutions].map((inst, index) => (
+              <div
+                key={`${inst.name}-${index}`}
+                className="flex-shrink-0 flex items-center justify-center px-6"
+              >
+                <img
+                  src={inst.logo}
+                  alt={inst.name}
+                  className="collab-band-logo h-20 md:h-28 w-auto max-w-[200px] object-contain cursor-default"
+                  title={inst.name}
+                />
               </div>
-            </motion.div>
+            ))}
           </div>
-        </section>
-      )}
+        </div>
+      </section>
 
       {/* Alumni Section */}
       <section className="py-16 bg-white">

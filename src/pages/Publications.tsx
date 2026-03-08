@@ -1,7 +1,8 @@
 import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ExternalLink, Search, ArrowUp, ArrowDown } from 'lucide-react'
+import { ExternalLink, Search, ArrowUp, ArrowDown, Globe } from 'lucide-react'
 import { usePublications } from '../hooks/usePublications'
 import type { Publication, SortOption, SortOrder } from '../types/publications'
 import PublicationDetail from '../components/PublicationDetail'
@@ -174,7 +175,7 @@ export default function Publications() {
             transition={{ duration: 0.6 }}
             className="mb-8"
           >
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-8">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
               <div>
                 <h1 className="font-serif text-4xl md:text-5xl font-light text-charcoal-blue mb-4">
                   {t('publications.title')}
@@ -190,6 +191,22 @@ export default function Publications() {
                 <span>{t('publications.viewScholar')}</span>
                 <ExternalLink className="w-4 h-4" />
               </a>
+            </div>
+
+            {/* Banda: invitación a la red de publicaciones */}
+            <div className="py-4 px-4 mb-6 rounded-lg bg-cobalt-blue/5 border border-cobalt-blue/10">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-2 text-center sm:text-left">
+                <span className="text-charcoal-blue/90 text-sm md:text-base">
+                  {t('publications.viewNetworkBand')}
+                </span>
+                <Link
+                  to="/publications-network"
+                  className="inline-flex items-center gap-2 text-cobalt-blue hover:text-hover-blue font-medium transition-colors shrink-0 text-sm"
+                >
+                  <Globe className="w-4 h-4" />
+                  <span>{t('publications.viewNetworkLink')}</span>
+                </Link>
+              </div>
             </div>
 
             {/* Search Bar */}

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, Globe } from 'lucide-react'
 import BlueskyFeed from '../components/BlueskyFeed'
 import ChordDiagram from '../components/ChordDiagram'
 import { useLocalizedData } from '../hooks/useLocalizedData'
@@ -49,8 +49,8 @@ export default function Home() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl pointer-events-none"
           >
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-7xl font-light text-charcoal-blue mb-10 leading-tight select-none">
-              {String(content.title ?? '')}
+            <h1 className="font-serif text-lg md:text-xl lg:text-5xl text-gray-700 mb-10 leading-tight select-none max-w-3xl mx-auto">
+              {String((content as { heroTagline?: string }).heroTagline ?? content.title ?? '')}
             </h1>
             <div className="pointer-events-auto inline-block">
               <Link
@@ -110,6 +110,40 @@ export default function Home() {
                 className="h-16 sm:h-40 w-auto object-contain"
               />
             </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Banda: invitación a la red de publicaciones — mismo tono que tag "new" en Research (verdigris/15) */}
+      <section
+        className="relative py-14 md:py-16 overflow-hidden border-y border-gray-200 bg-gray-100"
+        style={{
+          backgroundImage: `url(${baseUrl}network_sphere_publications_banner.png)`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
+      >
+        <div className="absolute inset-0 bg-verdigris/15 pointer-events-none" aria-hidden />
+        <div className="container-custom relative z-10">
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-40px' }}
+            transition={{ duration: 0.4 }}
+            className="flex flex-col items-start justify-center gap-4 text-left"
+          >
+            <span className="text-verdigris text-base md:text-lg font-medium">
+              {t('home.publicationNetworkBand')}
+            </span>
+            <Link
+              to="/publications-network"
+              className="inline-flex items-center gap-2 text-verdigris hover:text-verdigris/80 font-medium transition-colors shrink-0"
+            >
+              <Globe className="w-4 h-4" />
+              <span>{t('home.publicationNetworkLink')}</span>
+              <ArrowRight className="w-4 h-4" />
+            </Link>
           </motion.div>
         </div>
       </section>

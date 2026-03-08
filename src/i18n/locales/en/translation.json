@@ -16,6 +16,8 @@
       "cta": "Explore Our Research",
       "contact": "For more information, feel free to contact us here. We are always looking for enthusiastic individuals to join our lab!",
       "contactEmail": "elsa.gongora at cinvestav.mx",
+      "publicationNetworkBand": "Explore our publication network in an interactive visualization.",
+      "publicationNetworkLink": "View visualization",
       "bluesky": {
         "title": "Latest Updates",
         "subtitle": "Follow our latest news and updates on Bluesky",
@@ -87,7 +89,7 @@
         "title": "Lab Members"
       },
       "collaborators": {
-        "title": "Collaborators"
+        "title": "Collaborating institutions"
       },
       "alumni": {
         "title": "Graduated Students",
@@ -112,6 +114,8 @@
     },
     "publications": {
       "title": "Publications",
+      "viewNetworkBand": "Discover the publication network in an interactive visualization.",
+      "viewNetworkLink": "View publication network",
       "viewScholar": "View on Google Scholar",
       "loading": "Loading publications...",
       "error": "Error loading publications. Please try again later.",
@@ -174,13 +178,14 @@
       "department": "Department of Marine Resources",
       "location": "Mérida, Yucatán, Mexico",
       "contactTitle": "Contact",
-      "contactIntro": "For more information:",
+      "piCinvestavProfile": "PI profile (Cinvestav)",
       "followUs": "Follow Us",
       "partOf": "Part of Cinvestav-IPN",
       "links": {
         "projects": "Projects",
         "members": "PI & Members",
         "alumni": "Alumni",
+        "outreachPage": "View more",
         "bluesky": "Bluesky",
         "scholar": "Google Scholar"
       },

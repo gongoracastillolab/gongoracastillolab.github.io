@@ -45,7 +45,7 @@ jobs:
       - name: Build
         run: npm run build
       
-      # GitHub Pages: rutas directas (/publications-network-hero, /hero-option3, etc.) devuelven 404.
+      # GitHub Pages: rutas directas (/publications-network, etc.) devuelven 404.
       # Copiar index.html → 404.html hace que esas peticiones sirvan la SPA y el router muestre la ruta correcta.
       - name: SPA fallback for GitHub Pages
         run: cp ./dist/index.html ./dist/404.html

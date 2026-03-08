@@ -16,6 +16,8 @@
       "cta": "Explorar Nuestra Investigación",
       "contact": "Para más información contáctanos aquí. Siempre estamos en busca de personas entusiastas que deseen unirse a nuestro lab!",
       "contactEmail": "gongora.castillo.lab@gmail.com",
+      "publicationNetworkBand": "Explora nuestra red de publicaciones en una visualización interactiva.",
+      "publicationNetworkLink": "Ver visualización",
       "bluesky": {
         "title": "Últimas Actualizaciones",
         "subtitle": "Sigue nuestras últimas noticias y actualizaciones en Bluesky",
@@ -87,7 +89,7 @@
         "title": "Miembros del laboratorio"
       },
       "collaborators": {
-        "title": "Colaboradores"
+        "title": "Instituciones colaboradoras"
       },
       "alumni": {
         "title": "Alumnos titulados del programa de posgrado",
@@ -112,6 +114,8 @@
     },
     "publications": {
       "title": "Publicaciones",
+      "viewNetworkBand": "Descubre la red de publicaciones en una visualización interactiva.",
+      "viewNetworkLink": "Ver red de publicaciones",
       "viewScholar": "Ver en Google Scholar",
       "loading": "Cargando publicaciones...",
       "error": "Error al cargar publicaciones. Por favor intenta más tarde.",
@@ -174,13 +178,14 @@
       "department": "Departamento de Recursos del Mar",
       "location": "Mérida, Yucatán, México",
       "contactTitle": "Contacto",
-      "contactIntro": "Para más información:",
+      "piCinvestavProfile": "Perfil PI (Cinvestav)",
       "followUs": "Síguenos",
       "partOf": "Parte del Cinvestav-IPN",
       "links": {
         "projects": "Proyectos",
         "members": "PI y Miembros",
         "alumni": "Egresados",
+        "outreachPage": "Ver más",
         "bluesky": "Bluesky",
         "scholar": "Google Scholar"
       },
