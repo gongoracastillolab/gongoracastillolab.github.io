@@ -31,10 +31,10 @@ export function useLocalizedData() {
   const pi = (lang === 'en' ? piInfo.en : getDefaultLocaleContent(piInfo)) as Record<string, unknown>
 
   type ProjectItem = { id: string; image?: string; status?: string; [k: string]: unknown }
-  type ProjectsData = { projects: ProjectItem[]; en?: { projects: ProjectItem[] } }
+  type ProjectsData = { es: { projects: ProjectItem[] }; en: { projects: ProjectItem[] } }
   const projectsData = projectsI18n as ProjectsData
-  const projectsEsList = projectsData.projects
-  const projectsEnList = projectsData.en?.projects ?? []
+  const projectsEsList = projectsData.es.projects
+  const projectsEnList = projectsData.en.projects
   const projects =
     lang === 'en'
       ? projectsEnList.map((pen: ProjectItem) => {
@@ -44,10 +44,10 @@ export function useLocalizedData() {
       : projectsEsList
 
   type OutreachItem = { id: string; image?: string; images?: unknown[]; [k: string]: unknown }
-  type OutreachData = { items: OutreachItem[]; en?: { items: OutreachItem[] } }
+  type OutreachData = { es: { items: OutreachItem[] }; en: { items: OutreachItem[] } }
   const outreachData = outreachI18n as OutreachData
-  const outreachEsItems = outreachData.items
-  const outreachEnItems = outreachData.en?.items ?? []
+  const outreachEsItems = outreachData.es.items
+  const outreachEnItems = outreachData.en.items
   const outreach =
     lang === 'en'
       ? outreachEnItems.map((enItem: OutreachItem) => {
