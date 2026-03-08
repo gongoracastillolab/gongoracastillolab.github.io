@@ -8,7 +8,11 @@ import outreachI18n from '../data/outreach.json'
 
 export type Locale = 'es' | 'en'
 
-type I18nRecord = Record<string, Record<string, unknown>>
+// Decap CMS single_file i18n: default locale (es) at root, other locales under key "en"
+function getDefaultLocaleContent<T extends Record<string, unknown>>(data: T): Omit<T, 'en'> {
+  const { en: _en, ...rest } = data
+  return rest as Omit<T, 'en'>
+}
 
 export function useLocalizedData() {
   const { i18n } = useTranslation()
@@ -17,29 +21,36 @@ export function useLocalizedData() {
     [i18n.language]
   )
 
-  const home = (pageHomeI18n as I18nRecord)[lang] as Record<string, unknown>
-  const research = (pageResearchI18n as I18nRecord)[lang] as Record<string, unknown>
-  const pi = (piInfoI18n as I18nRecord)[lang] as Record<string, unknown>
+  const pageHome = pageHomeI18n as Record<string, unknown> & { en?: Record<string, unknown> }
+  const home = (lang === 'en' ? pageHome.en : getDefaultLocaleContent(pageHome)) as Record<string, unknown>
 
-  type ProjectsByLocale = Record<Locale, { projects: Array<{ id: string; image?: string; status?: string; [k: string]: unknown }> }>
-  const projectsByLocale = projectsI18n as ProjectsByLocale
-  const projectsEsList = projectsByLocale.es.projects
-  const projectsEnList = projectsByLocale.en.projects
+  const pageResearch = pageResearchI18n as Record<string, unknown> & { en?: Record<string, unknown> }
+  const research = (lang === 'en' ? pageResearch.en : getDefaultLocaleContent(pageResearch)) as Record<string, unknown>
+
+  const piInfo = piInfoI18n as Record<string, unknown> & { en?: Record<string, unknown> }
+  const pi = (lang === 'en' ? piInfo.en : getDefaultLocaleContent(piInfo)) as Record<string, unknown>
+
+  type ProjectItem = { id: string; image?: string; status?: string; [k: string]: unknown }
+  type ProjectsData = { projects: ProjectItem[]; en?: { projects: ProjectItem[] } }
+  const projectsData = projectsI18n as ProjectsData
+  const projectsEsList = projectsData.projects
+  const projectsEnList = projectsData.en?.projects ?? []
   const projects =
     lang === 'en'
-      ? projectsEnList.map((pen: { id: string; image?: string; status?: string; [k: string]: unknown }) => {
+      ? projectsEnList.map((pen: ProjectItem) => {
           const esProject = projectsEsList.find((p) => p.id === pen.id)
           return { ...pen, image: esProject?.image ?? pen.image, status: esProject?.status ?? pen.status }
         })
       : projectsEsList
 
-  type OutreachByLocale = Record<Locale, { items: Array<{ id: string; image?: string; images?: unknown[]; [k: string]: unknown }> }>
-  const outreachByLocale = outreachI18n as OutreachByLocale
-  const outreachEsItems = outreachByLocale.es.items
-  const outreachEnItems = outreachByLocale.en.items
+  type OutreachItem = { id: string; image?: string; images?: unknown[]; [k: string]: unknown }
+  type OutreachData = { items: OutreachItem[]; en?: { items: OutreachItem[] } }
+  const outreachData = outreachI18n as OutreachData
+  const outreachEsItems = outreachData.items
+  const outreachEnItems = outreachData.en?.items ?? []
   const outreach =
     lang === 'en'
-      ? outreachEnItems.map((enItem: { id: string; image?: string; images?: unknown[]; [k: string]: unknown }) => {
+      ? outreachEnItems.map((enItem: OutreachItem) => {
           const esItem = outreachEsItems.find((i) => i.id === enItem.id)
           return {
             ...enItem,
