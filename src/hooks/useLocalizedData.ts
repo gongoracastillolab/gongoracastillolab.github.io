@@ -8,11 +8,8 @@ import outreachI18n from '../data/outreach.json'
 
 export type Locale = 'es' | 'en'
 
-// Decap CMS single_file i18n: default locale (es) at root, other locales under key "en"
-function getDefaultLocaleContent<T extends Record<string, unknown>>(data: T): Omit<T, 'en'> {
-  const { en: _en, ...rest } = data
-  return rest as Omit<T, 'en'>
-}
+// Decap CMS single_file i18n: todos los archivos usan { es: {...}, en: {...} } en la raíz
+type LocaleData<T> = { es: T; en: T }
 
 export function useLocalizedData() {
   const { i18n } = useTranslation()
@@ -21,14 +18,14 @@ export function useLocalizedData() {
     [i18n.language]
   )
 
-  const pageHome = pageHomeI18n as Record<string, unknown> & { en?: Record<string, unknown> }
-  const home = (lang === 'en' ? pageHome.en : getDefaultLocaleContent(pageHome)) as Record<string, unknown>
+  const pageHome = pageHomeI18n as LocaleData<Record<string, unknown>>
+  const home = (lang === 'en' ? pageHome.en : pageHome.es) as Record<string, unknown>
 
-  const pageResearch = pageResearchI18n as Record<string, unknown> & { en?: Record<string, unknown> }
-  const research = (lang === 'en' ? pageResearch.en : getDefaultLocaleContent(pageResearch)) as Record<string, unknown>
+  const pageResearch = pageResearchI18n as LocaleData<Record<string, unknown>>
+  const research = (lang === 'en' ? pageResearch.en : pageResearch.es) as Record<string, unknown>
 
-  const piInfo = piInfoI18n as Record<string, unknown> & { en?: Record<string, unknown> }
-  const pi = (lang === 'en' ? piInfo.en : getDefaultLocaleContent(piInfo)) as Record<string, unknown>
+  const piInfo = piInfoI18n as LocaleData<Record<string, unknown>>
+  const pi = (lang === 'en' ? piInfo.en : piInfo.es) as Record<string, unknown>
 
   type ProjectItem = { id: string; image?: string; status?: string; [k: string]: unknown }
   type ProjectsData = { es: { projects: ProjectItem[] }; en: { projects: ProjectItem[] } }
