@@ -88,40 +88,16 @@ collections:
               - { label: "Etiquetas", name: "tags", widget: "list" }
               - { label: "Imagen", name: "image", widget: "image", required: false }
 
-  # ─── Equipo ─────────────────────────────────────────────────────────────────
-  - name: "equipo"
-    label: "Equipo"
-    description: "PI (ES+EN en una pantalla), miembros, personal técnico, colaboradores, egresados y fotos. Incluye imagen hero de la página."
-    i18n:
-      structure: single_file
-      locales: [es, en]
-      default_locale: es
+  # ─── Equipo (contenido único: misma info en ES y EN) ─────────────────────────
+  - name: "equipo_single"
+    label: "Equipo (contenido único)"
+    description: "Hero de la página, miembros, personal técnico, colaboradores, egresados y fotos de grupo. Una sola versión (se usa en ambos idiomas)."
     files:
       - name: "pagina_equipo"
         label: "Página Equipo — Imagen Hero"
         file: "src/data/page_people.json"
-        i18n: true
         fields:
-          - { label: "Imagen Hero (sección superior)", name: "heroImage", widget: "image", required: false, i18n: true }
-      - name: "pi"
-        label: "Investigadora Principal — PI (ES + EN)"
-        file: "src/data/pi_info.json"
-        i18n: true
-        fields:
-          - { label: "Nombre Completo", name: "name", widget: "string", i18n: true }
-          - { label: "Cargo / Posición", name: "position", widget: "string", i18n: true }
-          - { label: "Institución", name: "institution", widget: "string", i18n: true }
-          - { label: "Email", name: "email", widget: "string", i18n: true }
-          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false, i18n: true }
-          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false, i18n: true }
-          - { label: "Biografía", name: "bio", widget: "text", i18n: true }
-          - label: "Formación Académica"
-            name: "education"
-            widget: "list"
-            i18n: true
-            fields:
-              - { label: "Año", name: "year", widget: "string" }
-              - { label: "Descripción", name: "text", widget: "string" }
+          - { label: "Imagen Hero (sección superior)", name: "heroImage", widget: "image", required: false }
       - label: "Miembros activos"
         name: "miembros"
         file: "src/data/members.json"
@@ -201,6 +177,35 @@ collections:
             fields:
               - { label: "Año", name: "year", widget: "string" }
               - { label: "Imagen", name: "image", widget: "image" }
+
+  # ─── Equipo — PI (bilingüe ES + EN) ─────────────────────────────────────────
+  - name: "equipo"
+    label: "Equipo — PI (ES + EN)"
+    description: "Datos de la Investigadora Principal. Edita español e inglés en la misma pantalla."
+    i18n:
+      structure: single_file
+      locales: [es, en]
+      default_locale: es
+    files:
+      - name: "pi"
+        label: "Investigadora Principal — PI (ES + EN)"
+        file: "src/data/pi_info.json"
+        i18n: true
+        fields:
+          - { label: "Nombre Completo", name: "name", widget: "string", i18n: true }
+          - { label: "Cargo / Posición", name: "position", widget: "string", i18n: true }
+          - { label: "Institución", name: "institution", widget: "string", i18n: true }
+          - { label: "Email", name: "email", widget: "string", i18n: true }
+          - { label: "ORCID (URL)", name: "orcidUrl", widget: "string", required: false, i18n: true }
+          - { label: "ResearchGate (URL)", name: "researchGateUrl", widget: "string", required: false, i18n: true }
+          - { label: "Biografía", name: "bio", widget: "text", i18n: true }
+          - label: "Formación Académica"
+            name: "education"
+            widget: "list"
+            i18n: true
+            fields:
+              - { label: "Año", name: "year", widget: "string" }
+              - { label: "Descripción", name: "text", widget: "string" }
 
   # ─── Divulgación ────────────────────────────────────────────────────────────
   - name: "divulgacion"

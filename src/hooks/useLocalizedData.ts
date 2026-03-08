@@ -5,7 +5,7 @@ import pageResearchI18n from '../data/page_research.json'
 import piInfoI18n from '../data/pi_info.json'
 import projectsI18n from '../data/projects.json'
 import outreachI18n from '../data/outreach.json'
-import pagePeopleI18n from '../data/page_people.json'
+import pagePeopleData from '../data/page_people.json'
 
 export type Locale = 'es' | 'en'
 
@@ -28,8 +28,7 @@ export function useLocalizedData() {
   const piInfo = piInfoI18n as LocaleData<Record<string, unknown>>
   const pi = (lang === 'en' ? piInfo.en : piInfo.es) as Record<string, unknown>
 
-  const pagePeople = pagePeopleI18n as LocaleData<Record<string, unknown>>
-  const pagePeopleLocale = (lang === 'en' ? pagePeople.en : pagePeople.es) as Record<string, unknown>
+  const pagePeople = pagePeopleData as Record<string, unknown>
 
   type ProjectItem = { id: string; image?: string; status?: string; [k: string]: unknown }
   type ProjectsData = { es: { projects: ProjectItem[] }; en: { projects: ProjectItem[] } }
@@ -66,7 +65,7 @@ export function useLocalizedData() {
     home,
     research,
     pi,
-    pagePeople: pagePeopleLocale,
+    pagePeople,
     projects,
     outreach,
   }
