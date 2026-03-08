@@ -1,6 +1,12 @@
 {
   "nodes": [
     {
+      "id": "10.1002/qub2.78",
+      "label": "Bioinformatics perspectives on transcriptomics: A comprehensive review of bulk and single‐cell RNA sequencing analyses",
+      "type": "own",
+      "year": 2025
+    },
+    {
       "id": "10.1007/978-1-4939-8594-4_29",
       "label": "Elaboration of Transcriptome During the Induction of Somatic Embryogenesis",
       "type": "own",
@@ -55,16 +61,16 @@
       "year": 2013
     },
     {
-      "id": "10.1093/pcp/pct040",
-      "label": "Coupling Deep Transcriptome Analysis with Untargeted Metabolic Profiling in Ophiorrhiza pumila to Further the Understanding of the Biosynthesis of the Anti-Cancer Alkaloid Camptothecin and Anthraquinones",
+      "id": "10.1074/jbc.m112.415836",
+      "label": "Functional Identification of Valerena-1,10-diene Synthase, a Terpene Synthase Catalyzing a Unique Chemical Cascade in the Biosynthesis of Biologically Active Sesquiterpenes in Valeriana officinalis",
       "type": "own",
       "year": 2013
     },
     {
-      "id": "10.1093/plcell/koab032",
-      "label": "Eleven biosynthetic genes explain the majority of natural variation in carotenoid levels in maize grain",
+      "id": "10.1093/pcp/pct040",
+      "label": "Coupling Deep Transcriptome Analysis with Untargeted Metabolic Profiling in Ophiorrhiza pumila to Further the Understanding of the Biosynthesis of the Anti-Cancer Alkaloid Camptothecin and Anthraquinones",
       "type": "own",
-      "year": 2020
+      "year": 2013
     },
     {
       "id": "10.1094/phyto-09-21-0393-r",
@@ -89,6 +95,12 @@
       "label": "Exploring the microbial communities in coastal cenote and their hidden biotechnological potential",
       "type": "own",
       "year": 2025
+    },
+    {
+      "id": "10.1101/2020.07.15.203448",
+      "label": "Eleven biosynthetic genes explain the majority of natural variation for carotenoid levels in maize grain",
+      "type": "own",
+      "year": 2020
     },
     {
       "id": "10.1105/tpc.114.123752",
@@ -173,6 +185,1451 @@
       "label": "Transcriptome analysis of the induction of somatic embryogenesis in\n                    <i>Coffea canephora</i>\n                    and the participation of ARF and Aux/IAA genes",
       "type": "own",
       "year": 2019
+    },
+    {
+      "id": "10.1038/s41576-019-0150-2",
+      "label": "10.1038/s41576-019-0150-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.3390/biology12070997",
+      "label": "10.3390/biology12070997",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/wrna.1364",
+      "label": "10.1002/wrna.1364",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-020-19015-1",
+      "label": "10.1038/s41467-020-19015-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s00281-022-00972-2",
+      "label": "10.1007/s00281-022-00972-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41586-020-2739-1",
+      "label": "10.1038/s41586-020-2739-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2020.04.011",
+      "label": "10.1016/j.cell.2020.04.011",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41421-020-0168-9",
+      "label": "10.1038/s41421-020-0168-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.tplants.2018.11.008",
+      "label": "10.1016/j.tplants.2018.11.008",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12870-019-1794-y",
+      "label": "10.1186/s12870-019-1794-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/cdn/nzz082",
+      "label": "10.1093/cdn/nzz082",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.livsci.2014.06.015",
+      "label": "10.1016/j.livsci.2014.06.015",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41525-023-00387-4",
+      "label": "10.1038/s41525-023-00387-4",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fpls.2023.1135455",
+      "label": "10.3389/fpls.2023.1135455",
+      "type": "reference"
+    },
+    {
+      "id": "10.1261/rna.053959.115",
+      "label": "10.1261/rna.053959.115",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btt688",
+      "label": "10.1093/bioinformatics/btt688",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bib/bbr004",
+      "label": "10.1093/bib/bbr004",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fpls.2018.00108",
+      "label": "10.3389/fpls.2018.00108",
+      "type": "reference"
+    },
+    {
+      "id": "10.1146/annurev-biodatasci-072018-021255",
+      "label": "10.1146/annurev-biodatasci-072018-021255",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nprot.2006.83",
+      "label": "10.1038/nprot.2006.83",
+      "type": "reference"
+    },
+    {
+      "id": "10.2144/000112401",
+      "label": "10.2144/000112401",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12864-020-6673-2",
+      "label": "10.1186/s12864-020-6673-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-021-01108-x",
+      "label": "10.1038/s41587-021-01108-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0123730",
+      "label": "10.1371/journal.pone.0123730",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-4939-9045-0_16",
+      "label": "10.1007/978-1-4939-9045-0_16",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nargab/lqab019",
+      "label": "10.1093/nargab/lqab019",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.humimm.2021.02.012",
+      "label": "10.1016/j.humimm.2021.02.012",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/tpj.14120",
+      "label": "10.1111/tpj.14120",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-022-01724-8",
+      "label": "10.1038/s41592-022-01724-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.12688/f1000research.10571.2",
+      "label": "10.12688/f1000research.10571.2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-020-01041-y",
+      "label": "10.1038/s41592-020-01041-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-021-01171-x",
+      "label": "10.1038/s41592-021-01171-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-021-25960-2",
+      "label": "10.1038/s41467-021-25960-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-022-02601-5",
+      "label": "10.1186/s13059-022-02601-5",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.molcel.2017.01.023",
+      "label": "10.1016/j.molcel.2017.01.023",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fnins.2021.591122",
+      "label": "10.3389/fnins.2021.591122",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/ctm2.694",
+      "label": "10.1002/ctm2.694",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cpb.2023.100289",
+      "label": "10.1016/j.cpb.2023.100289",
+      "type": "reference"
+    },
+    {
+      "id": "10.1080/21541264.2023.2200721",
+      "label": "10.1080/21541264.2023.2200721",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.crmeth.2023.100591",
+      "label": "10.1016/j.crmeth.2023.100591",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13045-023-01494-6",
+      "label": "10.1186/s13045-023-01494-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/gb-2013-14-4-r31",
+      "label": "10.1186/gb-2013-14-4-r31",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.2282",
+      "label": "10.1038/nbt.2282",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.2639",
+      "label": "10.1038/nmeth.2639",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-016-0938-8",
+      "label": "10.1186/s13059-016-0938-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2015.05.002",
+      "label": "10.1016/j.cell.2015.05.002",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2015.04.044",
+      "label": "10.1016/j.cell.2015.04.044",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/ncomms14049",
+      "label": "10.1038/ncomms14049",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.110882.110",
+      "label": "10.1101/gr.110882.110",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41423-019-0214-4",
+      "label": "10.1038/s41423-019-0214-4",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.8.3.175",
+      "label": "10.1101/gr.8.3.175",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkp1137",
+      "label": "10.1093/nar/gkp1137",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/B978-0-323-89775-4.00016-X",
+      "label": "10.1016/B978-0-323-89775-4.00016-X",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-016-0881-8",
+      "label": "10.1186/s13059-016-0881-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12859-019-3015-y",
+      "label": "10.1186/s12859-019-3015-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btu170",
+      "label": "10.1093/bioinformatics/btu170",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41598-021-98124-3",
+      "label": "10.1038/s41598-021-98124-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/bty560",
+      "label": "10.1093/bioinformatics/bty560",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioadv/vbac085",
+      "label": "10.1093/bioadv/vbac085",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nprot.2013.084",
+      "label": "10.1038/nprot.2013.084",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/bts094",
+      "label": "10.1093/bioinformatics/bts094",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btu077",
+      "label": "10.1093/bioinformatics/btu077",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/gigascience/giz100",
+      "label": "10.1093/gigascience/giz100",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-019-1690-7",
+      "label": "10.1186/s13059-019-1690-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.260174.119",
+      "label": "10.1101/gr.260174.119",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-023-38553-y",
+      "label": "10.1038/s41467-023-38553-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/bty098",
+      "label": "10.1093/bioinformatics/bty098",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0163962",
+      "label": "10.1371/journal.pone.0163962",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.196469.115",
+      "label": "10.1101/gr.196469.115",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btw218",
+      "label": "10.1093/bioinformatics/btw218",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btv351",
+      "label": "10.1093/bioinformatics/btv351",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/bts565",
+      "label": "10.1093/bioinformatics/bts565",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.1923",
+      "label": "10.1038/nmeth.1923",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/bts635",
+      "label": "10.1093/bioinformatics/bts635",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.3317",
+      "label": "10.1038/nmeth.3317",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.3122",
+      "label": "10.1038/nbt.3122",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btu638",
+      "label": "10.1093/bioinformatics/btu638",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btt656",
+      "label": "10.1093/bioinformatics/btt656",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.4197",
+      "label": "10.1038/nmeth.4197",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-014-0550-8",
+      "label": "10.1186/s13059-014-0550-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btp616",
+      "label": "10.1093/bioinformatics/btp616",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkv007",
+      "label": "10.1093/nar/gkv007",
+      "type": "reference"
+    },
+    {
+      "id": "10.1089/omi.2011.0118",
+      "label": "10.1089/omi.2011.0118",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fgene.2019.00858",
+      "label": "10.3389/fgene.2019.00858",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btac757",
+      "label": "10.1093/bioinformatics/btac757",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/1471-2105-9-559",
+      "label": "10.1186/1471-2105-9-559",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fgene.2021.760225",
+      "label": "10.3389/fgene.2021.760225",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btad415",
+      "label": "10.1093/bioinformatics/btad415",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.2023",
+      "label": "10.1038/nbt.2023",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.1517",
+      "label": "10.1038/nmeth.1517",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s11033-024-09608-0",
+      "label": "10.1007/s11033-024-09608-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13287-024-03740-1",
+      "label": "10.1186/s13287-024-03740-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btw625",
+      "label": "10.1093/bioinformatics/btw625",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/gigascience/giz039",
+      "label": "10.1093/gigascience/giz039",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41598-023-39620-6",
+      "label": "10.1038/s41598-023-39620-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btt396",
+      "label": "10.1093/bioinformatics/btt396",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/ece3.5571",
+      "label": "10.1002/ece3.5571",
+      "type": "reference"
+    },
+    {
+      "id": "10.36255/exonpublications.bioinformatics.2021.ch7",
+      "label": "10.36255/exonpublications.bioinformatics.2021.ch7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12859-021-04078-8",
+      "label": "10.1186/s12859-021-04078-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bib/bbab563",
+      "label": "10.1093/bib/bbab563",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gky1053",
+      "label": "10.1093/nar/gky1053",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/gigascience/giac001",
+      "label": "10.1093/gigascience/giac001",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.celrep.2020.108491",
+      "label": "10.1016/j.celrep.2020.108491",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-023-02908-x",
+      "label": "10.1186/s13059-023-02908-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41597-023-02217-9",
+      "label": "10.1038/s41597-023-02217-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/gb-2013-14-4-r36",
+      "label": "10.1186/gb-2013-14-4-r36",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nprot.2012.016",
+      "label": "10.1038/nprot.2012.016",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.4020",
+      "label": "10.1038/nbt.4020",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-019-1670-y",
+      "label": "10.1186/s13059-019-1670-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btp698",
+      "label": "10.1093/bioinformatics/btp698",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fpls.2021.657240",
+      "label": "10.3389/fpls.2021.657240",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/2021.05.05.442755",
+      "label": "10.1101/2021.05.05.442755",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/g3.120.401160",
+      "label": "10.1534/g3.120.401160",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-022-01408-3",
+      "label": "10.1038/s41592-022-01408-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.3519",
+      "label": "10.1038/nbt.3519",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.209601.116",
+      "label": "10.1101/gr.209601.116",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pcbi.1006361",
+      "label": "10.1371/journal.pcbi.1006361",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/gigascience/giy059",
+      "label": "10.1093/gigascience/giy059",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12859-019-2797-2",
+      "label": "10.1186/s12859-019-2797-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-021-00870-2",
+      "label": "10.1038/s41587-021-00870-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-017-1188-0",
+      "label": "10.1186/s13059-017-1188-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkx681",
+      "label": "10.1093/nar/gkx681",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.4662",
+      "label": "10.1038/nmeth.4662",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-020-15851-3",
+      "label": "10.1038/s41467-020-15851-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/bty332",
+      "label": "10.1093/bioinformatics/bty332",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-015-0844-5",
+      "label": "10.1186/s13059-015-0844-5",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pcbi.1004575",
+      "label": "10.1371/journal.pcbi.1004575",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12864-018-4772-0",
+      "label": "10.1186/s12864-018-4772-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-019-1663-x",
+      "label": "10.1186/s13059-019-1663-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/079509",
+      "label": "10.1101/079509",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.4096",
+      "label": "10.1038/nbt.4096",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-017-1382-0",
+      "label": "10.1186/s13059-017-1382-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41586-019-0969-x",
+      "label": "10.1038/s41586-019-0969-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.4150",
+      "label": "10.1038/nmeth.4150",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s43588-022-00216-1",
+      "label": "10.1038/s43588-022-00216-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fimmu.2021.737332",
+      "label": "10.3389/fimmu.2021.737332",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-021-02552-3",
+      "label": "10.1186/s13059-021-02552-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btaa751",
+      "label": "10.1093/bioinformatics/btaa751",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0130262",
+      "label": "10.1371/journal.pone.0130262",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-0716-1307-8_19",
+      "label": "10.1007/978-1-0716-1307-8_19",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fbioe.2019.00358",
+      "label": "10.3389/fbioe.2019.00358",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bib/bbx008",
+      "label": "10.1093/bib/bbx008",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12859-019-3247-x",
+      "label": "10.1186/s12859-019-3247-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12967-021-02936-w",
+      "label": "10.1186/s12967-021-02936-w",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0190152",
+      "label": "10.1371/journal.pone.0190152",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.124321.111",
+      "label": "10.1101/gr.124321.111",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkv711",
+      "label": "10.1093/nar/gkv711",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0232271",
+      "label": "10.1371/journal.pone.0232271",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkw1108",
+      "label": "10.1093/nar/gkw1108",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/28.1.27",
+      "label": "10.1093/nar/28.1.27",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkv1070",
+      "label": "10.1093/nar/gkv1070",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkac963",
+      "label": "10.1093/nar/gkac963",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkad347",
+      "label": "10.1093/nar/gkad347",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0013984",
+      "label": "10.1371/journal.pone.0013984",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-4939-3743-1_14",
+      "label": "10.1007/978-1-4939-3743-1_14",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0022-2836(05)80360-2",
+      "label": "10.1016/S0022-2836(05)80360-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-019-0532-6",
+      "label": "10.1038/s41592-019-0532-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkaa913",
+      "label": "10.1093/nar/gkaa913",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/pro.4218",
+      "label": "10.1002/pro.4218",
+      "type": "reference"
+    },
+    {
+      "id": "10.5772/intechopen.94069",
+      "label": "10.5772/intechopen.94069",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-3-319-07212-8_10",
+      "label": "10.1007/978-3-319-07212-8_10",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.mex.2023.102518",
+      "label": "10.1016/j.mex.2023.102518",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-0716-2067-0_19",
+      "label": "10.1007/978-1-0716-2067-0_19",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bib/bbz122",
+      "label": "10.1093/bib/bbz122",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-022-35095-7",
+      "label": "10.1038/s41467-022-35095-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fpls.2023.1079218",
+      "label": "10.3389/fpls.2023.1079218",
+      "type": "reference"
+    },
+    {
+      "id": "10.21203/rs.3.rs-3961672/v1",
+      "label": "10.21203/rs.3.rs-3961672/v1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.4292",
+      "label": "10.1038/nmeth.4292",
+      "type": "reference"
+    },
+    {
+      "id": "10.15252/msb.20188746",
+      "label": "10.15252/msb.20188746",
+      "type": "reference"
+    },
+    {
+      "id": "10.1261/rna.078965.121",
+      "label": "10.1261/rna.078965.121",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fgene.2020.00041",
+      "label": "10.3389/fgene.2020.00041",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41576-023-00586-w",
+      "label": "10.1038/s41576-023-00586-w",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bib/bby011",
+      "label": "10.1093/bib/bby011",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fgene.2021.646936",
+      "label": "10.3389/fgene.2021.646936",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.coisb.2021.05.005",
+      "label": "10.1016/j.coisb.2021.05.005",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkac219",
+      "label": "10.1093/nar/gkac219",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.4236",
+      "label": "10.1038/nmeth.4236",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41576-018-0088-9",
+      "label": "10.1038/s41576-018-0088-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-018-04368-5",
+      "label": "10.1038/s41467-018-04368-5",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-019-1898-6",
+      "label": "10.1186/s13059-019-1898-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.1109/TIT.1982.1056489",
+      "label": "10.1109/TIT.1982.1056489",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12859-016-0984-y",
+      "label": "10.1186/s12859-016-0984-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1088/1742-5468/2008/10/P10008",
+      "label": "10.1088/1742-5468/2008/10/P10008",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41598-019-41695-z",
+      "label": "10.1038/s41598-019-41695-z",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nargab/lqaa039",
+      "label": "10.1093/nargab/lqaa039",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btaa293",
+      "label": "10.1093/bioinformatics/btaa293",
+      "type": "reference"
+    },
+    {
+      "id": "10.3390/e24070995",
+      "label": "10.3390/e24070995",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12859-019-2599-6",
+      "label": "10.1186/s12859-019-2599-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.3390/genes12121947",
+      "label": "10.3390/genes12121947",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-020-15298-6",
+      "label": "10.1038/s41467-020-15298-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-019-0071-9",
+      "label": "10.1038/s41587-019-0071-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-020-14766-3",
+      "label": "10.1038/s41467-020-14766-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-024-44823-0",
+      "label": "10.1038/s41467-024-44823-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.3390/ijms23094497",
+      "label": "10.3390/ijms23094497",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.xplc.2022.100306",
+      "label": "10.1016/j.xplc.2022.100306",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.molp.2020.12.014",
+      "label": "10.1016/j.molp.2020.12.014",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.devcel.2024.03.016",
+      "label": "10.1016/j.devcel.2024.03.016",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.jdsr.2023.08.001",
+      "label": "10.1016/j.jdsr.2023.08.001",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.aba5257",
+      "label": "10.1126/science.aba5257",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkab1053",
+      "label": "10.1093/nar/gkab1053",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btac819",
+      "label": "10.1093/bioinformatics/btac819",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-019-1850-9",
+      "label": "10.1186/s13059-019-1850-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.4091",
+      "label": "10.1038/nbt.4091",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41421-019-0114-x",
+      "label": "10.1038/s41421-019-0114-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-019-0113-3",
+      "label": "10.1038/s41587-019-0113-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-019-0466-z",
+      "label": "10.1038/s41592-019-0466-z",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btz625",
+      "label": "10.1093/bioinformatics/btz625",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2019.05.006",
+      "label": "10.1016/j.cell.2019.05.006",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btx196",
+      "label": "10.1093/bioinformatics/btx196",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-019-0494-8",
+      "label": "10.1038/s41592-019-0494-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/biostatistics/kxj037",
+      "label": "10.1093/biostatistics/kxj037",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-018-08023-x",
+      "label": "10.1038/s41467-018-08023-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-0716-0327-7_17",
+      "label": "10.1007/978-1-0716-0327-7_17",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-021-26328-2",
+      "label": "10.1038/s41467-021-26328-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btac563",
+      "label": "10.1093/bioinformatics/btac563",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-019-0114-2",
+      "label": "10.1038/s41587-019-0114-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-019-12517-7",
+      "label": "10.1038/s41467-019-12517-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pcbi.1007510",
+      "label": "10.1371/journal.pcbi.1007510",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0263344",
+      "label": "10.1371/journal.pone.0263344",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41598-020-62330-2",
+      "label": "10.1038/s41598-020-62330-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btt090",
+      "label": "10.1093/bioinformatics/btt090",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-021-02290-6",
+      "label": "10.1186/s13059-021-02290-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.14348/molcells.2023.2178",
+      "label": "10.14348/molcells.2023.2178",
+      "type": "reference"
+    },
+    {
+      "id": "10.1158/2159-8290.CD-21-1443",
+      "label": "10.1158/2159-8290.CD-21-1443",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.joca.2021.12.007",
+      "label": "10.1016/j.joca.2021.12.007",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-022-28655-4",
+      "label": "10.1038/s41467-022-28655-4",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/plphys/kiae190",
+      "label": "10.1093/plphys/kiae190",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/plphys/kiae117",
+      "label": "10.1093/plphys/kiae117",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fgene.2019.01152",
+      "label": "10.3389/fgene.2019.01152",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13073-022-01019-9",
+      "label": "10.1186/s13073-022-01019-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12864-023-09553-5",
+      "label": "10.1186/s12864-023-09553-5",
+      "type": "reference"
+    },
+    {
+      "id": "10.1053/j.gastro.2023.05.037",
+      "label": "10.1053/j.gastro.2023.05.037",
+      "type": "reference"
+    },
+    {
+      "id": "10.3390/ijms23137167",
+      "label": "10.3390/ijms23137167",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/jxb/erad177",
+      "label": "10.1093/jxb/erad177",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.mcpro.2023.100561",
+      "label": "10.1016/j.mcpro.2023.100561",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s12935-023-03158-4",
+      "label": "10.1186/s12935-023-03158-4",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-023-40137-9",
+      "label": "10.1038/s41467-023-40137-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2023.01.002",
+      "label": "10.1016/j.cell.2023.01.002",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-019-11257-y",
+      "label": "10.1038/s41467-019-11257-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.15698/mic2021.09.759",
+      "label": "10.15698/mic2021.09.759",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.bpj.2018.06.008",
+      "label": "10.1016/j.bpj.2018.06.008",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41576-022-00449-w",
+      "label": "10.1038/s41576-022-00449-w",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.aam8940",
+      "label": "10.1126/science.aam8940",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2018.06.052",
+      "label": "10.1016/j.cell.2018.06.052",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41591-023-02327-2",
+      "label": "10.1038/s41591-023-02327-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-021-02519-4",
+      "label": "10.1186/s13059-021-02519-4",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.3370",
+      "label": "10.1038/nmeth.3370",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.3129",
+      "label": "10.1038/nbt.3129",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.xpro.2020.100125",
+      "label": "10.1016/j.xpro.2020.100125",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-4939-9240-9_21",
+      "label": "10.1007/978-1-4939-9240-9_21",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2019.05.034",
+      "label": "10.1016/j.cell.2019.05.034",
+      "type": "reference"
+    },
+    {
+      "id": "10.1039/C8AN01852A",
+      "label": "10.1039/C8AN01852A",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.tibtech.2020.02.013",
+      "label": "10.1016/j.tibtech.2020.02.013",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41596-022-00692-9",
+      "label": "10.1038/s41596-022-00692-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.stem.2020.11.015",
+      "label": "10.1016/j.stem.2020.11.015",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.257840.119",
+      "label": "10.1101/gr.257840.119",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nmeth.4380",
+      "label": "10.1038/nmeth.4380",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt.3973",
+      "label": "10.1038/nbt.3973",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41580-023-00615-w",
+      "label": "10.1038/s41580-023-00615-w",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.omto.2021.04.001",
+      "label": "10.1016/j.omto.2021.04.001",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cels.2019.06.006",
+      "label": "10.1016/j.cels.2019.06.006",
+      "type": "reference"
+    },
+    {
+      "id": "10.1186/s13059-024-03246-2",
+      "label": "10.1186/s13059-024-03246-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkac633",
+      "label": "10.1093/nar/gkac633",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.abk2432",
+      "label": "10.1126/science.abk2432",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-020-01033-y",
+      "label": "10.1038/s41592-020-01033-y",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-020-01037-8",
+      "label": "10.1038/s41592-020-01037-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-020-01038-7",
+      "label": "10.1038/s41592-020-01038-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41586-021-03634-9",
+      "label": "10.1038/s41586-021-03634-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41596-021-00573-7",
+      "label": "10.1038/s41596-021-00573-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41592-021-01264-7",
+      "label": "10.1038/s41592-021-01264-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-022-01233-1",
+      "label": "10.1038/s41587-022-01233-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-023-01697-9",
+      "label": "10.1038/s41587-023-01697-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-021-01139-4",
+      "label": "10.1038/s41587-021-01139-4",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/nar/gkab043",
+      "label": "10.1093/nar/gkab043",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.aat5691",
+      "label": "10.1126/science.aat5691",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.abd5059",
+      "label": "10.1126/science.abd5059",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.aax2656",
+      "label": "10.1126/science.aax2656",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41593-020-00787-0",
+      "label": "10.1038/s41593-020-00787-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.celrep.2021.109915",
+      "label": "10.1016/j.celrep.2021.109915",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2019.11.025",
+      "label": "10.1016/j.cell.2019.11.025",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.cell.2020.12.016",
+      "label": "10.1016/j.cell.2020.12.016",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nplants.2017.61",
+      "label": "10.1038/nplants.2017.61",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.immuni.2019.11.014",
+      "label": "10.1016/j.immuni.2019.11.014",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41596-020-0292-x",
+      "label": "10.1038/s41596-020-0292-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41467-021-21246-9",
+      "label": "10.1038/s41467-021-21246-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41587-023-01782-z",
+      "label": "10.1038/s41587-023-01782-z",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/s41576-020-00292-x",
+      "label": "10.1038/s41576-020-00292-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/2020.12.31.425022",
+      "label": "10.1101/2020.12.31.425022",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bib/bbz124",
+      "label": "10.1093/bib/bbz124",
+      "type": "reference"
     },
     {
       "id": "10.1007/978-981-10-1917-3_1",
@@ -310,23 +1767,8 @@
       "type": "reference"
     },
     {
-      "id": "10.1093/bioinformatics/bts094",
-      "label": "10.1093/bioinformatics/bts094",
-      "type": "reference"
-    },
-    {
-      "id": "10.1101/gr.8.3.175",
-      "label": "10.1101/gr.8.3.175",
-      "type": "reference"
-    },
-    {
       "id": "10.14806/ej.17.1.200",
       "label": "10.14806/ej.17.1.200",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/nbt.2023",
-      "label": "10.1038/nbt.2023",
       "type": "reference"
     },
     {
@@ -340,18 +1782,8 @@
       "type": "reference"
     },
     {
-      "id": "10.1038/nprot.2013.084",
-      "label": "10.1038/nprot.2013.084",
-      "type": "reference"
-    },
-    {
       "id": "10.1093/nar/gkv1290",
       "label": "10.1093/nar/gkv1290",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/nar/28.1.27",
-      "label": "10.1093/nar/28.1.27",
       "type": "reference"
     },
     {
@@ -380,23 +1812,8 @@
       "type": "reference"
     },
     {
-      "id": "10.1101/gr.196469.115",
-      "label": "10.1101/gr.196469.115",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/nmeth.1923",
-      "label": "10.1038/nmeth.1923",
-      "type": "reference"
-    },
-    {
       "id": "10.1093/bioinformatics/btp352",
       "label": "10.1093/bioinformatics/btp352",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/S0022-2836(05)80360-2",
-      "label": "10.1016/S0022-2836(05)80360-2",
       "type": "reference"
     },
     {
@@ -544,21 +1961,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1093/bioinformatics/btu170",
-      "label": "10.1093/bioinformatics/btu170",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/bioinformatics/btu638",
-      "label": "10.1093/bioinformatics/btu638",
-      "type": "reference"
-    },
-    {
-      "id": "10.1186/s13059-016-0881-8",
-      "label": "10.1186/s13059-016-0881-8",
-      "type": "reference"
-    },
-    {
       "id": "10.1093/bioinformatics/bty648",
       "label": "10.1093/bioinformatics/bty648",
       "type": "reference"
@@ -576,11 +1978,6 @@
     {
       "id": "10.1093/bib/bbs046",
       "label": "10.1093/bib/bbs046",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/bib/bbx008",
-      "label": "10.1093/bib/bbx008",
       "type": "reference"
     },
     {
@@ -1437,11 +2834,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1038/nmeth.1517",
-      "label": "10.1038/nmeth.1517",
-      "type": "reference"
-    },
-    {
       "id": "10.1038/nbt1486",
       "label": "10.1038/nbt1486",
       "type": "reference"
@@ -1595,12 +2987,6 @@
       "label": "Yeast synthetic biology for high-value metabolites",
       "type": "citedBy",
       "year": 2014
-    },
-    {
-      "id": "10.1074/jbc.m112.415836",
-      "label": "Functional Identification of Valerena-1,10-diene Synthase, a Terpene Synthase Catalyzing a Unique Chemical Cascade in the Biosynthesis of Biologically Active Sesquiterpenes in Valeriana officinalis",
-      "type": "citedBy",
-      "year": 2013
     },
     {
       "id": "10.1007/978-3-030-98701-5_15",
@@ -4108,11 +5494,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1038/s41598-023-39620-6",
-      "label": "10.1038/s41598-023-39620-6",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1016/j.fitote.2020.104680",
       "label": "10.1016/j.fitote.2020.104680",
       "type": "citedBy"
@@ -4120,11 +5501,6 @@
     {
       "id": "10.1007/s40502-016-0258-8",
       "label": "10.1007/s40502-016-0258-8",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.36255/exonpublications.bioinformatics.2021.ch7",
-      "label": "10.36255/exonpublications.bioinformatics.2021.ch7",
       "type": "citedBy"
     },
     {
@@ -4333,11 +5709,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1186/s12859-021-04078-8",
-      "label": "10.1186/s12859-021-04078-8",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1007/s11816-020-00647-0",
       "label": "10.1007/s11816-020-00647-0",
       "type": "citedBy"
@@ -4393,11 +5764,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1002/qub2.78",
-      "label": "10.1002/qub2.78",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1021/acs.jnatprod.6b00827",
       "label": "10.1021/acs.jnatprod.6b00827",
       "type": "citedBy"
@@ -4410,6 +5776,301 @@
     {
       "id": "10.1002/9783527681501.ch20",
       "label": "10.1002/9783527681501.ch20",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.amjmed.2006.02.026",
+      "label": "10.1016/j.amjmed.2006.02.026",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.phymed.2009.10.020",
+      "label": "10.1016/j.phymed.2009.10.020",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/(SICI)1099-1565(199605)7:3<143::AID-PCA284>3.0.CO;2-1",
+      "label": "10.1002/(SICI)1099-1565(199605)7:3<143::AID-PCA284>3.0.CO;2-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1211/0022357991772772",
+      "label": "10.1211/0022357991772772",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s11418-009-0340-x",
+      "label": "10.1007/s11418-009-0340-x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0040-4039(01)80169-6",
+      "label": "10.1016/S0040-4039(01)80169-6",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0031-9422(01)00018-8",
+      "label": "10.1016/S0031-9422(01)00018-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0040-4039(00)87695-9",
+      "label": "10.1016/S0040-4039(00)87695-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1742-4658.2012.08692.x",
+      "label": "10.1111/j.1742-4658.2012.08692.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1365-313X.2009.04083.x",
+      "label": "10.1111/j.1365-313X.2009.04083.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/bit.21216",
+      "label": "10.1002/bit.21216",
+      "type": "reference"
+    },
+    {
+      "id": "10.1271/bbb.64.1448",
+      "label": "10.1271/bbb.64.1448",
+      "type": "reference"
+    },
+    {
+      "id": "10.7164/antibiotics.36.1531",
+      "label": "10.7164/antibiotics.36.1531",
+      "type": "reference"
+    },
+    {
+      "id": "10.1074/jbc.270.13.7375",
+      "label": "10.1074/jbc.270.13.7375",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/prot.22751",
+      "label": "10.1002/prot.22751",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1365-313X.2011.04520.x",
+      "label": "10.1111/j.1365-313X.2011.04520.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.558651",
+      "label": "10.1126/science.558651",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/0040-4039(70)89009-8",
+      "label": "10.1016/0040-4039(70)89009-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1021/ja004652z",
+      "label": "10.1021/ja004652z",
+      "type": "reference"
+    },
+    {
+      "id": "10.1271/bbb.100297",
+      "label": "10.1271/bbb.100297",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1574-6968.1998.tb13274.x",
+      "label": "10.1111/j.1574-6968.1998.tb13274.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/nbt1251",
+      "label": "10.1038/nbt1251",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0031-9422(00)81590-3",
+      "label": "10.1016/S0031-9422(00)81590-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s11418-007-0199-7",
+      "label": "10.1007/s11418-007-0199-7",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.ymben.2018.03.005",
+      "label": "10.1016/j.ymben.2018.03.005",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1021/acs.biochem.1c00523",
+      "label": "10.1021/acs.biochem.1c00523",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1021/ol500792x",
+      "label": "10.1021/ol500792x",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/978-3-319-78274-4_4",
+      "label": "10.1007/978-3-319-78274-4_4",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s42994-021-00053-2",
+      "label": "10.1007/s42994-021-00053-2",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1104/pp.113.230466",
+      "label": "10.1104/pp.113.230466",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s11101-015-9450-0",
+      "label": "10.1007/s11101-015-9450-0",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1111/pce.12340",
+      "label": "10.1111/pce.12340",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1093/aob/mcu250",
+      "label": "10.1093/aob/mcu250",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1021/jacs.9b09864 10.26434/chemrxiv.9807938 10.26434/chemrxiv.9807938.v1",
+      "label": "10.1021/jacs.9b09864 10.26434/chemrxiv.9807938 10.26434/chemrxiv.9807938.v1",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.jbiotec.2017.10.004",
+      "label": "10.1016/j.jbiotec.2017.10.004",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1039/c3np20111b",
+      "label": "10.1039/c3np20111b",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1039/c4np00072b",
+      "label": "10.1039/c4np00072b",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.5772/intechopen.74998",
+      "label": "10.5772/intechopen.74998",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s11101-015-9451-z",
+      "label": "10.1007/s11101-015-9451-z",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.indcrop.2020.112234",
+      "label": "10.1016/j.indcrop.2020.112234",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.indcrop.2021.113821",
+      "label": "10.1016/j.indcrop.2021.113821",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1177/1934578x1300800901",
+      "label": "10.1177/1934578x1300800901",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s10886-013-0325-9",
+      "label": "10.1007/s10886-013-0325-9",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.ymben.2018.10.008",
+      "label": "10.1016/j.ymben.2018.10.008",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.phytochem.2024.114301",
+      "label": "10.1016/j.phytochem.2024.114301",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.pbi.2014.03.007",
+      "label": "10.1016/j.pbi.2014.03.007",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.febslet.2014.10.031",
+      "label": "10.1016/j.febslet.2014.10.031",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s10529-022-03264-9",
+      "label": "10.1007/s10529-022-03264-9",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.phytochem.2016.02.011",
+      "label": "10.1016/j.phytochem.2016.02.011",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/b978-0-12-409547-2.14807-3",
+      "label": "10.1016/b978-0-12-409547-2.14807-3",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1101/148338",
+      "label": "10.1101/148338",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1021/acscatal.6b00758",
+      "label": "10.1021/acscatal.6b00758",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.3390/metabo2041031",
+      "label": "10.3390/metabo2041031",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.indcrop.2024.118504",
+      "label": "10.1016/j.indcrop.2024.118504",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.indcrop.2025.120625",
+      "label": "10.1016/j.indcrop.2025.120625",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.4137/aci.s40292",
+      "label": "10.4137/aci.s40292",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1039/d3np00005b",
+      "label": "10.1039/d3np00005b",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s11103-015-0381-3",
+      "label": "10.1007/s11103-015-0381-3",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1177/1934578x1300801103",
+      "label": "10.1177/1934578x1300801103",
       "type": "citedBy"
     },
     {
@@ -4783,11 +6444,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1039/c4np00072b",
-      "label": "10.1039/c4np00072b",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1371/journal.pone.0103223",
       "label": "10.1371/journal.pone.0103223",
       "type": "citedBy"
@@ -5068,696 +6724,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.3390/nu5041169",
-      "label": "10.3390/nu5041169",
-      "type": "reference"
-    },
-    {
-      "id": "10.1146/annurev-arplant-043014-114759",
-      "label": "10.1146/annurev-arplant-043014-114759",
-      "type": "reference"
-    },
-    {
-      "id": "10.1104/pp.127.1.67",
-      "label": "10.1104/pp.127.1.67",
-      "type": "reference"
-    },
-    {
-      "id": "10.1534/g3.117.300511",
-      "label": "10.1534/g3.117.300511",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/s00122-012-1987-3",
-      "label": "10.1007/s00122-012-1987-3",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.1365-313X.2009.03899.x",
-      "label": "10.1111/j.1365-313X.2009.03899.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1002/tpg2.20008",
-      "label": "10.1002/tpg2.20008",
-      "type": "reference"
-    },
-    {
-      "id": "10.1136/bjo.83.7.867",
-      "label": "10.1136/bjo.83.7.867",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.2517-6161.1995.tb02031.x",
-      "label": "10.1111/j.2517-6161.1995.tb02031.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.1432-1033.1989.tb15000.x",
-      "label": "10.1111/j.1432-1033.1989.tb15000.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.2135/cropsci2009.09.0531",
-      "label": "10.2135/cropsci2009.09.0531",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.2517-6161.1964.tb00553.x",
-      "label": "10.1111/j.2517-6161.1964.tb00553.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/bioinformatics/btm308",
-      "label": "10.1093/bioinformatics/btm308",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/j.str.2017.06.002",
-      "label": "10.1016/j.str.2017.06.002",
-      "type": "reference"
-    },
-    {
-      "id": "10.1126/science.1174276",
-      "label": "10.1126/science.1174276",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/genetics/143.1.479",
-      "label": "10.1093/genetics/143.1.479",
-      "type": "reference"
-    },
-    {
-      "id": "10.1080/03610920902746630",
-      "label": "10.1080/03610920902746630",
-      "type": "reference"
-    },
-    {
-      "id": "10.1105/tpc.11.1.57",
-      "label": "10.1105/tpc.11.1.57",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/j.tplants.2010.02.003",
-      "label": "10.1016/j.tplants.2010.02.003",
-      "type": "reference"
-    },
-    {
-      "id": "10.2135/cropsci2012.02.0129",
-      "label": "10.2135/cropsci2012.02.0129",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/ng.2313",
-      "label": "10.1038/ng.2313",
-      "type": "reference"
-    },
-    {
-      "id": "10.4161/fly.19695",
-      "label": "10.4161/fly.19695",
-      "type": "reference"
-    },
-    {
-      "id": "10.1371/journal.pcbi.1001025",
-      "label": "10.1371/journal.pcbi.1001025",
-      "type": "reference"
-    },
-    {
-      "id": "10.2135/cropsci2013.11.0764",
-      "label": "10.2135/cropsci2013.11.0764",
-      "type": "reference"
-    },
-    {
-      "id": "10.2135/cropsci2014.08.0555",
-      "label": "10.2135/cropsci2014.08.0555",
-      "type": "reference"
-    },
-    {
-      "id": "10.1371/journal.pone.0019379",
-      "label": "10.1371/journal.pone.0019379",
-      "type": "reference"
-    },
-    {
-      "id": "10.1074/jbc.M100854200",
-      "label": "10.1074/jbc.M100854200",
-      "type": "reference"
-    },
-    {
-      "id": "10.1194/jlr.R039537",
-      "label": "10.1194/jlr.R039537",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/bioinformatics/btw354",
-      "label": "10.1093/bioinformatics/btw354",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/tpj.14539",
-      "label": "10.1111/tpj.14539",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.1365-313X.2005.02591.x",
-      "label": "10.1111/j.1365-313X.2005.02591.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.3389/fpls.2012.00260",
-      "label": "10.3389/fpls.2012.00260",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/ncomms3832",
-      "label": "10.1038/ncomms3832",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/s00122-012-2026-0",
-      "label": "10.1007/s00122-012-2026-0",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/j.jcs.2017.09.001",
-      "label": "10.1016/j.jcs.2017.09.001",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.1399-3054.1997.tb03449.x",
-      "label": "10.1111/j.1399-3054.1997.tb03449.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1371/journal.pone.0090346",
-      "label": "10.1371/journal.pone.0090346",
-      "type": "reference"
-    },
-    {
-      "id": "10.1104/pp.16.00604",
-      "label": "10.1104/pp.16.00604",
-      "type": "reference"
-    },
-    {
-      "id": "10.1105/tpc.113.119677",
-      "label": "10.1105/tpc.113.119677",
-      "type": "reference"
-    },
-    {
-      "id": "10.1126/science.1177837",
-      "label": "10.1126/science.1177837",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/S0065-2113(01)70004-1",
-      "label": "10.1016/S0065-2113(01)70004-1",
-      "type": "reference"
-    },
-    {
-      "id": "10.1126/science.1150255",
-      "label": "10.1126/science.1150255",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/S0014-5793(99)00360-9",
-      "label": "10.1016/S0014-5793(99)00360-9",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/tpj.14184",
-      "label": "10.1111/tpj.14184",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/hdy.2011.103",
-      "label": "10.1038/hdy.2011.103",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/j.bbabio.2011.04.012",
-      "label": "10.1016/j.bbabio.2011.04.012",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/jxb/erx476",
-      "label": "10.1093/jxb/erx476",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/s00344-005-0110-2",
-      "label": "10.1007/s00344-005-0110-2",
-      "type": "reference"
-    },
-    {
-      "id": "10.3390/molecules16021710",
-      "label": "10.3390/molecules16021710",
-      "type": "reference"
-    },
-    {
-      "id": "10.1186/gb-2013-14-4-r36",
-      "label": "10.1186/gb-2013-14-4-r36",
-      "type": "reference"
-    },
-    {
-      "id": "10.1126/science.aav0207",
-      "label": "10.1126/science.aav0207",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/S1369-5266(01)00219-9",
-      "label": "10.1016/S1369-5266(01)00219-9",
-      "type": "reference"
-    },
-    {
-      "id": "10.1146/annurev.nutr.23.011702.073307",
-      "label": "10.1146/annurev.nutr.23.011702.073307",
-      "type": "reference"
-    },
-    {
-      "id": "10.1101/gr.092759.109",
-      "label": "10.1101/gr.092759.109",
-      "type": "reference"
-    },
-    {
-      "id": "10.1023/A:1014893521186",
-      "label": "10.1023/A:1014893521186",
-      "type": "reference"
-    },
-    {
-      "id": "10.1104/pp.108.122119",
-      "label": "10.1104/pp.108.122119",
-      "type": "reference"
-    },
-    {
-      "id": "10.1371/journal.pone.0017573",
-      "label": "10.1371/journal.pone.0017573",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/978-3-319-39126-7_10",
-      "label": "10.1007/978-3-319-39126-7_10",
-      "type": "reference"
-    },
-    {
-      "id": "10.1111/j.1432-1033.1990.tb19130.x",
-      "label": "10.1111/j.1432-1033.1990.tb19130.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1126/science.1174320",
-      "label": "10.1126/science.1174320",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/s10681-017-1890-8",
-      "label": "10.1007/s10681-017-1890-8",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/hdy.2014.123",
-      "label": "10.1038/hdy.2014.123",
-      "type": "reference"
-    },
-    {
-      "id": "10.1534/genetics.114.169979",
-      "label": "10.1534/genetics.114.169979",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/978-1-62703-203-2_17",
-      "label": "10.1007/978-1-62703-203-2_17",
-      "type": "reference"
-    },
-    {
-      "id": "10.3389/fgene.2019.01392",
-      "label": "10.3389/fgene.2019.01392",
-      "type": "reference"
-    },
-    {
-      "id": "10.1104/pp.112.198556",
-      "label": "10.1104/pp.112.198556",
-      "type": "reference"
-    },
-    {
-      "id": "10.1534/genetics.120.303025",
-      "label": "10.1534/genetics.120.303025",
-      "type": "reference"
-    },
-    {
-      "id": "10.1199/tab.0079",
-      "label": "10.1199/tab.0079",
-      "type": "reference"
-    },
-    {
-      "id": "10.1073/pnas.1413864112",
-      "label": "10.1073/pnas.1413864112",
-      "type": "reference"
-    },
-    {
-      "id": "10.1104/pp.106.085886",
-      "label": "10.1104/pp.106.085886",
-      "type": "reference"
-    },
-    {
-      "id": "10.1105/tpc.108.062752",
-      "label": "10.1105/tpc.108.062752",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/j.gfs.2012.12.003",
-      "label": "10.1016/j.gfs.2012.12.003",
-      "type": "reference"
-    },
-    {
-      "id": "10.1214/aos/1176344136",
-      "label": "10.1214/aos/1176344136",
-      "type": "reference"
-    },
-    {
-      "id": "10.32614/RJ-2016-021",
-      "label": "10.32614/RJ-2016-021",
-      "type": "reference"
-    },
-    {
-      "id": "10.1104/pp.107.106336",
-      "label": "10.1104/pp.107.106336",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/j.bbadis.2004.12.006",
-      "label": "10.1016/j.bbadis.2004.12.006",
-      "type": "reference"
-    },
-    {
-      "id": "10.2135/cropsci2013.02.0096",
-      "label": "10.2135/cropsci2013.02.0096",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/s00122-015-2475-3",
-      "label": "10.1007/s00122-015-2475-3",
-      "type": "reference"
-    },
-    {
-      "id": "10.1126/science.aam9425",
-      "label": "10.1126/science.aam9425",
-      "type": "reference"
-    },
-    {
-      "id": "10.1534/genetics.116.198911",
-      "label": "10.1534/genetics.116.198911",
-      "type": "reference"
-    },
-    {
-      "id": "10.1046/j.1365-313X.2003.01786.x",
-      "label": "10.1046/j.1365-313X.2003.01786.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/ng.746",
-      "label": "10.1038/ng.746",
-      "type": "reference"
-    },
-    {
-      "id": "10.1073/pnas.2237237100",
-      "label": "10.1073/pnas.2237237100",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/nprot.2012.016",
-      "label": "10.1038/nprot.2012.016",
-      "type": "reference"
-    },
-    {
-      "id": "10.4161/psb.2.3.4156",
-      "label": "10.4161/psb.2.3.4156",
-      "type": "reference"
-    },
-    {
-      "id": "10.1534/genetics.109.100727",
-      "label": "10.1534/genetics.109.100727",
-      "type": "reference"
-    },
-    {
-      "id": "10.1074/jbc.M710106200",
-      "label": "10.1074/jbc.M710106200",
-      "type": "reference"
-    },
-    {
-      "id": "10.1371/journal.pgen.1004845",
-      "label": "10.1371/journal.pgen.1004845",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/BF02612988",
-      "label": "10.1007/BF02612988",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/jxb/erh064",
-      "label": "10.1093/jxb/erh064",
-      "type": "reference"
-    },
-    {
-      "id": "10.1007/978-1-59745-464-3_13",
-      "label": "10.1007/978-1-59745-464-3_13",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/jn/132.9.2857S",
-      "label": "10.1093/jn/132.9.2857S",
-      "type": "reference"
-    },
-    {
-      "id": "10.1046/j.1365-313X.1994.6020161.x",
-      "label": "10.1046/j.1365-313X.1994.6020161.x",
-      "type": "reference"
-    },
-    {
-      "id": "10.1016/S2214-109X(13)70145-1",
-      "label": "10.1016/S2214-109X(13)70145-1",
-      "type": "reference"
-    },
-    {
-      "id": "10.1105/tpc.11.1.43",
-      "label": "10.1105/tpc.11.1.43",
-      "type": "reference"
-    },
-    {
-      "id": "10.1038/ng.551",
-      "label": "10.1038/ng.551",
-      "type": "reference"
-    },
-    {
-      "id": "10.1534/genetics.107.074245",
-      "label": "10.1534/genetics.107.074245",
-      "type": "reference"
-    },
-    {
-      "id": "10.1073/pnas.0809737105",
-      "label": "10.1073/pnas.0809737105",
-      "type": "reference"
-    },
-    {
-      "id": "10.3390/ijms23063086",
-      "label": "10.3390/ijms23063086",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.3390/plants12193453",
-      "label": "10.3390/plants12193453",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1093/g3journal/jkac006",
-      "label": "10.1093/g3journal/jkac006",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1186/s12864-023-09323-3",
-      "label": "10.1186/s12864-023-09323-3",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1186/s12870-023-04176-0",
-      "label": "10.1186/s12870-023-04176-0",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.15407/agrisp11.01.077",
-      "label": "10.15407/agrisp11.01.077",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1016/bs.mie.2022.03.015",
-      "label": "10.1016/bs.mie.2022.03.015",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.3390/metabo12111010",
-      "label": "10.3390/metabo12111010",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1111/tpj.16618",
-      "label": "10.1111/tpj.16618",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1007/s12374-024-09453-5",
-      "label": "10.1007/s12374-024-09453-5",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1111/pbi.14346",
-      "label": "10.1111/pbi.14346",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1186/s12870-025-06585-9",
-      "label": "10.1186/s12870-025-06585-9",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1007/s00344-023-11121-w",
-      "label": "10.1007/s00344-023-11121-w",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1093/plcell/koae180",
-      "label": "10.1093/plcell/koae180",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.3923/ajps.2025.9.17",
-      "label": "10.3923/ajps.2025.9.17",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.3390/ijms23126565",
-      "label": "10.3390/ijms23126565",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1111/pbi.14259",
-      "label": "10.1111/pbi.14259",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1016/j.cdnut.2024.104478",
-      "label": "10.1016/j.cdnut.2024.104478",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1016/j.xplc.2021.100187",
-      "label": "10.1016/j.xplc.2021.100187",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1007/s11033-025-10378-6",
-      "label": "10.1007/s11033-025-10378-6",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.3389/fpls.2023.1119148",
-      "label": "10.3389/fpls.2023.1119148",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1101/2022.08.16.502005",
-      "label": "10.1101/2022.08.16.502005",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1016/j.copbio.2023.102968",
-      "label": "10.1016/j.copbio.2023.102968",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1007/s00299-022-02831-8",
-      "label": "10.1007/s00299-022-02831-8",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1021/acs.jafc.2c01951",
-      "label": "10.1021/acs.jafc.2c01951",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1002/tpg2.20205",
-      "label": "10.1002/tpg2.20205",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1093/plcell/koab039",
-      "label": "10.1093/plcell/koab039",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1101/2023.12.29.573624",
-      "label": "10.1101/2023.12.29.573624",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1093/g3journal/jkae044",
-      "label": "10.1093/g3journal/jkae044",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.21203/rs.3.rs-6839670/v1",
-      "label": "10.21203/rs.3.rs-6839670/v1",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1002/tpg2.20197",
-      "label": "10.1002/tpg2.20197",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1016/j.scienta.2023.112379",
-      "label": "10.1016/j.scienta.2023.112379",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1002/tpg2.20276",
-      "label": "10.1002/tpg2.20276",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1111/pbi.70086",
-      "label": "10.1111/pbi.70086",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1038/s41598-024-75451-9",
-      "label": "10.1038/s41598-024-75451-9",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1093/genetics/iyac091",
-      "label": "10.1093/genetics/iyac091",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1021/acs.jafc.2c06877",
-      "label": "10.1021/acs.jafc.2c06877",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1101/2021.11.24.469870",
-      "label": "10.1101/2021.11.24.469870",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1101/2021.09.24.461734",
-      "label": "10.1101/2021.09.24.461734",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1101/2022.04.01.486706",
-      "label": "10.1101/2022.04.01.486706",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1017/S0953756205003928",
       "label": "10.1017/S0953756205003928",
       "type": "reference"
@@ -5900,11 +6866,6 @@
     {
       "id": "10.1016/j.cpb.2018.09.003",
       "label": "10.1016/j.cpb.2018.09.003",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/bioinformatics/btv351",
-      "label": "10.1093/bioinformatics/btv351",
       "type": "reference"
     },
     {
@@ -6538,11 +7499,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1093/nar/gkv1070",
-      "label": "10.1093/nar/gkv1070",
-      "type": "reference"
-    },
-    {
       "id": "10.1371/journal.pbio.1001094",
       "label": "10.1371/journal.pbio.1001094",
       "type": "reference"
@@ -7083,11 +8039,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1093/nar/gkac963",
-      "label": "10.1093/nar/gkac963",
-      "type": "reference"
-    },
-    {
       "id": "10.1016/j.jmb.2015.11.006",
       "label": "10.1016/j.jmb.2015.11.006",
       "type": "reference"
@@ -7568,6 +8519,576 @@
       "type": "reference"
     },
     {
+      "id": "10.3390/nu5041169",
+      "label": "10.3390/nu5041169",
+      "type": "reference"
+    },
+    {
+      "id": "10.1146/annurev-arplant-043014-114759",
+      "label": "10.1146/annurev-arplant-043014-114759",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.127.1.67",
+      "label": "10.1104/pp.127.1.67",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/g3.117.300511",
+      "label": "10.1534/g3.117.300511",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s00122-012-1987-3",
+      "label": "10.1007/s00122-012-1987-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1365-313X.2009.03899.x",
+      "label": "10.1111/j.1365-313X.2009.03899.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/tpg2.20008",
+      "label": "10.1002/tpg2.20008",
+      "type": "reference"
+    },
+    {
+      "id": "10.1136/bjo.83.7.867",
+      "label": "10.1136/bjo.83.7.867",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.2517-6161.1995.tb02031.x",
+      "label": "10.1111/j.2517-6161.1995.tb02031.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1194/jlr.TR120000956",
+      "label": "10.1194/jlr.TR120000956",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1432-1033.1989.tb15000.x",
+      "label": "10.1111/j.1432-1033.1989.tb15000.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.2135/cropsci2009.09.0531",
+      "label": "10.2135/cropsci2009.09.0531",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.2517-6161.1964.tb00553.x",
+      "label": "10.1111/j.2517-6161.1964.tb00553.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btm308",
+      "label": "10.1093/bioinformatics/btm308",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.str.2017.06.002",
+      "label": "10.1016/j.str.2017.06.002",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pgen.1002383",
+      "label": "10.1371/journal.pgen.1002383",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.1174276",
+      "label": "10.1126/science.1174276",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/genetics/143.1.479",
+      "label": "10.1093/genetics/143.1.479",
+      "type": "reference"
+    },
+    {
+      "id": "10.1080/03610920902746630",
+      "label": "10.1080/03610920902746630",
+      "type": "reference"
+    },
+    {
+      "id": "10.18637/jss.v024.i02",
+      "label": "10.18637/jss.v024.i02",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.11.1.57",
+      "label": "10.1105/tpc.11.1.57",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.tplants.2010.02.003",
+      "label": "10.1016/j.tplants.2010.02.003",
+      "type": "reference"
+    },
+    {
+      "id": "10.2135/cropsci2012.02.0129",
+      "label": "10.2135/cropsci2012.02.0129",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0174270",
+      "label": "10.1371/journal.pone.0174270",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/ng.2313",
+      "label": "10.1038/ng.2313",
+      "type": "reference"
+    },
+    {
+      "id": "10.4161/fly.19695",
+      "label": "10.4161/fly.19695",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.8.9.1613",
+      "label": "10.1105/tpc.8.9.1613",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pcbi.1001025",
+      "label": "10.1371/journal.pcbi.1001025",
+      "type": "reference"
+    },
+    {
+      "id": "10.2135/cropsci2013.11.0764",
+      "label": "10.2135/cropsci2013.11.0764",
+      "type": "reference"
+    },
+    {
+      "id": "10.2135/cropsci2014.08.0555",
+      "label": "10.2135/cropsci2014.08.0555",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0019379",
+      "label": "10.1371/journal.pone.0019379",
+      "type": "reference"
+    },
+    {
+      "id": "10.1074/jbc.M100854200",
+      "label": "10.1074/jbc.M100854200",
+      "type": "reference"
+    },
+    {
+      "id": "10.1194/jlr.R039537",
+      "label": "10.1194/jlr.R039537",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/bioinformatics/btw354",
+      "label": "10.1093/bioinformatics/btw354",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/tpj.14539",
+      "label": "10.1111/tpj.14539",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1365-313X.2005.02591.x",
+      "label": "10.1111/j.1365-313X.2005.02591.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/ncomms3832",
+      "label": "10.1038/ncomms3832",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s00122-012-2026-0",
+      "label": "10.1007/s00122-012-2026-0",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.jcs.2017.09.001",
+      "label": "10.1016/j.jcs.2017.09.001",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1399-3054.1997.tb03449.x",
+      "label": "10.1111/j.1399-3054.1997.tb03449.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0090346",
+      "label": "10.1371/journal.pone.0090346",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.16.00604",
+      "label": "10.1104/pp.16.00604",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.113.119677",
+      "label": "10.1105/tpc.113.119677",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.1177837",
+      "label": "10.1126/science.1177837",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0065-2113(01)70004-1",
+      "label": "10.1016/S0065-2113(01)70004-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.1150255",
+      "label": "10.1126/science.1150255",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S0014-5793(99)00360-9",
+      "label": "10.1016/S0014-5793(99)00360-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1002/9780470650202.ch2",
+      "label": "10.1002/9780470650202.ch2",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/hdy.2011.103",
+      "label": "10.1038/hdy.2011.103",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.bbabio.2011.04.012",
+      "label": "10.1016/j.bbabio.2011.04.012",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/jxb/erx476",
+      "label": "10.1093/jxb/erx476",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/nph.15614",
+      "label": "10.1111/nph.15614",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s00122-013-2179-5",
+      "label": "10.1007/s00122-013-2179-5",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s00344-005-0110-2",
+      "label": "10.1007/s00344-005-0110-2",
+      "type": "reference"
+    },
+    {
+      "id": "10.3390/molecules16021710",
+      "label": "10.3390/molecules16021710",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.aav0207",
+      "label": "10.1126/science.aav0207",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S1369-5266(01)00219-9",
+      "label": "10.1016/S1369-5266(01)00219-9",
+      "type": "reference"
+    },
+    {
+      "id": "10.1146/annurev.nutr.23.011702.073307",
+      "label": "10.1146/annurev.nutr.23.011702.073307",
+      "type": "reference"
+    },
+    {
+      "id": "10.1101/gr.092759.109",
+      "label": "10.1101/gr.092759.109",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.108.122119",
+      "label": "10.1104/pp.108.122119",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pone.0017573",
+      "label": "10.1371/journal.pone.0017573",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-3-319-39126-7_10",
+      "label": "10.1007/978-3-319-39126-7_10",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.17.01830",
+      "label": "10.1104/pp.17.01830",
+      "type": "reference"
+    },
+    {
+      "id": "10.14806.17.1.200",
+      "label": "10.14806.17.1.200",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1432-1033.1990.tb19130.x",
+      "label": "10.1111/j.1432-1033.1990.tb19130.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.1174320",
+      "label": "10.1126/science.1174320",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.jhealeco.2012.01.002",
+      "label": "10.1016/j.jhealeco.2012.01.002",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s10681-017-1890-8",
+      "label": "10.1007/s10681-017-1890-8",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.7.12.2139",
+      "label": "10.1105/tpc.7.12.2139",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/hdy.2014.123",
+      "label": "10.1038/hdy.2014.123",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/genetics.114.169979",
+      "label": "10.1534/genetics.114.169979",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/978-1-62703-203-2_17",
+      "label": "10.1007/978-1-62703-203-2_17",
+      "type": "reference"
+    },
+    {
+      "id": "10.3389/fgene.2019.01392",
+      "label": "10.3389/fgene.2019.01392",
+      "type": "reference"
+    },
+    {
+      "id": "10.1021/jf60114a012",
+      "label": "10.1021/jf60114a012",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.112.198556",
+      "label": "10.1104/pp.112.198556",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/genetics.120.303025",
+      "label": "10.1534/genetics.120.303025",
+      "type": "reference"
+    },
+    {
+      "id": "10.1199/tab.0079",
+      "label": "10.1199/tab.0079",
+      "type": "reference"
+    },
+    {
+      "id": "10.1111/j.1365-313X.2009.03966.x",
+      "label": "10.1111/j.1365-313X.2009.03966.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1073/pnas.1413864112",
+      "label": "10.1073/pnas.1413864112",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.106.085886",
+      "label": "10.1104/pp.106.085886",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.108.062752",
+      "label": "10.1105/tpc.108.062752",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.gfs.2012.12.003",
+      "label": "10.1016/j.gfs.2012.12.003",
+      "type": "reference"
+    },
+    {
+      "id": "10.1214/aos/1176344136",
+      "label": "10.1214/aos/1176344136",
+      "type": "reference"
+    },
+    {
+      "id": "10.32614/RJ-2016-021",
+      "label": "10.32614/RJ-2016-021",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.107.106336",
+      "label": "10.1104/pp.107.106336",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.bbadis.2004.12.006",
+      "label": "10.1016/j.bbadis.2004.12.006",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.19.00755",
+      "label": "10.1105/tpc.19.00755",
+      "type": "reference"
+    },
+    {
+      "id": "10.2135/cropsci2013.02.0096",
+      "label": "10.2135/cropsci2013.02.0096",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/s00122-015-2475-3",
+      "label": "10.1007/s00122-015-2475-3",
+      "type": "reference"
+    },
+    {
+      "id": "10.1126/science.aam9425",
+      "label": "10.1126/science.aam9425",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.foodchem.2017.03.158",
+      "label": "10.1016/j.foodchem.2017.03.158",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/genetics.116.198911",
+      "label": "10.1534/genetics.116.198911",
+      "type": "reference"
+    },
+    {
+      "id": "10.1046/j.1365-313X.2003.01786.x",
+      "label": "10.1046/j.1365-313X.2003.01786.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/ng.746",
+      "label": "10.1038/ng.746",
+      "type": "reference"
+    },
+    {
+      "id": "10.1073/pnas.2237237100",
+      "label": "10.1073/pnas.2237237100",
+      "type": "reference"
+    },
+    {
+      "id": "10.4161/psb.2.3.4156",
+      "label": "10.4161/psb.2.3.4156",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/genetics.109.100727",
+      "label": "10.1534/genetics.109.100727",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.abb.2010.07.019",
+      "label": "10.1016/j.abb.2010.07.019",
+      "type": "reference"
+    },
+    {
+      "id": "10.1074/jbc.M710106200",
+      "label": "10.1074/jbc.M710106200",
+      "type": "reference"
+    },
+    {
+      "id": "10.1371/journal.pgen.1004845",
+      "label": "10.1371/journal.pgen.1004845",
+      "type": "reference"
+    },
+    {
+      "id": "10.1007/BF02612988",
+      "label": "10.1007/BF02612988",
+      "type": "reference"
+    },
+    {
+      "id": "10.1093/jxb/erh064",
+      "label": "10.1093/jxb/erh064",
+      "type": "reference"
+    },
+    {
+      "id": "10.1023/A:1006021522259",
+      "label": "10.1023/A:1006021522259",
+      "type": "reference"
+    },
+    {
+      "id": "10.1046/j.1365-313X.1994.6020161.x",
+      "label": "10.1046/j.1365-313X.1994.6020161.x",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/S2214-109X(13)70145-1",
+      "label": "10.1016/S2214-109X(13)70145-1",
+      "type": "reference"
+    },
+    {
+      "id": "10.1105/tpc.11.1.43",
+      "label": "10.1105/tpc.11.1.43",
+      "type": "reference"
+    },
+    {
+      "id": "10.1038/ng.551",
+      "label": "10.1038/ng.551",
+      "type": "reference"
+    },
+    {
+      "id": "10.1534/genetics.107.074245",
+      "label": "10.1534/genetics.107.074245",
+      "type": "reference"
+    },
+    {
+      "id": "10.1104/pp.18.01148",
+      "label": "10.1104/pp.18.01148",
+      "type": "reference"
+    },
+    {
+      "id": "10.1073/pnas.0809737105",
+      "label": "10.1073/pnas.0809737105",
+      "type": "reference"
+    },
+    {
+      "id": "10.1016/j.foodres.2022.111303",
+      "label": "10.1016/j.foodres.2022.111303",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1007/s00299-022-02831-8",
+      "label": "10.1007/s00299-022-02831-8",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1101/2021.09.01.458275",
+      "label": "10.1101/2021.09.01.458275",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.foohum.2024.100371",
+      "label": "10.1016/j.foohum.2024.100371",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1016/0005-2744(71)90051-9",
       "label": "10.1016/0005-2744(71)90051-9",
       "type": "reference"
@@ -7890,11 +9411,6 @@
     {
       "id": "10.1105/tpc.111.090324",
       "label": "10.1105/tpc.111.090324",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/bioinformatics/btp616",
-      "label": "10.1093/bioinformatics/btp616",
       "type": "reference"
     },
     {
@@ -8698,11 +10214,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1104/pp.113.230466",
-      "label": "10.1104/pp.113.230466",
-      "type": "reference"
-    },
-    {
       "id": "10.1093/pcp/pcm018",
       "label": "10.1093/pcp/pcm018",
       "type": "reference"
@@ -9153,11 +10664,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1016/b978-0-12-409547-2.14807-3",
-      "label": "10.1016/b978-0-12-409547-2.14807-3",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1016/j.plaphy.2024.108439",
       "label": "10.1016/j.plaphy.2024.108439",
       "type": "citedBy"
@@ -9338,6 +10844,11 @@
       "type": "citedBy"
     },
     {
+      "id": "10.1093/g3journal/jkac006",
+      "label": "10.1093/g3journal/jkac006",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1007/s10142-019-00707-x",
       "label": "10.1007/s10142-019-00707-x",
       "type": "citedBy"
@@ -9345,6 +10856,11 @@
     {
       "id": "10.1073/pnas.2113488119",
       "label": "10.1073/pnas.2113488119",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1111/tpj.14184",
+      "label": "10.1111/tpj.14184",
       "type": "citedBy"
     },
     {
@@ -9405,6 +10921,11 @@
     {
       "id": "10.1111/tpj.70414",
       "label": "10.1111/tpj.70414",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1093/plcell/koab032",
+      "label": "10.1093/plcell/koab032",
       "type": "citedBy"
     },
     {
@@ -9513,6 +11034,11 @@
       "type": "citedBy"
     },
     {
+      "id": "10.1016/j.xplc.2021.100187",
+      "label": "10.1016/j.xplc.2021.100187",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1007/978-3-031-26669-0_12",
       "label": "10.1007/978-3-031-26669-0_12",
       "type": "citedBy"
@@ -9528,6 +11054,11 @@
       "type": "citedBy"
     },
     {
+      "id": "10.1101/2022.08.16.502005",
+      "label": "10.1101/2022.08.16.502005",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1080/07352689.2021.1880019",
       "label": "10.1080/07352689.2021.1880019",
       "type": "citedBy"
@@ -9540,6 +11071,11 @@
     {
       "id": "10.1016/j.phytochem.2021.112684",
       "label": "10.1016/j.phytochem.2021.112684",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1016/j.copbio.2023.102968",
+      "label": "10.1016/j.copbio.2023.102968",
       "type": "citedBy"
     },
     {
@@ -9583,6 +11119,11 @@
       "type": "citedBy"
     },
     {
+      "id": "10.1002/tpg2.20205",
+      "label": "10.1002/tpg2.20205",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1016/j.cj.2019.08.002",
       "label": "10.1016/j.cj.2019.08.002",
       "type": "citedBy"
@@ -9608,13 +11149,13 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1101/2021.09.01.458275",
-      "label": "10.1101/2021.09.01.458275",
+      "id": "10.1007/s13562-018-0470-x",
+      "label": "10.1007/s13562-018-0470-x",
       "type": "citedBy"
     },
     {
-      "id": "10.1007/s13562-018-0470-x",
-      "label": "10.1007/s13562-018-0470-x",
+      "id": "10.1002/tpg2.20197",
+      "label": "10.1002/tpg2.20197",
       "type": "citedBy"
     },
     {
@@ -9645,6 +11186,11 @@
     {
       "id": "10.1007/978-3-031-21640-4_4",
       "label": "10.1007/978-3-031-21640-4_4",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1002/tpg2.20276",
+      "label": "10.1002/tpg2.20276",
       "type": "citedBy"
     },
     {
@@ -9688,6 +11234,11 @@
       "type": "citedBy"
     },
     {
+      "id": "10.1093/genetics/iyac091",
+      "label": "10.1093/genetics/iyac091",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1016/j.pbi.2020.01.006",
       "label": "10.1016/j.pbi.2020.01.006",
       "type": "citedBy"
@@ -9728,8 +11279,8 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1101/2020.07.15.203448",
-      "label": "10.1101/2020.07.15.203448",
+      "id": "10.1101/2021.11.24.469870",
+      "label": "10.1101/2021.11.24.469870",
       "type": "citedBy"
     },
     {
@@ -9753,8 +11304,18 @@
       "type": "citedBy"
     },
     {
+      "id": "10.1101/2021.09.24.461734",
+      "label": "10.1101/2021.09.24.461734",
+      "type": "citedBy"
+    },
+    {
       "id": "10.1016/j.jbc.2025.110404",
       "label": "10.1016/j.jbc.2025.110404",
+      "type": "citedBy"
+    },
+    {
+      "id": "10.1101/2022.04.01.486706",
+      "label": "10.1101/2022.04.01.486706",
       "type": "citedBy"
     },
     {
@@ -9870,11 +11431,6 @@
     {
       "id": "10.1093/bioinformatics/bth078",
       "label": "10.1093/bioinformatics/bth078",
-      "type": "reference"
-    },
-    {
-      "id": "10.1039/c3np20111b",
-      "label": "10.1039/c3np20111b",
       "type": "reference"
     },
     {
@@ -10000,11 +11556,6 @@
     {
       "id": "10.1055/s-0028-1112199",
       "label": "10.1055/s-0028-1112199",
-      "type": "reference"
-    },
-    {
-      "id": "10.3390/metabo2041031",
-      "label": "10.3390/metabo2041031",
       "type": "reference"
     },
     {
@@ -11698,11 +13249,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1093/nar/gkaa913",
-      "label": "10.1093/nar/gkaa913",
-      "type": "reference"
-    },
-    {
       "id": "10.1186/s12859-015-0611-3",
       "label": "10.1186/s12859-015-0611-3",
       "type": "reference"
@@ -11948,11 +13494,6 @@
       "type": "citedBy"
     },
     {
-      "id": "10.1007/s11101-015-9450-0",
-      "label": "10.1007/s11101-015-9450-0",
-      "type": "citedBy"
-    },
-    {
       "id": "10.1038/srep40453",
       "label": "10.1038/srep40453",
       "type": "citedBy"
@@ -12060,11 +13601,6 @@
     {
       "id": "10.1007/978-981-10-1085-9_5",
       "label": "10.1007/978-981-10-1085-9_5",
-      "type": "citedBy"
-    },
-    {
-      "id": "10.1007/s11101-015-9451-z",
-      "label": "10.1007/s11101-015-9451-z",
       "type": "citedBy"
     },
     {
@@ -13333,11 +14869,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1371/journal.pone.0263344",
-      "label": "10.1371/journal.pone.0263344",
-      "type": "reference"
-    },
-    {
       "id": "10.1371/journal.pone.0237975",
       "label": "10.1371/journal.pone.0237975",
       "type": "reference"
@@ -13403,11 +14934,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1186/1471-2105-9-559",
-      "label": "10.1186/1471-2105-9-559",
-      "type": "reference"
-    },
-    {
       "id": "10.3389/fpls.2016.00444",
       "label": "10.3389/fpls.2016.00444",
       "type": "reference"
@@ -13448,18 +14974,8 @@
       "type": "reference"
     },
     {
-      "id": "10.1093/bioinformatics/bts635",
-      "label": "10.1093/bioinformatics/bts635",
-      "type": "reference"
-    },
-    {
       "id": "10.3390/genes8080200",
       "label": "10.3390/genes8080200",
-      "type": "reference"
-    },
-    {
-      "id": "10.1186/s12967-021-02936-w",
-      "label": "10.1186/s12967-021-02936-w",
       "type": "reference"
     },
     {
@@ -13470,11 +14986,6 @@
     {
       "id": "10.1093/nar/gky1038",
       "label": "10.1093/nar/gky1038",
-      "type": "reference"
-    },
-    {
-      "id": "10.1093/nar/gkw1108",
-      "label": "10.1093/nar/gkw1108",
       "type": "reference"
     },
     {
@@ -14218,11 +15729,6 @@
       "type": "reference"
     },
     {
-      "id": "10.1186/s13059-014-0550-8",
-      "label": "10.1186/s13059-014-0550-8",
-      "type": "reference"
-    },
-    {
       "id": "10.1007/978-3-319-33705-0_15",
       "label": "10.1007/978-3-319-33705-0_15",
       "type": "reference"
@@ -14499,6 +16005,1461 @@
     }
   ],
   "links": [
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41576-019-0150-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3390/biology12070997",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1002/wrna.1364",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-020-19015-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/s00281-022-00972-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41586-020-2739-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2020.04.011",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41421-020-0168-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.tplants.2018.11.008",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12870-019-1794-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/cdn/nzz082",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.livsci.2014.06.015",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41525-023-00387-4",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fpls.2023.1135455",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1261/rna.053959.115",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btt688",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bib/bbr004",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fpls.2018.00108",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1146/annurev-biodatasci-072018-021255",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nprot.2006.83",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.2144/000112401",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12864-020-6673-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-021-01108-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0123730",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-1-4939-9045-0_16",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nargab/lqab019",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.humimm.2021.02.012",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1111/tpj.14120",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-022-01724-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.12688/f1000research.10571.2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-020-01041-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-021-01171-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-021-25960-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-022-02601-5",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.molcel.2017.01.023",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fnins.2021.591122",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1002/ctm2.694",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cpb.2023.100289",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1080/21541264.2023.2200721",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.crmeth.2023.100591",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13045-023-01494-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/gb-2013-14-4-r31",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.2282",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.2639",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-016-0938-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2015.05.002",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2015.04.044",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/ncomms14049",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.110882.110",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41423-019-0214-4",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.8.3.175",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkp1137",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/B978-0-323-89775-4.00016-X",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-016-0881-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12859-019-3015-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btu170",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41598-021-98124-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/bty560",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioadv/vbac085",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nprot.2013.084",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/bts094",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btu077",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/gigascience/giz100",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-019-1690-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.260174.119",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-023-38553-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/bty098",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0163962",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.196469.115",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btw218",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btv351",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/bts565",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.1923",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/bts635",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.3317",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.3122",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btu638",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btt656",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.4197",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-014-0550-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btp616",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkv007",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1089/omi.2011.0118",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fgene.2019.00858",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btac757",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/1471-2105-9-559",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fgene.2021.760225",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btad415",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.2023",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.1517",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/s11033-024-09608-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13287-024-03740-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btw625",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/gigascience/giz039",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41598-023-39620-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btt396",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1002/ece3.5571",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.36255/exonpublications.bioinformatics.2021.ch7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12859-021-04078-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1039/c3np20099j",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bib/bbab563",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gky1053",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/gigascience/giac001",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.celrep.2020.108491",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-023-02908-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41597-023-02217-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/gb-2013-14-4-r36",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nprot.2012.016",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.4020",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-019-1670-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btp698",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fpls.2021.657240",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/2021.05.05.442755",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1534/g3.120.401160",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-022-01408-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.3519",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.209601.116",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pcbi.1006361",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/gigascience/giy059",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12859-019-2797-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-021-00870-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-017-1188-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkx681",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.4662",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-020-15851-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/bty332",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-015-0844-5",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pcbi.1004575",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12864-018-4772-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-019-1663-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/079509",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.4096",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-017-1382-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41586-019-0969-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.4150",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s43588-022-00216-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fimmu.2021.737332",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-021-02552-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btaa751",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0130262",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-1-0716-1307-8_19",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fbioe.2019.00358",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bib/bbx008",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12859-019-3247-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12967-021-02936-w",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0190152",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.124321.111",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkv711",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0232271",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkw1108",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/28.1.27",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkv1070",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkac963",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkad347",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0013984",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-1-4939-3743-1_14",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/S0022-2836(05)80360-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-019-0532-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkaa913",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1002/pro.4218",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.5772/intechopen.94069",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-3-319-07212-8_10",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.mex.2023.102518",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-1-0716-2067-0_19",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bib/bbz122",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-022-35095-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fpls.2023.1079218",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.21203/rs.3.rs-3961672/v1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.4292",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.15252/msb.20188746",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1261/rna.078965.121",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fgene.2020.00041",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41576-023-00586-w",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bib/bby011",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fgene.2021.646936",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.coisb.2021.05.005",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkac219",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.4236",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41576-018-0088-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-018-04368-5",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-019-1898-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1109/TIT.1982.1056489",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12859-016-0984-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1088/1742-5468/2008/10/P10008",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41598-019-41695-z",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nargab/lqaa039",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btaa293",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3390/e24070995",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12859-019-2599-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3390/genes12121947",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-020-15298-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-019-0071-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-020-14766-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-024-44823-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3390/ijms23094497",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.xplc.2022.100306",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.molp.2020.12.014",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.devcel.2024.03.016",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.jdsr.2023.08.001",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1126/science.aba5257",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkab1053",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btac819",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-019-1850-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.4091",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41421-019-0114-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-019-0113-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-019-0466-z",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btz625",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2019.05.006",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btx196",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-019-0494-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/biostatistics/kxj037",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-018-08023-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-1-0716-0327-7_17",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-021-26328-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btac563",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-019-0114-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-019-12517-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pcbi.1007510",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1371/journal.pone.0263344",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3390/genes14122223",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41598-020-62330-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bioinformatics/btt090",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-021-02290-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.14348/molcells.2023.2178",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1158/2159-8290.CD-21-1443",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.joca.2021.12.007",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-022-28655-4",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/plphys/kiae190",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/plphys/kiae117",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3389/fgene.2019.01152",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13073-022-01019-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12864-023-09553-5",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1053/j.gastro.2023.05.037",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.3390/ijms23137167",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/jxb/erad177",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.mcpro.2023.100561",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s12935-023-03158-4",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-023-40137-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2023.01.002",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-019-11257-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.15698/mic2021.09.759",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.bpj.2018.06.008",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41576-022-00449-w",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1126/science.aam8940",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2018.06.052",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41591-023-02327-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-021-02519-4",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.3370",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.3129",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.xpro.2020.100125",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1007/978-1-4939-9240-9_21",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2019.05.034",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1039/C8AN01852A",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.tibtech.2020.02.013",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41596-022-00692-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.stem.2020.11.015",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/gr.257840.119",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nmeth.4380",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nbt.3973",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41580-023-00615-w",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.omto.2021.04.001",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cels.2019.06.006",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1186/s13059-024-03246-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkac633",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1126/science.abk2432",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-020-01033-y",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-020-01037-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-020-01038-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41586-021-03634-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41596-021-00573-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41592-021-01264-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-022-01233-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-023-01697-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-021-01139-4",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/nar/gkab043",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1126/science.aat5691",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1126/science.abd5059",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1126/science.aax2656",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41593-020-00787-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.celrep.2021.109915",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2019.11.025",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.cell.2020.12.016",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/nplants.2017.61",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1016/j.immuni.2019.11.014",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41596-020-0292-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41467-021-21246-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41587-023-01782-z",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1038/s41576-020-00292-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1101/2020.12.31.425022",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1002/qub2.78",
+      "target": "10.1093/bib/bbz124",
+      "relation": "reference"
+    },
     {
       "source": "10.1007/978-1-4939-8594-4_29",
       "target": "10.1007/978-981-10-1917-3_1",
@@ -18930,6 +21891,356 @@
       "relation": "citedBy"
     },
     {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/j.amjmed.2006.02.026",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/j.phymed.2009.10.020",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1002/(SICI)1099-1565(199605)7:3<143::AID-PCA284>3.0.CO;2-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1211/0022357991772772",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1007/s11418-009-0340-x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/S0040-4039(01)80169-6",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/S0031-9422(01)00018-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/S0040-4039(00)87695-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1111/j.1742-4658.2012.08692.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1111/j.1365-313X.2009.04083.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/B978-0-12-404634-4.00007-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1093/nar/25.17.3389",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1093/bioinformatics/btm098",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1093/nar/gkr1065",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1093/bioinformatics/btp120",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1038/nprot.2012.016",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1002/bit.21216",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1271/bbb.64.1448",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.7164/antibiotics.36.1531",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1074/jbc.270.13.7375",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1002/prot.22751",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1111/j.1365-313X.2011.04520.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1126/science.558651",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/0040-4039(70)89009-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1021/ja004652z",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1271/bbb.100297",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1111/j.1574-6968.1998.tb13274.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1038/nbt1251",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1016/S0031-9422(00)81590-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1074/jbc.m112.415836",
+      "target": "10.1007/s11418-007-0199-7",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1016/j.ymben.2018.03.005",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1021/acs.biochem.1c00523",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1021/ol500792x",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/978-3-319-78274-4_4",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s42994-021-00053-2",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1104/pp.113.230466",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s11101-015-9450-0",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1111/pce.12340",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1093/aob/mcu250",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1021/jacs.9b09864 10.26434/chemrxiv.9807938 10.26434/chemrxiv.9807938.v1",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.jbiotec.2017.10.004",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1039/c3np20111b",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1105/tpc.16.00062",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1039/c4np00072b",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.5772/intechopen.74998",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s11101-015-9451-z",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.indcrop.2020.112234",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.indcrop.2021.113821",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1177/1934578x1300800901",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s11295-016-1090-z",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s10886-013-0325-9",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1111/tpj.13295",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.ymben.2018.10.008",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1111/1567-1364.12187",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.phytochem.2024.114301",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.pbi.2014.03.007",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.febslet.2014.10.031",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s10529-022-03264-9",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.phytochem.2016.02.011",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/b978-0-12-409547-2.14807-3",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1101/148338",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1021/acscatal.6b00758",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.3390/metabo2041031",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.indcrop.2024.118504",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.indcrop.2025.120625",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.4137/aci.s40292",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1039/d3np00005b",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s11103-015-0381-3",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.3389/fpls.2016.01883",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1177/1934578x1300801103",
+      "target": "10.1074/jbc.m112.415836",
+      "relation": "citedBy"
+    },
+    {
       "source": "10.1093/pcp/pct040",
       "target": "10.1093/pcp/pcr165",
       "relation": "reference"
@@ -19642,711 +22953,6 @@
     {
       "source": "10.1007/s00344-024-11238-6",
       "target": "10.1093/pcp/pct040",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.3390/nu5041169",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1146/annurev-arplant-043014-114759",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1104/pp.127.1.67",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1534/g3.117.300511",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/s00122-012-1987-3",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.1365-313X.2009.03899.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1002/tpg2.20008",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1136/bjo.83.7.867",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.2517-6161.1995.tb02031.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.1432-1033.1989.tb15000.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.2135/cropsci2009.09.0531",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.2517-6161.1964.tb00553.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/bioinformatics/btm308",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/j.str.2017.06.002",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1126/science.1174276",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/genetics/143.1.479",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1080/03610920902746630",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1105/tpc.11.1.57",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/j.tplants.2010.02.003",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.2135/cropsci2012.02.0129",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/ng.2313",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.4161/fly.19695",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1371/journal.pcbi.1001025",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.2135/cropsci2013.11.0764",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1105/tpc.17.00475",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.2135/cropsci2014.08.0555",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1371/journal.pone.0019379",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1074/jbc.M100854200",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1194/jlr.R039537",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/bioinformatics/btw354",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/tpj.14539",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.1365-313X.2005.02591.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.3389/fpls.2012.00260",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/ncomms3832",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/s00122-012-2026-0",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/j.jcs.2017.09.001",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.1399-3054.1997.tb03449.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1371/journal.pone.0090346",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1104/pp.16.00604",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1105/tpc.113.119677",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1126/science.1177837",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/S0065-2113(01)70004-1",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1126/science.1150255",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/S0014-5793(99)00360-9",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/tpj.14184",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/hdy.2011.103",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/j.bbabio.2011.04.012",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/jxb/erx476",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/s00344-005-0110-2",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.3390/molecules16021710",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1186/gb-2013-14-4-r36",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1126/science.aav0207",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/S1369-5266(01)00219-9",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1146/annurev.nutr.23.011702.073307",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1101/gr.092759.109",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1023/A:1014893521186",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1104/pp.108.122119",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1371/journal.pone.0017573",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/978-3-319-39126-7_10",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.14806/ej.17.1.200",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1111/j.1432-1033.1990.tb19130.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1126/science.1174320",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/s10681-017-1890-8",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/hdy.2014.123",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1534/genetics.114.169979",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/978-1-62703-203-2_17",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/nar/gky1046",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.3389/fgene.2019.01392",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1104/pp.112.198556",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1534/genetics.120.303025",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1199/tab.0079",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1073/pnas.1413864112",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1104/pp.106.085886",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1105/tpc.108.062752",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/j.gfs.2012.12.003",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1214/aos/1176344136",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.32614/RJ-2016-021",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1104/pp.107.106336",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/j.bbadis.2004.12.006",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.2135/cropsci2013.02.0096",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/s00122-015-2475-3",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1126/science.aam9425",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1534/genetics.116.198911",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1046/j.1365-313X.2003.01786.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/ng.746",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1073/pnas.2237237100",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/nprot.2012.016",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.4161/psb.2.3.4156",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1534/genetics.109.100727",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1074/jbc.M710106200",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1371/journal.pgen.1004845",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/BF02612988",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/jxb/erh064",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1007/978-1-59745-464-3_13",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1093/jn/132.9.2857S",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1046/j.1365-313X.1994.6020161.x",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1016/S2214-109X(13)70145-1",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1105/tpc.11.1.43",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1038/ng.551",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1534/genetics.107.074245",
-      "relation": "reference"
-    },
-    {
-      "source": "10.1093/plcell/koab032",
-      "target": "10.1073/pnas.0809737105",
-      "relation": "reference"
-    },
-    {
-      "source": "10.3390/ijms23063086",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.3390/plants12193453",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1093/g3journal/jkac006",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1186/s12864-023-09323-3",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1186/s12870-023-04176-0",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.15407/agrisp11.01.077",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1016/bs.mie.2022.03.015",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.3390/metabo12111010",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1111/tpj.16618",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1007/s12374-024-09453-5",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1111/pbi.14346",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1186/s12870-025-06585-9",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1007/s00344-023-11121-w",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1093/plcell/koae180",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.3923/ajps.2025.9.17",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.3390/ijms23126565",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1111/pbi.14259",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1016/j.cdnut.2024.104478",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1016/j.xplc.2021.100187",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1007/s11033-025-10378-6",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.3389/fpls.2023.1119148",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1101/2022.08.16.502005",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1016/j.copbio.2023.102968",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1007/s00299-022-02831-8",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1021/acs.jafc.2c01951",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1002/tpg2.20205",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1093/plcell/koab039",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1101/2023.12.29.573624",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1093/g3journal/jkae044",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.21203/rs.3.rs-6839670/v1",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1002/tpg2.20197",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1016/j.scienta.2023.112379",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1002/tpg2.20276",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1111/pbi.70086",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1038/s41598-024-75451-9",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1093/genetics/iyac091",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1021/acs.jafc.2c06877",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1101/2021.11.24.469870",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1101/2021.09.24.461734",
-      "target": "10.1093/plcell/koab032",
-      "relation": "citedBy"
-    },
-    {
-      "source": "10.1101/2022.04.01.486706",
-      "target": "10.1093/plcell/koab032",
       "relation": "citedBy"
     },
     {
@@ -22488,6 +25094,596 @@
       "source": "10.1099/mgen.0.001382",
       "target": "10.1038/s41564-022-01228-3",
       "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.3390/nu5041169",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1146/annurev-arplant-043014-114759",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.127.1.67",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1534/g3.117.300511",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/s00122-012-1987-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.1365-313X.2009.03899.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1002/tpg2.20008",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1136/bjo.83.7.867",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.2517-6161.1995.tb02031.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1194/jlr.TR120000956",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.1432-1033.1989.tb15000.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.2135/cropsci2009.09.0531",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.2517-6161.1964.tb00553.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1093/bioinformatics/btm308",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.str.2017.06.002",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pgen.1002383",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1126/science.1174276",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1093/genetics/143.1.479",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1080/03610920902746630",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.18637/jss.v024.i02",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.11.1.57",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.tplants.2010.02.003",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.2135/cropsci2012.02.0129",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pone.0174270",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/ng.2313",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.4161/fly.19695",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.8.9.1613",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pcbi.1001025",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.2135/cropsci2013.11.0764",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.17.00475",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.2135/cropsci2014.08.0555",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pone.0019379",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1074/jbc.M100854200",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1194/jlr.R039537",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1093/bioinformatics/btw354",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/tpj.14539",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.1365-313X.2005.02591.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/ncomms3832",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/s00122-012-2026-0",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.jcs.2017.09.001",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.1399-3054.1997.tb03449.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pone.0090346",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.16.00604",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.113.119677",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1126/science.1177837",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/S0065-2113(01)70004-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1126/science.1150255",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/S0014-5793(99)00360-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1002/9780470650202.ch2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/hdy.2011.103",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.bbabio.2011.04.012",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1093/jxb/erx476",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/nph.15614",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/s00122-013-2179-5",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/s00344-005-0110-2",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.3390/molecules16021710",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1186/gb-2013-14-4-r36",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1126/science.aav0207",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/S1369-5266(01)00219-9",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1146/annurev.nutr.23.011702.073307",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1101/gr.092759.109",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.108.122119",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pone.0017573",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/978-3-319-39126-7_10",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.17.01830",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.14806.17.1.200",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.1432-1033.1990.tb19130.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1126/science.1174320",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.jhealeco.2012.01.002",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/s10681-017-1890-8",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.7.12.2139",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/hdy.2014.123",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1534/genetics.114.169979",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/978-1-62703-203-2_17",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1093/nar/gky1046",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.3389/fgene.2019.01392",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1021/jf60114a012",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.112.198556",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1534/genetics.120.303025",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1199/tab.0079",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1111/j.1365-313X.2009.03966.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1073/pnas.1413864112",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.106.085886",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.108.062752",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.gfs.2012.12.003",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1214/aos/1176344136",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.32614/RJ-2016-021",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.107.106336",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.bbadis.2004.12.006",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.19.00755",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.2135/cropsci2013.02.0096",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/s00122-015-2475-3",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1126/science.aam9425",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.foodchem.2017.03.158",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1534/genetics.116.198911",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1046/j.1365-313X.2003.01786.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/ng.746",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1073/pnas.2237237100",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/nprot.2012.016",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.4161/psb.2.3.4156",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1534/genetics.109.100727",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/j.abb.2010.07.019",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1074/jbc.M710106200",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1371/journal.pgen.1004845",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1007/BF02612988",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1093/jxb/erh064",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1023/A:1006021522259",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1046/j.1365-313X.1994.6020161.x",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1016/S2214-109X(13)70145-1",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1105/tpc.11.1.43",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1038/ng.551",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1534/genetics.107.074245",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1104/pp.18.01148",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1101/2020.07.15.203448",
+      "target": "10.1073/pnas.0809737105",
+      "relation": "reference"
+    },
+    {
+      "source": "10.1016/j.foodres.2022.111303",
+      "target": "10.1101/2020.07.15.203448",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1007/s00299-022-02831-8",
+      "target": "10.1101/2020.07.15.203448",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1101/2021.09.01.458275",
+      "target": "10.1101/2020.07.15.203448",
+      "relation": "citedBy"
+    },
+    {
+      "source": "10.1016/j.foohum.2024.100371",
+      "target": "10.1101/2020.07.15.203448",
+      "relation": "citedBy"
     },
     {
       "source": "10.1105/tpc.114.123752",

@@ -16,8 +16,8 @@ const __dirname = path.dirname(__filename)
 
 const EUROPE_PMC_API = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search'
 const EUROPE_PMC_AUTHOR_QUERY = 'AUTHOR:"Góngora-Castillo"'
-/** Solo publicaciones donde la PI (Elsa B. Góngora-Castillo) aparece como autora. */
-const PI_AUTHOR_PATTERN = /Góngora[- ]Castillo\s+E(?:B)?\b/i
+/** Solo publicaciones donde la PI (Elsa B. Góngora-Castillo) aparece como autora. Acepta "Gongora" y "Góngora" (Europe PMC a veces sin tilde, ej. PeerJ 7752). */
+const PI_AUTHOR_PATTERN = /G[oó]ngora[- ]Castillo\s+E(?:B)?\b/i
 const PAGE_SIZE = 100
 const REQUEST_DELAY_MS = 200
 
