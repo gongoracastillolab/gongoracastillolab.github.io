@@ -11,6 +11,8 @@
         "Góngora-Castillo EB."
       ],
       "year": 2025,
+      "journal": "Microbial genomics",
+      "volume": "11",
       "doi": "10.1099/mgen.0.001382",
       "pmid": "40178526",
       "abstract": "Bacterial secondary metabolites are crucial bioactive compounds with significant therapeutic potential, playing key roles in ecological processes and the discovery of novel antimicrobial agents and natural products. Cenotes, as extreme environments, harbour untapped microbial diversity and hold an interesting potential as sources of novel secondary metabolites. While research has focused on the fauna and flora of cenotes, the study of their microbial communities and their biosynthetic capabilities remains limited. Advances in metagenomics and genome sequencing have greatly improved the capacity to explore these communities and their metabolites. In this study, we analysed the microbial diversity and biotechnological potential of micro-organisms inhabiting sediments from a coastal cenote. Metagenomic analyses revealed a rich diversity of bacterial and archaeal communities, containing several novel biosynthetic gene clusters (BGCs) linked to secondary metabolite production. Notably, polyketide synthase BGCs, including those encoding ladderanes and aryl-polyenes, were identified. Bioinformatics analyses of these pathways suggest the presence of compounds with potential industrial and pharmaceutical applications. These findings highlight the biotechnological value of cenotes as reservoirs of secondary metabolites. The study and conservation of these ecosystems are essential to facilitate the discovery of new bioactive compounds that could benefit various industries.",
@@ -23,7 +25,7 @@
       "citations": 1,
       "pdfUrl": "https://europepmc.org/articles/PMC11968836?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40178526",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -35,6 +37,8 @@
         "Góngora-Castillo EB."
       ],
       "year": 2025,
+      "journal": "Quantitative biology (Beijing, China)",
+      "volume": "13",
       "pages": "e78",
       "doi": "10.1002/qub2.78",
       "pmid": "41675508",
@@ -49,7 +53,7 @@
       "citations": 0,
       "pdfUrl": "https://europepmc.org/articles/PMC12806032?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41675508",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -61,6 +65,8 @@
         "Góngora-Castillo E."
       ],
       "year": 2023,
+      "journal": "Genes",
+      "volume": "14",
       "pages": "2223",
       "doi": "10.3390/genes14122223",
       "pmid": "38137044",
@@ -76,7 +82,7 @@
       "citations": 2,
       "pdfUrl": "https://www.mdpi.com/2073-4425/14/12/2223/pdf?version=1703235802",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38137044",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -89,6 +95,8 @@
         "De-la-Peña C."
       ],
       "year": 2022,
+      "journal": "BMC plant biology",
+      "volume": "22",
       "pages": "352",
       "doi": "10.1186/s12870-022-03742-2",
       "pmid": "35850575",
@@ -101,7 +109,7 @@
       "citations": 3,
       "pdfUrl": "https://bmcplantbiol.biomedcentral.com/counter/pdf/10.1186/s12870-022-03742-2",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35850575",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -116,6 +124,8 @@
         "Quesada-Ocampo LM."
       ],
       "year": 2022,
+      "journal": "Phytopathology",
+      "volume": "112",
       "pages": "1667-1675",
       "doi": "10.1094/phyto-09-21-0393-r",
       "pmid": "35196067",
@@ -130,7 +140,7 @@
       "citations": 1,
       "pdfUrl": "https://doi.org/10.1094/PHYTO-09-21-0393-R",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35196067",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -154,6 +164,8 @@
         "Alatorre-Cobos F."
       ],
       "year": 2022,
+      "journal": "Plants (Basel, Switzerland)",
+      "volume": "11",
       "pages": "1496",
       "doi": "10.3390/plants11111496",
       "pmid": "35684270",
@@ -169,7 +181,7 @@
       "citations": 2,
       "pdfUrl": "https://www.mdpi.com/2223-7747/11/11/1496/pdf?version=1654166428",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35684270",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -186,6 +198,8 @@
         "Peraza-Echeverria S."
       ],
       "year": 2022,
+      "journal": "Genes",
+      "volume": "13",
       "pages": "638",
       "doi": "10.3390/genes13040638",
       "pmid": "35456444",
@@ -201,7 +215,7 @@
       "citations": 7,
       "pdfUrl": "https://europepmc.org/articles/PMC9025879?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35456444",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -217,6 +231,8 @@
         "Santamaría JM."
       ],
       "year": 2021,
+      "journal": "PloS one",
+      "volume": "16",
       "pages": "e0245855",
       "doi": "10.1371/journal.pone.0245855",
       "pmid": "33513158",
@@ -224,7 +240,7 @@
       "citations": 8,
       "pdfUrl": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0245855&type=printable",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33513158",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -247,6 +263,8 @@
         "Alatorre-Cobos F."
       ],
       "year": 2021,
+      "journal": "3 Biotech",
+      "volume": "11",
       "pages": "75",
       "doi": "10.1007/s13205-020-02620-8",
       "pmid": "33505830",
@@ -261,7 +279,7 @@
       "citations": 3,
       "pdfUrl": "https://europepmc.org/articles/PMC7810796?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33505830",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -277,6 +295,8 @@
         "Sáenz-Carbonell L."
       ],
       "year": 2020,
+      "journal": "Mycorrhiza",
+      "volume": "30",
       "pages": "269-283",
       "doi": "10.1007/s00572-020-00944-0",
       "pmid": "32242246",
@@ -292,7 +312,7 @@
       "citations": 10,
       "pdfUrl": "https://doi.org/10.1007/s00572-020-00944-0",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32242246",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -312,6 +332,8 @@
         "Figueras M."
       ],
       "year": 2020,
+      "journal": "Plant science : an international journal of experimental plant biology",
+      "volume": "291",
       "pages": "110360",
       "doi": "10.1016/j.plantsci.2019.110360",
       "pmid": "31928669",
@@ -327,7 +349,7 @@
       "citations": 21,
       "pdfUrl": "https://ddd.uab.cat/record/218484",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31928669",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -344,6 +366,8 @@
         "O'Connor-Sánchez A."
       ],
       "year": 2020,
+      "journal": "3 Biotech",
+      "volume": "10",
       "pages": "78",
       "doi": "10.1007/s13205-019-2044-6",
       "pmid": "32099729",
@@ -357,7 +381,7 @@
       "citations": 3,
       "pdfUrl": "https://europepmc.org/articles/PMC6992798?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32099729",
-      "lastUpdated": "2026-03-08T04:15:29.582Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -370,6 +394,8 @@
         "Góngora-Castillo E."
       ],
       "year": 2020,
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "volume": "2072",
       "pages": "65-84",
       "doi": "10.1007/978-1-4939-9865-4_7",
       "pmid": "31541439",
@@ -384,7 +410,7 @@
       "citations": 0,
       "pdfUrl": "https://doi.org/10.1007/978-1-4939-9865-4_7",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31541439",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -418,7 +444,7 @@
       "abstract": "**ABSTRACT** Vitamin A deficiency remains prevalent in parts of Asia, Latin America, and sub-Saharan Africa where maize is a food staple. Extensive natural variation exists for carotenoids in maize grain; to understand its genetic basis, we conducted a joint linkage and genome-wide association study in the U.S. maize nested association mapping panel. Eleven of the 44 detected quantitative trait loci (QTL) were resolved to individual genes. Six of these were correlated expression and effect QTL (ceeQTL), showing strong correlations between RNA-seq expression abundances and QTL allelic effect estimates across six stages of grain development. These six ceeQTL also had the largest percent phenotypic variance explained, and in major part comprised the three to five loci capturing the bulk of genetic variation for each trait. Most of these ceeQTL had strongly correlated QTL allelic effect estimates across multiple traits. These findings provide the most comprehensive genome-level understanding of the genetic and molecular control of carotenoids in any plant system, and a roadmap to accelerate breeding for provitamin A and other priority carotenoid traits in maize grain that should be readily extendable to other cereals.",
       "citations": 0,
       "pdfUrl": "https://www.biorxiv.org/content/biorxiv/early/2020/12/16/2020.07.15.203448.full.pdf",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -434,6 +460,8 @@
         "Quesada-Ocampo LM."
       ],
       "year": 2019,
+      "journal": "Phytopathology",
+      "volume": "109",
       "pages": "1354-1366",
       "doi": "10.1094/phyto-11-18-0431-r",
       "pmid": "30939079",
@@ -441,36 +469,7 @@
       "citations": 19,
       "pdfUrl": "https://doi.org/10.1094/PHYTO-11-18-0431-R",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30939079",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
-      "source": "europe_pmc"
-    },
-    {
-      "id": "pub-2019-transcriptome-analysis-of-the-induction-of-somatic",
-      "title": "Transcriptome analysis of the induction of somatic embryogenesis in <i>Coffea canephora</i> and the participation of ARF and Aux/IAA genes.",
-      "authors": [
-        "Quintana-Escobar AO",
-        "Nic-Can GI",
-        "Galaz Avalos RM",
-        "Loyola-Vargas VM",
-        "Gongora-Castillo E."
-      ],
-      "year": 2019,
-      "pages": "e7752",
-      "doi": "10.7717/peerj.7752",
-      "pmid": "31637116",
-      "abstract": "**Background** Somatic embryogenesis (SE) is a useful biotechnological tool to study the morpho-physiological, biochemical and molecular processes during the development of Coffea canephora. Plant growth regulators (PGR) play a key role during cell differentiation in SE. The Auxin-response-factor (ARF) and Auxin/Indole-3-acetic acid (Aux/IAA) are fundamental components involved in the signaling of the IAA. The IAA signaling pathway activates or represses the expression of genes responsive to auxins during the embryogenic transition of the somatic cells. The growing development of new generation sequencing technologies (NGS), as well as bioinformatics tools, has allowed us to broaden the landscape of SE study of various plant species and identify the genes directly involved. **Methods** Analysis of transcriptome expression profiles of the C. canephora genome and the identification of a particular set of differentially expressed genes (DEG) during SE are described in this study. **Results** A total of eight ARF and seven Aux/IAA differentially expressed genes were identified during the different stages of the SE induction process. The quantitative expression analysis showed that ARF18 and ARF5 genes are highly expressed after 21 days of the SE induction, while Aux/IAA7 and Aux/IAA12 genes are repressed. **Discussion** The results of this study allow a better understanding of the genes involved in the auxin signaling pathway as well as their expression profiles during the SE process.",
-      "keywords": [
-        "Somatic embryogenesis",
-        "Signaling",
-        "Growth regulators",
-        "Cellular differentiation",
-        "Auxin Response",
-        "Cellular Totipotency"
-      ],
-      "citations": 25,
-      "pdfUrl": "https://europepmc.org/articles/PMC6800528?pdf=render",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31637116",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -483,6 +482,8 @@
         "Loyola-Vargas VM."
       ],
       "year": 2018,
+      "journal": "Methods in molecular biology (Clifton, N.J.)",
+      "volume": "1815",
       "pages": "411-427",
       "doi": "10.1007/978-1-4939-8594-4_29",
       "pmid": "29981139",
@@ -496,7 +497,7 @@
       "citations": 5,
       "pdfUrl": "https://doi.org/10.1007/978-1-4939-8594-4_29",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29981139",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -525,6 +526,8 @@
         "DellaPenna D."
       ],
       "year": 2017,
+      "journal": "The Plant cell",
+      "volume": "29",
       "pages": "2374-2392",
       "doi": "10.1105/tpc.17.00475",
       "pmid": "28970338",
@@ -532,7 +535,7 @@
       "citations": 77,
       "pdfUrl": "https://doi.org/10.1105/tpc.17.00475",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28970338",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -558,6 +561,8 @@
         "Nikolau BJ."
       ],
       "year": 2016,
+      "journal": "The Plant journal : for cell and molecular biology",
+      "volume": "88",
       "pages": "775-793",
       "doi": "10.1111/tpj.13295",
       "pmid": "27497272",
@@ -574,29 +579,7 @@
       "citations": 12,
       "pdfUrl": "https://europepmc.org/articles/PMC5195896?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27497272",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
-      "source": "europe_pmc"
-    },
-    {
-      "id": "pub-2016-using-next-generation-sequencing-to-develop-molecu",
-      "title": "Using Next-Generation Sequencing to Develop Molecular Diagnostics for Pseudoperonospora cubensis, the Cucurbit Downy Mildew Pathogen.",
-      "authors": [
-        "Withers S",
-        "Gongora-Castillo E",
-        "Gent D",
-        "Thomas A",
-        "Ojiambo PS",
-        "Quesada-Ocampo LM."
-      ],
-      "year": 2016,
-      "pages": "1105-1116",
-      "doi": "10.1094/phyto-10-15-0260-fi",
-      "pmid": "27314624",
-      "abstract": "Advances in next-generation sequencing (NGS) allow for rapid development of genomics resources needed to generate molecular diagnostics assays for infectious agents. NGS approaches are particularly helpful for organisms that cannot be cultured, such as the downy mildew pathogens, a group of biotrophic obligate oomycetes that infect crops of economic importance. Unlike most downy mildew pathogens that are highly host-specific, Pseudoperonospora cubensis causes disease on a broad range of crops belonging to the family Cucurbitaceae. In this study, we identified candidate diagnostic markers for P. cubensis by comparing NGS data from a diverse panel of P. cubensis and P. humuli isolates, two very closely related oomycete species. P. cubensis isolates from diverse hosts and geographical regions in the United States were selected for sequencing to ensure that candidates were conserved in P. cubensis isolates infecting different cucurbit hosts. Genomic regions unique to and conserved in P. cubensis isolates were identified through bioinformatics. These candidate regions were then validated using PCR against a larger collection of isolates from P. cubensis, P. humuli, and other oomycetes. Overall seven diagnostic markers were found to be specific to P. cubensis. These markers could be used for pathogen diagnostics on infected tissue, or adapted for monitoring airborne inoculum with real-time PCR and spore traps.",
-      "citations": 29,
-      "pdfUrl": "https://apsjournals.apsnet.org/doi/pdf/10.1094/PHYTO-10-15-0260-FI",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27314624",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -613,6 +596,8 @@
         "Valls M."
       ],
       "year": 2015,
+      "journal": "BMC genomics",
+      "volume": "16",
       "pages": "246",
       "doi": "10.1186/s12864-015-1460-1",
       "pmid": "25880642",
@@ -620,7 +605,7 @@
       "citations": 45,
       "pdfUrl": "https://bmcgenomics.biomedcentral.com/counter/pdf/10.1186/s12864-015-1460-1",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25880642",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -643,6 +628,8 @@
         "Barry CS."
       ],
       "year": 2014,
+      "journal": "The Plant cell",
+      "volume": "26",
       "pages": "3745-3762",
       "doi": "10.1105/tpc.114.130534",
       "pmid": "25228340",
@@ -650,36 +637,7 @@
       "citations": 46,
       "pdfUrl": "https://doi.org/10.1105/tpc.114.130534",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25228340",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
-      "source": "europe_pmc"
-    },
-    {
-      "id": "pub-2014-comparative-transcriptome-atlases-reveal-altered-g",
-      "title": "Comparative transcriptome atlases reveal altered gene expression modules between two Cleomaceae C3 and C4 plant species.",
-      "authors": [
-        "Külahoglu C",
-        "Denton AK",
-        "Sommer M",
-        "Maß J",
-        "Schliesky S",
-        "Wrobel TJ",
-        "Berckmans B",
-        "Gongora-Castillo E",
-        "Buell CR",
-        "Simon R",
-        "De Veylder L",
-        "Bräutigam A",
-        "Weber AP."
-      ],
-      "year": 2014,
-      "pages": "3243-3260",
-      "doi": "10.1105/tpc.114.123752",
-      "pmid": "25122153",
-      "abstract": "C(4) photosynthesis outperforms the ancestral C(3) state in a wide range of natural and agro-ecosystems by affording higher water-use and nitrogen-use efficiencies. It therefore represents a prime target for engineering novel, high-yielding crops by introducing the trait into C(3) backgrounds. However, the genetic architecture of C(4) photosynthesis remains largely unknown. To define the divergence in gene expression modules between C(3) and C(4) photosynthesis during leaf ontogeny, we generated comprehensive transcriptome atlases of two Cleomaceae species, Gynandropsis gynandra (C(4)) and Tarenaya hassleriana (C(3)), by RNA sequencing. Overall, the gene expression profiles appear remarkably similar between the C(3) and C(4) species. We found that known C(4) genes were recruited to photosynthesis from different expression domains in C(3), including typical housekeeping gene expression patterns in various tissues as well as individual heterotrophic tissues. Furthermore, we identified a structure-related module recruited from the C(3) root. Comparison of gene expression patterns with anatomy during leaf ontogeny provided insight into genetic features of Kranz anatomy. Altered expression of developmental factors and cell cycle genes is associated with a higher degree of endoreduplication in enlarged C(4) bundle sheath cells. A delay in mesophyll differentiation apparent both in the leaf anatomy and the transcriptome allows for extended vein formation in the C(4) leaf.",
-      "citations": 80,
-      "pdfUrl": "https://doi.org/10.1105/tpc.114.123752",
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25122153",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -710,6 +668,8 @@
         "Chappell J."
       ],
       "year": 2013,
+      "journal": "The Journal of biological chemistry",
+      "volume": "288",
       "pages": "3163-3173",
       "doi": "10.1074/jbc.m112.415836",
       "pmid": "23243312",
@@ -717,7 +677,7 @@
       "citations": 25,
       "pdfUrl": "https://europepmc.org/articles/pmc3561538?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23243312",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -755,6 +715,8 @@
         "Herrera-Estrella L."
       ],
       "year": 2013,
+      "journal": "Nature",
+      "volume": "498",
       "pages": "94-98",
       "doi": "10.1038/nature12132",
       "pmid": "23665961",
@@ -762,7 +724,7 @@
       "citations": 239,
       "pdfUrl": "https://www.nature.com/articles/nature12132.pdf",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23665961",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -773,6 +735,8 @@
         "Buell CR."
       ],
       "year": 2013,
+      "journal": "Natural product reports",
+      "volume": "30",
       "pages": "490-500",
       "doi": "10.1039/c3np20099j",
       "pmid": "23377493",
@@ -780,7 +744,7 @@
       "citations": 48,
       "pdfUrl": "https://doi.org/10.1039/c3np20099j",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23377493",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -806,6 +770,8 @@
         "Saito K."
       ],
       "year": 2013,
+      "journal": "Plant & cell physiology",
+      "volume": "54",
       "pages": "686-696",
       "doi": "10.1093/pcp/pct040",
       "pmid": "23503598",
@@ -821,7 +787,7 @@
       "citations": 52,
       "pdfUrl": "https://europepmc.org/articles/PMC3653139?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23503598",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -834,6 +800,8 @@
         "Rivera-Bustamante RF."
       ],
       "year": 2012,
+      "journal": "Virology journal",
+      "volume": "9",
       "pages": "295",
       "doi": "10.1186/1743-422x-9-295",
       "pmid": "23185982",
@@ -841,7 +809,7 @@
       "citations": 56,
       "pdfUrl": "https://virologyj.biomedcentral.com/counter/pdf/10.1186/1743-422X-9-295",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23185982",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -865,6 +833,8 @@
         "Buell CR."
       ],
       "year": 2012,
+      "journal": "PloS one",
+      "volume": "7",
       "pages": "e52506",
       "doi": "10.1371/journal.pone.0052506",
       "pmid": "23300689",
@@ -872,7 +842,7 @@
       "citations": 105,
       "pdfUrl": "https://europepmc.org/articles/PMC3530497?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23300689",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -889,6 +859,8 @@
         "Rivera-Bustamante R."
       ],
       "year": 2012,
+      "journal": "Bioinformation",
+      "volume": "8",
       "pages": "43-47",
       "doi": "10.6026/97320630008043",
       "pmid": "22359434",
@@ -896,7 +868,7 @@
       "citations": 13,
       "pdfUrl": "http://www.bioinformation.net/008/97320630008043.pdf",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22359434",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     },
     {
@@ -911,6 +883,8 @@
         "Buell CR."
       ],
       "year": 2012,
+      "journal": "Methods in enzymology",
+      "volume": "517",
       "pages": "139-159",
       "doi": "10.1016/b978-0-12-404634-4.00007-3",
       "pmid": "23084937",
@@ -918,70 +892,14 @@
       "citations": 36,
       "pdfUrl": "https://europepmc.org/articles/PMC3926661?pdf=render",
       "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23084937",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
-      "source": "europe_pmc"
-    },
-    {
-      "id": "pub-1993-the-effects-of-a-benzopyrone-derivative-in-experim",
-      "title": "[The effects of a benzopyrone derivative in experimental brain edema due to cold in the rabbit].",
-      "authors": [
-        "Góngora Castillo C",
-        "Gómez de Segura IA",
-        "López Bravo A",
-        "de Miguel del Campo E."
-      ],
-      "year": 1993,
-      "pages": "59-63",
-      "pmid": "8338248",
-      "abstract": "On this study, parenchymal changes during a cerebral edema caused by thermic injury (cool) on the rabbit, are analyzed. The work was based on the ultrastructural findings obtained by transmission electronic microscopy and on the effects produced by a benzopironic derived (F-117 Hydrosmina). The injury was produced with solid CO2, previous a craniectomy, on the dura mater of the left hemisphere. Forty rabbits were included into the study, the animals were distributed into five groups (n = 8): a control group and 4 treatment groups. One of the groups received treatment without previous cerebral injury. The group of rabbits with doses of 50 mg/Kg of weight showed focal and diffuse areas of edema alternating with less damaged areas, the edema was evident on the white substance. This group also showed a dissociation of the myelinic fibers and an intracytoplasmatic tumefaction into the glial cells. These findings contrast with the histopathological findings obtained from the rabbits (V), the extracellular edema was poor, the myelinic fiber disorganization was minimal with no vacuolar degeneration and no structural mitochondrial changes had been showed. The discontinuance of the hematoencephalic barrier caused by the cool could be a possible mechanism that causes the opening of the endothelial unions from the capillary vessels, changing their membranes and resulting in a free penetration of the molecule into the cerebral parenchyma.(ABSTRACT TRUNCATED AT 250 WORDS)",
-      "citations": 0,
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/8338248",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
-      "source": "europe_pmc"
-    },
-    {
-      "id": "pub-1993-impotence-of-arterial-origin-experimental-models-a",
-      "title": "[Impotence of arterial origin: experimental models and evaluation of sexual behavior in rats].",
-      "authors": [
-        "Gongora Castillo C",
-        "Alvarez Gomez de Segura I",
-        "Bonet Furgeri H",
-        "de Miguel del Campo E."
-      ],
-      "year": 1993,
-      "pages": "122-126",
-      "pmid": "7745268",
-      "abstract": "Work on the vascular anatomy and on the physiology of the penis have allowed developing new procedures to treat impotence. This study has dealt with four experimental models of impotence of arterial origin in rats. The assessment was based on sexual behavior tests and on the measurement of the erection capacity index (ECI) measured from the second to the fifth week after interruption of the arterial flow. Four groups of eight rats each were formed. Group A underwent unilateral ligation of the common iliac artery, group B bilateral ligation of the common iliac artery, group C bilateral ligation of the internal iliac arteries and group D ipsilateral ligation of the common iliac and internal iliac arteries. In group A, the percentage of true coituses was 72.7 and 83.3% on the second and third week, respectively. In group B the percentage of false coituses was higher with 82.3%, 90% and 81.2% on the second, third and fourth week, respectively. In group C, the percentage of true coituses ranged from 7.7% to 35.7% during the whole period of observation. The erection capacity index was of 0.24 in group B and 0.23 in group C, with a higher percentage of false coituses in groups C and B. These models can be used to study the physiopathology of impotence of arterial origin.",
-      "citations": 2,
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/7745268",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
-      "source": "europe_pmc"
-    },
-    {
-      "id": "pub-1989-local-regional-fibrinolysis-as-elective-treatment-",
-      "title": "[Local-regional fibrinolysis as elective treatment in deep venous thromboses: experimental clinical study].",
-      "authors": [
-        "Magallón Ortin P",
-        "Riera de Cubas L",
-        "Góngora Castillo C",
-        "López Pastor A",
-        "Fernández Pavón A",
-        "de Miguel E",
-        "Jiménez Cosslo JA."
-      ],
-      "year": 1989,
-      "pages": "20-37",
-      "pmid": "2653115",
-      "citations": 0,
-      "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/2653115",
-      "lastUpdated": "2026-03-08T04:15:29.583Z",
+      "lastUpdated": "2026-03-08T04:49:26.854Z",
       "source": "europe_pmc"
     }
   ],
-  "lastSync": "2026-03-08T04:15:29.583Z",
-  "totalCount": 34,
+  "lastSync": "2026-03-08T04:49:26.854Z",
+  "totalCount": 28,
   "metadata": {
     "europePmcAuthorQuery": "AUTHOR:\"Góngora-Castillo\"",
-    "lastEuropePmcSync": "2026-03-08T04:15:29.583Z"
+    "lastEuropePmcSync": "2026-03-08T04:49:26.854Z"
   }
 }

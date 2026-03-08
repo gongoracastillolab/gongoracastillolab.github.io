@@ -16,6 +16,8 @@ const __dirname = path.dirname(__filename)
 
 const EUROPE_PMC_API = 'https://www.ebi.ac.uk/europepmc/webservices/rest/search'
 const EUROPE_PMC_AUTHOR_QUERY = 'AUTHOR:"Góngora-Castillo"'
+/** Solo publicaciones donde la PI (Elsa B. Góngora-Castillo) aparece como autora. */
+const PI_AUTHOR_PATTERN = /Góngora[- ]Castillo\s+E(?:B)?\b/i
 const PAGE_SIZE = 100
 const REQUEST_DELAY_MS = 200
 
@@ -77,6 +79,10 @@ interface EuropePMCResult {
   authorString?: string
   journalTitle?: string
   journalVolume?: string
+  journalInfo?: {
+    journal?: { title?: string; medlineAbbreviation?: string }
+    volume?: string
+  }
   pageInfo?: string
   pubYear?: string
   abstractText?: string
@@ -117,6 +123,12 @@ async function fetchAllFromEuropePMC(authorQuery: string): Promise<EuropePMCResu
   return all
 }
 
+/** Excluye publicaciones de otros autores con apellido similar (ej. Góngora Castillo C). */
+function isPiPublication(authorString: string | undefined): boolean {
+  if (!authorString) return false
+  return PI_AUTHOR_PATTERN.test(authorString)
+}
+
 function parseAuthors(authorString: string | undefined): string[] {
   if (!authorString) return []
   return authorString
@@ -152,14 +164,20 @@ function mapEuropePMCToPublication(r: EuropePMCResult): Publication {
     (u) => u.documentStyle === 'pdf' || (u.url && u.url.includes('pdf'))
   )?.url ?? r.fullTextUrlList?.fullTextUrl?.[0]?.url
   const abstract = r.abstractText ? cleanHtmlText(r.abstractText) : undefined
+  const journal =
+    r.journalInfo?.journal?.title?.trim() ||
+    r.journalInfo?.journal?.medlineAbbreviation?.trim() ||
+    r.journalTitle?.trim() ||
+    undefined
+  const volume = r.journalInfo?.volume?.trim() || r.journalVolume?.trim() || undefined
 
   return {
     id: generatePublicationId(title, safeYear),
     title,
     authors: authors.length > 0 ? authors : ['Unknown'],
     year: safeYear,
-    journal: r.journalTitle?.trim() || undefined,
-    volume: r.journalVolume?.trim() || undefined,
+    journal: journal || undefined,
+    volume: volume || undefined,
     pages: r.pageInfo?.trim() || undefined,
     doi: r.doi?.trim() || undefined,
     pmid: r.pmid?.trim() || undefined,
@@ -236,9 +254,10 @@ async function main() {
   console.log(`   Query: ${EUROPE_PMC_AUTHOR_QUERY}`)
 
   const results = await fetchAllFromEuropePMC(EUROPE_PMC_AUTHOR_QUERY)
-  console.log(`📚 Europe PMC returned ${results.length} results`)
+  const piResults = results.filter((r) => isPiPublication(r.authorString))
+  console.log(`📚 Europe PMC: ${results.length} results, ${piResults.length} from PI (Elsa B. Góngora-Castillo)`)
 
-  const newPublications = results.map(mapEuropePMCToPublication)
+  const newPublications = piResults.map(mapEuropePMCToPublication)
 
   const dataPath = path.join(__dirname, '..', 'public', 'data', 'publications.json')
   let existing: { publications: Publication[] } = { publications: [] }
