@@ -231,18 +231,18 @@ collections:
                   - { label: "Subtítulo", name: "caption", widget: "string", required: false }
 
   # ─── Configuración ──────────────────────────────────────────────────────────
-  # Textos de interfaz (menú, botones, etiquetas, mensajes). Incluye también la página «Red de citaciones» (publicationsNetwork). Se usan en i18n. Editar con cuidado.
+  # Textos de interfaz (menú, botones, etiquetas, mensajes, Red de citaciones). El campo «translation» es JSON en formato texto; la app lo parsea. Editar con cuidado.
   - name: "config"
     label: "Configuración"
-    description: "Traducciones de la interfaz: menú, botones, etiquetas, mensajes, y textos de la página Red de citaciones (esfera). Archivos usados por i18n. Editar con cuidado."
+    description: "Traducciones de la interfaz: menú, botones, etiquetas, mensajes y página Red de citaciones. Aquí se edita el JSON completo; debe ser JSON válido."
     files:
       - label: "Traducciones (ES)"
         name: "traducciones_es"
         file: "src/i18n/locales/es/translation.json"
         fields:
-          - { label: "JSON (ES)", name: "translation", widget: "code", default_language: "json" }
+          - { label: "JSON (ES)", name: "translation", widget: "code", default_language: "json", hint: "Objeto JSON con claves nav, home, research, people, publications, outreach, publicationsNetwork, footer, etc. Sin comillas exteriores." }
       - label: "Traducciones (EN)"
         name: "traducciones_en"
         file: "src/i18n/locales/en/translation.json"
         fields:
-          - { label: "JSON (EN)", name: "translation", widget: "code", default_language: "json" }
+          - { label: "JSON (EN)", name: "translation", widget: "code", default_language: "json", hint: "Objeto JSON con las mismas claves que en ES. Debe ser JSON válido." }
