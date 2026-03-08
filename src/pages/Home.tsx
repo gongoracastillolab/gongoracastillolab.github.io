@@ -9,6 +9,10 @@ import { emailToMailtoHref } from '../utils/emailDisplay'
 
 const baseUrl = (import.meta as any).env.BASE_URL
 
+function escapeRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+}
+
 export default function Home() {
   const { t, i18n } = useTranslation()
   const { home: content } = useLocalizedData()
@@ -18,7 +22,8 @@ export default function Home() {
     const text = String(content.contactText ?? '')
     const escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
     const hrefSafe = mailtoHref.replace(/"/g, '&quot;')
-    const regex = new RegExp(`\\b(${contactLinkWord})\\b`, 'gi')
+    // Flag 'u' para que \b reconozca "aquí" (í) como palabra completa en español
+    const regex = new RegExp(`\\b(${escapeRegex(contactLinkWord)})\\b`, 'giu')
     return escaped.replace(regex, `<a href="${hrefSafe}" class="text-cobalt-blue hover:text-hover-blue transition-colors font-medium underline underline-offset-2">$1</a>`)
   })()
 
@@ -133,12 +138,12 @@ export default function Home() {
             transition={{ duration: 0.4 }}
             className="flex flex-col items-start justify-center gap-4 text-left"
           >
-            <span className="text-verdigris text-base md:text-lg font-medium">
+            <span className="text-cobalt-blue text-base md:text-lg font-medium">
               {t('home.publicationNetworkBand')}
             </span>
             <Link
               to="/publications-network"
-              className="inline-flex items-center gap-2 text-verdigris hover:text-verdigris/80 font-medium transition-colors shrink-0"
+              className="inline-flex items-center gap-2 text-cobalt-blue hover:text-hover-blue font-medium transition-colors shrink-0"
             >
               <Globe className="w-4 h-4" />
               <span>{t('home.publicationNetworkLink')}</span>
