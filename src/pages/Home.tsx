@@ -19,11 +19,13 @@ export default function Home() {
   const mailtoHref = `mailto:${emailToMailtoHref(String(content.contactEmail ?? ''))}`
   const contactLinkWord = i18n.language.startsWith('en') ? 'here' : 'aquí'
   const contactTextWithLink = (() => {
-    const text = String(content.contactText ?? '')
+    const raw = String(content.contactText ?? '')
+    const text = raw.normalize('NFC')
     const escaped = text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
     const hrefSafe = mailtoHref.replace(/"/g, '&quot;')
-    // Flag 'u' para que \b reconozca "aquí" (í) como palabra completa en español
-    const regex = new RegExp(`\\b(${escapeRegex(contactLinkWord)})\\b`, 'giu')
+    const word = contactLinkWord.normalize('NFC')
+    // Lookbehind/lookahead para palabra completa (evita problemas con \b y "aquí" en español)
+    const regex = new RegExp(`(?<=^|[\\s.,!?;:¡¿])(${escapeRegex(word)})(?=[\\s.,!?;:¡¿]|$)`, 'giu')
     return escaped.replace(regex, `<a href="${hrefSafe}" class="text-cobalt-blue hover:text-hover-blue transition-colors font-medium underline underline-offset-2">$1</a>`)
   })()
 
