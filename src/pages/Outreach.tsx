@@ -12,7 +12,9 @@ interface OutreachItem {
   type: 'podcast' | 'video' | 'event' | 'article'
   title: string
   description: string
-  date: string
+  /** En el CMS y JSON se usa "eventDate"; se mantiene "date" por compatibilidad con datos antiguos */
+  date?: string
+  eventDate?: string
   url?: string
   urls?: string[] | null
   image?: string
@@ -67,9 +69,10 @@ export default function Outreach() {
     ? outreachItems 
     : outreachItems.filter(item => item.type === tabToTypeMap[activeTab])
 
+  const getItemDate = (item: OutreachItem) => item.eventDate ?? item.date ?? ''
   const sortedItems = [...filteredItems].sort((a, b) => {
-    const dateA = new Date(a.date).getTime()
-    const dateB = new Date(b.date).getTime()
+    const dateA = new Date(getItemDate(a)).getTime()
+    const dateB = new Date(getItemDate(b)).getTime()
     return dateSortOrder === 'desc' ? dateB - dateA : dateA - dateB
   })
 
@@ -214,7 +217,7 @@ export default function Outreach() {
                     <span className={`inline-flex items-center justify-center w-8 h-8 rounded-full text-white flex-shrink-0 ${chipBgClass}`} aria-hidden>
                       <Icon className="w-4 h-4" strokeWidth={2} />
                     </span>
-                    <span className="text-xs text-charcoal-blue/60">{formatDate(item.date)}</span>
+                    <span className="text-xs text-charcoal-blue/60">{formatDate(getItemDate(item))}</span>
                   </div>
                   <h3 className="font-serif text-lg font-medium text-charcoal-blue mb-2">
                     {title}
@@ -259,7 +262,7 @@ export default function Outreach() {
                   )
                 })()}
                 <span className="text-sm text-charcoal-blue/60">•</span>
-                <span className="text-sm text-charcoal-blue/60">{formatDate(selectedItem.date)}</span>
+                <span className="text-sm text-charcoal-blue/60">{formatDate(getItemDate(selectedItem))}</span>
               </div>
               
               {(selectedItem.images?.length || selectedItem.image) && (

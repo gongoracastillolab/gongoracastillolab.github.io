@@ -218,7 +218,7 @@ collections:
               - { label: "Tipo", name: "type", widget: "select", options: ["podcast", "video", "event", "article"] }
               - { label: "Título", name: "title", widget: "string" }
               - { label: "Descripción", name: "description", widget: "text" }
-              - { label: "Fecha", name: "date", widget: "string", required: false, hint: "Formato YYYY-MM-DD (ej. 2023-11-09)" }
+              - { label: "Fecha", name: "eventDate", widget: "string", required: false, hint: "Formato YYYY-MM-DD (ej. 2023-11-09)" }
               - { label: "URL principal", name: "url", widget: "string", required: false }
               - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
               - { label: "Imagen", name: "image", widget: "image", required: false }
