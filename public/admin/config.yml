@@ -1,9 +1,12 @@
+publish_mode: editorial_workflow
+
 backend:
   name: github
   branch: main
   repo: gongoracastillolab/gongoracastillolab.github.io
   base_url: https://decap-auth-gclab.gongoracastillolab.workers.dev
   auth_endpoint: auth
+  squash_merges: true
 
 local_backend: true
 
