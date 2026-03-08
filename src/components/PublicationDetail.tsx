@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ExternalLink, FileText, Calendar, Users, BookOpen, Quote } from 'lucide-react'
@@ -11,6 +12,27 @@ interface PublicationDetailProps {
 
 export default function PublicationDetail({ publication, isOpen, onClose }: PublicationDetailProps) {
   const { t } = useTranslation()
+
+  // Bloquear scroll del body cuando el panel está abierto: una sola barra de scroll (la del sidebar)
+  useEffect(() => {
+    if (isOpen) {
+      const scrollY = window.scrollY
+      document.body.style.overflow = 'hidden'
+      document.body.style.position = 'fixed'
+      document.body.style.top = `-${scrollY}px`
+      document.body.style.left = '0'
+      document.body.style.right = '0'
+      return () => {
+        document.body.style.overflow = ''
+        document.body.style.position = ''
+        document.body.style.top = ''
+        document.body.style.left = ''
+        document.body.style.right = ''
+        window.scrollTo(0, scrollY)
+      }
+    }
+  }, [isOpen])
+
   if (!publication) return null
 
   const formatAuthors = (authors: string[]): string => {
@@ -37,24 +59,24 @@ export default function PublicationDetail({ publication, isOpen, onClose }: Publ
     <AnimatePresence>
       {isOpen && (
         <>
-          {/* Backdrop */}
+          {/* Backdrop: capa propia para evitar desprendimiento al hacer scroll */}
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             onClick={onClose}
-            className="fixed inset-0 bg-black/50 z-50"
+            className="fixed inset-0 bg-black/50 z-50 [transform:translateZ(0)]"
           />
           
-          {/* Sidebar */}
+          {/* Sidebar: marco fijo sin scroll; solo el contenido interior hace scroll */}
           <motion.div
             initial={{ x: '100%' }}
             animate={{ x: 0 }}
             exit={{ x: '100%' }}
             transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-            className="fixed right-0 top-0 h-full w-full max-w-2xl bg-white shadow-2xl z-50 overflow-y-auto"
+            className="fixed inset-y-0 right-0 w-full max-w-2xl bg-white shadow-2xl z-50 flex flex-col [transform:translateZ(0)]"
           >
-            <div className="sticky top-0 bg-white border-b border-pale-slate px-6 py-4 flex items-center justify-between">
+            <div className="flex-shrink-0 bg-white border-b border-pale-slate px-6 py-4 flex items-center justify-between">
               <h2 className="font-serif text-2xl font-medium text-charcoal-blue">{t('publicationDetail.title')}</h2>
               <button
                 onClick={onClose}
@@ -64,8 +86,8 @@ export default function PublicationDetail({ publication, isOpen, onClose }: Publ
                 <X className="w-6 h-6" />
               </button>
             </div>
-            
-            <div className="p-6 space-y-6">
+
+            <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain p-6 space-y-6">
               {/* Title */}
               <div>
                 <h3 className="font-serif text-2xl font-medium text-charcoal-blue mb-4">

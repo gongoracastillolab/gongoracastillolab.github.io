@@ -37,9 +37,10 @@ export interface PublicationsData {
   lastSync: string
   totalCount: number
   metadata: {
-    googleScholarProfile: string
+    googleScholarProfile?: string
     lastGoogleScholarSync?: string
     lastEuropePmcSync?: string
+    europePmcAuthorQuery?: string
   }
 }
 
