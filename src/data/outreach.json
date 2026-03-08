@@ -130,14 +130,25 @@
         "description": "En el marco del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), el Centro de Visitantes del Jardín Botánico del CICY recibió a niñas que participaron en dinámicas y actividades lúdicas diseñadas para despertar su curiosidad científica. Las estudiantes de posgrado del grupo de laboratorio guiaron las actividades, compartiendo su experiencia y acercando a las participantes al fascinante mundo de la investigación. La jornada se convirtió en un espacio de aprendizaje divertido y motivador, resaltando el papel de las mujeres en la ciencia y fomentando vocaciones científicas desde edades tempranas"
       },
       {
-        "id": "verano-teleton-crit-2025",
-        "type": "event",
-        "title": "Verano Teletón dirigido a comunidad CRIT Yucatán (2025)",
-        "description": "Actividad de divulgación en el marco del Verano Teletón, dirigida a la comunidad del CRIT Yucatán. El laboratorio acerca la ciencia y la investigación en genómica a las familias y participantes del programa.\n\nIncluye talleres y dinámicas adaptadas para compartir el quehacer científico y despertar curiosidad por la biología y la bioinformática.",
+        "urls": null,
         "eventDate": "2025-07-01",
         "url": null,
-        "urls": null,
-        "image": null
+        "title": "Verano Teletón dirigido a comunidad CRIT Yucatán (2025)",
+        "images": [
+          {
+            "src": "/div_event_crit_2025_2.jpg"
+          },
+          {
+            "src": "/div_event_crit_2025_4.jpg"
+          },
+          {
+            "src": "/div_event_crit_2025_3.jpg"
+          }
+        ],
+        "type": "event",
+        "id": "verano-teleton-crit-2025",
+        "image": "/div_event_crit_2025_1.jpg",
+        "description": "Actividad de divulgación en el marco del Verano Teletón, dirigida a la comunidad del CRIT Yucatán. El laboratorio acerca la ciencia y la investigación en genómica a las familias y participantes del programa.\n\nIncluye talleres y dinámicas adaptadas para compartir el quehacer científico y despertar curiosidad por la biología y la bioinformática."
       },
       {
         "urls": null,
