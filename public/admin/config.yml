@@ -240,9 +240,9 @@ collections:
         name: "traducciones_es"
         file: "src/i18n/locales/es/translation.json"
         fields:
-          - { label: "JSON (ES)", name: "translation", widget: "code", default_language: "json", hint: "Objeto JSON con claves nav, home, research, people, publications, outreach, publicationsNetwork, footer, etc. Sin comillas exteriores." }
+          - { label: "JSON (ES)", name: "translation", widget: "code", default_language: "json", output_code_only: true, hint: "Objeto JSON con claves nav, home, research, people, publications, outreach, publicationsNetwork, footer, etc. Sin comillas exteriores." }
       - label: "Traducciones (EN)"
         name: "traducciones_en"
         file: "src/i18n/locales/en/translation.json"
         fields:
-          - { label: "JSON (EN)", name: "translation", widget: "code", default_language: "json", hint: "Objeto JSON con las mismas claves que en ES. Debe ser JSON válido." }
+          - { label: "JSON (EN)", name: "translation", widget: "code", default_language: "json", output_code_only: true, hint: "Objeto JSON con las mismas claves que en ES. Debe ser JSON válido." }
