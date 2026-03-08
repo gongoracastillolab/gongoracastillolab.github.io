@@ -2,14 +2,10 @@
   "es": {
     "items": [
       {
-        "id": "cicy-casa-abierta-2023",
-        "type": "event",
-        "title": "CICY Casa Abierta (2023)",
-        "description": "En la edición 2023 de Casa Abierta CICY, el equipo del laboratorio participó con entusiasmo presentando actividades diseñadas para acercar al público a la Bioinformática y mostrar cómo esta disciplina impacta nuestra vida cotidiana. A través de demostraciones prácticas, ejercicios lúdicos y charlas interactivas, los visitantes pudieron descubrir de manera dinámica y accesible el papel fundamental que juega la bioinformática en la investigación científica y en la comprensión de procesos que nos rodean día a día.",
+        "urls": null,
         "eventDate": "2023-11-09",
         "url": null,
-        "urls": null,
-        "image": null,
+        "title": "CICY Casa Abierta (2023)",
         "images": [
           {
             "src": "div_event_CICY_CasaAbierta_2023_1.jpg",
@@ -47,17 +43,17 @@
             "src": "div_event_CICY_CasaAbierta_2023_9.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "cicy-casa-abierta-2023",
+        "image": null,
+        "description": "En la edición 2023 de Casa Abierta CICY, el equipo del laboratorio participó con entusiasmo presentando actividades diseñadas para acercar al público a la Bioinformática y mostrar cómo esta disciplina impacta nuestra vida cotidiana. A través de demostraciones prácticas, ejercicios lúdicos y charlas interactivas, los visitantes pudieron descubrir de manera dinámica y accesible el papel fundamental que juega la bioinformática en la investigación científica y en la comprensión de procesos que nos rodean día a día."
       },
       {
-        "id": "cicy-casa-abierta-2024",
-        "type": "event",
-        "title": "CICY Casa Abierta (2024)",
-        "description": "En la edición 2023 de Casa Abierta CICY, el equipo del laboratorio participó con entusiasmo presentando actividades diseñadas para acercar al público a la Bioinformática y mostrar cómo esta disciplina impacta nuestra vida cotidiana. A través de demostraciones prácticas, ejercicios lúdicos y charlas interactivas, los visitantes pudieron descubrir de manera dinámica y accesible el papel fundamental que juega la bioinformática en la investigación científica y en la comprensión de procesos que nos rodean día a día.",
+        "urls": null,
         "eventDate": "2024-10-24",
         "url": null,
-        "urls": null,
-        "image": "div_event_CICY_CasaAbierta_2024_1.jpg",
+        "title": "CICY Casa Abierta (2024)",
         "images": [
           {
             "src": "div_event_CICY_CasaAbierta_2024_2.jpg",
@@ -79,17 +75,17 @@
             "src": "div_event_CICY_CasaAbierta_2024_6.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "cicy-casa-abierta-2024",
+        "image": "div_event_CICY_CasaAbierta_2024_1.jpg",
+        "description": "En la edición 2023 de Casa Abierta CICY, el equipo del laboratorio participó con entusiasmo presentando actividades diseñadas para acercar al público a la Bioinformática y mostrar cómo esta disciplina impacta nuestra vida cotidiana. A través de demostraciones prácticas, ejercicios lúdicos y charlas interactivas, los visitantes pudieron descubrir de manera dinámica y accesible el papel fundamental que juega la bioinformática en la investigación científica y en la comprensión de procesos que nos rodean día a día."
       },
       {
-        "id": "11f-mujeres-ninas-ciencia-2023",
-        "type": "event",
-        "title": "11F - Día Internacional de las Mujeres y las Niñas en la Ciencia (2023) ",
-        "description": "Con motivo del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), la Dra. Elsa Góngora impartió una charla interactiva en la Escuela Secundaria Piaget de Mérida, Yucatán. A través de demostraciones y experimentos, introdujo a las y los estudiantes en las bases del ADN y destacó la importancia de su estudio para comprender los procesos biológicos que sustentan la vida. La actividad permitió acercar la ciencia de manera dinámica y despertar el interés por la investigación en las nuevas generaciones.",
+        "urls": null,
         "eventDate": "2023-02-11",
         "url": null,
-        "urls": null,
-        "image": "div_event_11F_2023_1.jpeg",
+        "title": "11F - Día Internacional de las Mujeres y las Niñas en la Ciencia (2023) ",
         "images": [
           {
             "src": "div_event_11F_2023_2.jpeg",
@@ -103,17 +99,17 @@
             "src": "div_event_11F_2023_4.jpeg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "11f-mujeres-ninas-ciencia-2023",
+        "image": "div_event_11F_2023_1.jpeg",
+        "description": "Con motivo del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), la Dra. Elsa Góngora impartió una charla interactiva en la Escuela Secundaria Piaget de Mérida, Yucatán. A través de demostraciones y experimentos, introdujo a las y los estudiantes en las bases del ADN y destacó la importancia de su estudio para comprender los procesos biológicos que sustentan la vida. La actividad permitió acercar la ciencia de manera dinámica y despertar el interés por la investigación en las nuevas generaciones."
       },
       {
-        "id": "11f-mujeres-ninas-ciencia-2024",
-        "type": "event",
-        "title": "11F - Día Internacional de las Mujeres y las Niñas en la Ciencia (2024)",
-        "description": "En el marco del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), el Centro de Visitantes del Jardín Botánico del CICY recibió a niñas que participaron en dinámicas y actividades lúdicas diseñadas para despertar su curiosidad científica. Las estudiantes de posgrado del grupo de laboratorio guiaron las actividades, compartiendo su experiencia y acercando a las participantes al fascinante mundo de la investigación. La jornada se convirtió en un espacio de aprendizaje divertido y motivador, resaltando el papel de las mujeres en la ciencia y fomentando vocaciones científicas desde edades tempranas",
+        "urls": null,
         "eventDate": "2024-02-09",
         "url": null,
-        "urls": null,
-        "image": null,
+        "title": "11F - Día Internacional de las Mujeres y las Niñas en la Ciencia (2024)",
         "images": [
           {
             "src": "div_event_11F_2024_1.jpg",
@@ -127,7 +123,11 @@
             "src": "div_event_11F_2024_3.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "11f-mujeres-ninas-ciencia-2024",
+        "image": null,
+        "description": "En el marco del 11 de febrero, Día Internacional de la Mujer y la Niña en la Ciencia (11F), el Centro de Visitantes del Jardín Botánico del CICY recibió a niñas que participaron en dinámicas y actividades lúdicas diseñadas para despertar su curiosidad científica. Las estudiantes de posgrado del grupo de laboratorio guiaron las actividades, compartiendo su experiencia y acercando a las participantes al fascinante mundo de la investigación. La jornada se convirtió en un espacio de aprendizaje divertido y motivador, resaltando el papel de las mujeres en la ciencia y fomentando vocaciones científicas desde edades tempranas"
       },
       {
         "id": "verano-teleton-crit-2025",
@@ -140,14 +140,10 @@
         "image": null
       },
       {
-        "id": "taller-manglares-aldea-2025",
-        "type": "event",
-        "title": "Taller manglares dirigido a comunidad Aldea (2025)",
-        "description": "Taller sobre manglares y su importancia ecológica dirigido a niños de 5 a 12 años de la comunidad Aldea. Combina educación ambiental y divulgación científica sobre ecosistemas costeros y su conservación.\n\nLas actividades acercan conceptos de biodiversidad, cambio climático y el trabajo que el laboratorio realiza en proyectos de manglares en la península de Yucatán.",
+        "urls": null,
         "eventDate": "2025-06-01",
         "url": null,
-        "urls": null,
-        "image": null,
+        "title": "Taller manglares dirigido a comunidad Aldea (2025)",
         "images": [
           {
             "src": "div_event_Taller_Manglares_Aldea_2025_1.jpg",
@@ -165,17 +161,17 @@
             "src": "div_event_Taller_Manglares_Aldea_2025_4.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "taller-manglares-aldea-2025",
+        "image": null,
+        "description": "Taller sobre manglares y su importancia ecológica dirigido a niños de 5 a 12 años de la comunidad Aldea. Combina educación ambiental y divulgación científica sobre ecosistemas costeros y su conservación.\n\nLas actividades acercan conceptos de biodiversidad, cambio climático y el trabajo que el laboratorio realiza en proyectos de manglares en la península de Yucatán."
       },
       {
-        "id": "cakotanu-cuxtal-molas-2025",
-        "type": "event",
-        "title": "Mi currículum científico Cakotanú - Comunidad de Cuxtal, Molas Yucatán (2025)",
-        "description": "Taller del proyecto Cakotanú dirigido a niños y adolescentes de la comunidad de Cuxtal en Molas, Yucatán. Acerca la ciencia y el quehacer científico de forma lúdica mediante la actividad \"Mi currículum científico\".\n\nPermite a los participantes conocer las distintas etapas de la formación en investigación y reflexionar sobre su propio interés por la ciencia.",
+        "urls": null,
         "eventDate": "2025-05-01",
         "url": null,
-        "urls": null,
-        "image": "div_event_Cakotanu_Cuxtal_Molas_2025_1.jpeg",
+        "title": "Mi currículum científico Cakotanú - Comunidad de Cuxtal, Molas Yucatán (2025)",
         "images": [
           {
             "src": "div_event_Cakotanu_Cuxtal_Molas_2025_2.jpeg",
@@ -201,7 +197,11 @@
             "src": "div_event_Cakotanu_Cuxtal_Molas_2025_7.jpeg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "cakotanu-cuxtal-molas-2025",
+        "image": "div_event_Cakotanu_Cuxtal_Molas_2025_1.jpeg",
+        "description": "Taller del proyecto Cakotanú dirigido a niños y adolescentes de la comunidad de Cuxtal en Molas, Yucatán. Acerca la ciencia y el quehacer científico de forma lúdica mediante la actividad \"Mi currículum científico\".\n\nPermite a los participantes conocer las distintas etapas de la formación en investigación y reflexionar sobre su propio interés por la ciencia."
       },
       {
         "id": "revista-cyn",
@@ -241,7 +241,9 @@
         "eventDate": "2024-03-15",
         "url": "https://open.spotify.com/show/2QKUcSrkiHaMZlqieNLzTK",
         "image": "div_podcast_CraneoPodcast-EP73_01.jpg",
-        "urls": null
+        "urls": [
+          "https://youtu.be/dnYQcam8m3Q?si=1wvgBMZdwEcCzlGg"
+        ]
       },
       {
         "id": "mas-conciencia",
@@ -287,14 +289,10 @@
   "en": {
     "items": [
       {
-        "id": "cicy-casa-abierta-2023",
-        "type": "event",
-        "title": "CICY Open House (2023)",
-        "description": "At the 2023 edition of CICY Open House, the lab team participated enthusiastically with activities designed to introduce the public to Bioinformatics and show how this discipline impacts our daily lives. Through hands-on demonstrations, playful exercises, and interactive talks, visitors were able to discover in a dynamic and accessible way the fundamental role that bioinformatics plays in scientific research and in understanding the processes that surround us every day.",
+        "urls": null,
         "eventDate": "2023-11-09",
         "url": null,
-        "urls": null,
-        "image": null,
+        "title": "CICY Open House (2023)",
         "images": [
           {
             "src": "div_event_CICY_CasaAbierta_2023_1.jpg",
@@ -332,17 +330,17 @@
             "src": "div_event_CICY_CasaAbierta_2023_9.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "cicy-casa-abierta-2023",
+        "image": null,
+        "description": "At the 2023 edition of CICY Open House, the lab team participated enthusiastically with activities designed to introduce the public to Bioinformatics and show how this discipline impacts our daily lives. Through hands-on demonstrations, playful exercises, and interactive talks, visitors were able to discover in a dynamic and accessible way the fundamental role that bioinformatics plays in scientific research and in understanding the processes that surround us every day."
       },
       {
-        "id": "cicy-casa-abierta-2024",
-        "type": "event",
-        "title": "CICY Open House (2024)",
-        "description": "At the 2024 edition of CICY Open House, the lab team participated enthusiastically with activities designed to introduce the public to Bioinformatics and show how this discipline impacts our daily lives. Through hands-on demonstrations, playful exercises, and interactive talks, visitors were able to discover in a dynamic and accessible way the fundamental role that bioinformatics plays in scientific research and in understanding the processes that surround us every day.",
+        "urls": null,
         "eventDate": "2024-10-24",
         "url": null,
-        "urls": null,
-        "image": "div_event_CICY_CasaAbierta_2024_1.jpg",
+        "title": "CICY Open House (2024)",
         "images": [
           {
             "src": "div_event_CICY_CasaAbierta_2024_2.jpg",
@@ -364,17 +362,17 @@
             "src": "div_event_CICY_CasaAbierta_2024_6.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "cicy-casa-abierta-2024",
+        "image": "div_event_CICY_CasaAbierta_2024_1.jpg",
+        "description": "At the 2024 edition of CICY Open House, the lab team participated enthusiastically with activities designed to introduce the public to Bioinformatics and show how this discipline impacts our daily lives. Through hands-on demonstrations, playful exercises, and interactive talks, visitors were able to discover in a dynamic and accessible way the fundamental role that bioinformatics plays in scientific research and in understanding the processes that surround us every day."
       },
       {
-        "id": "11f-mujeres-ninas-ciencia-2023",
-        "type": "event",
-        "title": "11F - International Day of Women and Girls in Science (2023)",
-        "description": "On February 11th, International Day of Women and Girls in Science (11F), Dr. Elsa Góngora gave an interactive talk at the Piaget Secondary School in Mérida, Yucatán. Through demonstrations and experiments, she introduced students to the basics of DNA and highlighted the importance of studying it to understand the biological processes that sustain life. The activity brought science closer in a dynamic way and sparked interest in research among the next generation.",
+        "urls": null,
         "eventDate": "2023-02-11",
         "url": null,
-        "urls": null,
-        "image": "div_event_11F_2023_1.jpeg",
+        "title": "11F - International Day of Women and Girls in Science (2023)",
         "images": [
           {
             "src": "div_event_11F_2023_2.jpeg",
@@ -388,17 +386,17 @@
             "src": "div_event_11F_2023_4.jpeg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "11f-mujeres-ninas-ciencia-2023",
+        "image": "div_event_11F_2023_1.jpeg",
+        "description": "On February 11th, International Day of Women and Girls in Science (11F), Dr. Elsa Góngora gave an interactive talk at the Piaget Secondary School in Mérida, Yucatán. Through demonstrations and experiments, she introduced students to the basics of DNA and highlighted the importance of studying it to understand the biological processes that sustain life. The activity brought science closer in a dynamic way and sparked interest in research among the next generation."
       },
       {
-        "id": "11f-mujeres-ninas-ciencia-2024",
-        "type": "event",
-        "title": "11F - International Day of Women and Girls in Science (2024)",
-        "description": "As part of February 11th, International Day of Women and Girls in Science (11F), the CICY Botanical Garden Visitor Center welcomed girls who took part in activities and hands-on sessions designed to spark their scientific curiosity. Graduate students from the lab led the activities, sharing their experience and introducing participants to the fascinating world of research. The day became a fun and motivating learning space, highlighting the role of women in science and encouraging scientific vocations from an early age.",
+        "urls": null,
         "eventDate": "2024-02-09",
         "url": null,
-        "urls": null,
-        "image": null,
+        "title": "11F - International Day of Women and Girls in Science (2024)",
         "images": [
           {
             "src": "div_event_11F_2024_1.jpg",
@@ -412,7 +410,11 @@
             "src": "div_event_11F_2024_3.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "11f-mujeres-ninas-ciencia-2024",
+        "image": null,
+        "description": "As part of February 11th, International Day of Women and Girls in Science (11F), the CICY Botanical Garden Visitor Center welcomed girls who took part in activities and hands-on sessions designed to spark their scientific curiosity. Graduate students from the lab led the activities, sharing their experience and introducing participants to the fascinating world of research. The day became a fun and motivating learning space, highlighting the role of women in science and encouraging scientific vocations from an early age."
       },
       {
         "id": "verano-teleton-crit-2025",
@@ -425,14 +427,10 @@
         "image": null
       },
       {
-        "id": "taller-manglares-aldea-2025",
-        "type": "event",
-        "title": "Mangrove Workshop for Aldea Community (2025)",
-        "description": "Workshop on mangroves and their ecological importance for children aged 5 to 12 from the Aldea community. It combines environmental education and science outreach on coastal ecosystems and their conservation.\n\nActivities introduce concepts of biodiversity, climate change, and the work the laboratory carries out in mangrove projects in the Yucatán Peninsula.",
+        "urls": null,
         "eventDate": "2025-06-01",
         "url": null,
-        "urls": null,
-        "image": null,
+        "title": "Mangrove Workshop for Aldea Community (2025)",
         "images": [
           {
             "src": "div_event_Taller_Manglares_Aldea_2025_1.jpg",
@@ -450,17 +448,17 @@
             "src": "div_event_Taller_Manglares_Aldea_2025_4.jpg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "taller-manglares-aldea-2025",
+        "image": null,
+        "description": "Workshop on mangroves and their ecological importance for children aged 5 to 12 from the Aldea community. It combines environmental education and science outreach on coastal ecosystems and their conservation.\n\nActivities introduce concepts of biodiversity, climate change, and the work the laboratory carries out in mangrove projects in the Yucatán Peninsula."
       },
       {
-        "id": "cakotanu-cuxtal-molas-2025",
-        "type": "event",
-        "title": "My Scientific CV - Cakotanú, Cuxtal Community, Molas Yucatán (2025)",
-        "description": "Cakotanú project workshop for children and adolescents in the Cuxtal community, Molas, Yucatán. It brings science and the work of scientists closer in a fun way through the \"My scientific CV\" activity.\n\nParticipants learn about the different stages of training in research and reflect on their own interest in science.",
+        "urls": null,
         "eventDate": "2025-05-01",
         "url": null,
-        "urls": null,
-        "image": "div_event_Cakotanu_Cuxtal_Molas_2025_1.jpeg",
+        "title": "My Scientific CV - Cakotanú, Cuxtal Community, Molas Yucatán (2025)",
         "images": [
           {
             "src": "div_event_Cakotanu_Cuxtal_Molas_2025_2.jpeg",
@@ -486,7 +484,11 @@
             "src": "div_event_Cakotanu_Cuxtal_Molas_2025_7.jpeg",
             "caption": null
           }
-        ]
+        ],
+        "type": "event",
+        "id": "cakotanu-cuxtal-molas-2025",
+        "image": "div_event_Cakotanu_Cuxtal_Molas_2025_1.jpeg",
+        "description": "Cakotanú project workshop for children and adolescents in the Cuxtal community, Molas, Yucatán. It brings science and the work of scientists closer in a fun way through the \"My scientific CV\" activity.\n\nParticipants learn about the different stages of training in research and reflect on their own interest in science."
       },
       {
         "id": "revista-cyn",
@@ -526,7 +528,9 @@
         "eventDate": "2024-03-15",
         "url": "https://open.spotify.com/show/2QKUcSrkiHaMZlqieNLzTK",
         "image": "div_podcast_CraneoPodcast-EP73_01.jpg",
-        "urls": null
+        "urls": [
+          "https://youtu.be/dnYQcam8m3Q?si=1wvgBMZdwEcCzlGg"
+        ]
       },
       {
         "id": "mas-conciencia",
