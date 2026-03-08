@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import { X, ExternalLink, FileText, Calendar, Users, BookOpen, Quote } from 'lucide-react'
 import type { Publication } from '../types/publications'
+import { sanitizeTitleHtml } from '../utils/sanitizeTitleHtml'
 
 interface PublicationDetailProps {
   publication: Publication | null
@@ -88,11 +89,12 @@ export default function PublicationDetail({ publication, isOpen, onClose }: Publ
             </div>
 
             <div className="flex-1 min-h-0 overflow-y-auto overscroll-contain p-6 space-y-6">
-              {/* Title */}
+              {/* Title (puede contener <i>, <em>, <b>, <strong> desde la fuente) */}
               <div>
-                <h3 className="font-serif text-2xl font-medium text-charcoal-blue mb-4">
-                  {publication.title}
-                </h3>
+                <h3
+                  className="font-serif text-2xl font-medium text-charcoal-blue mb-4"
+                  dangerouslySetInnerHTML={{ __html: sanitizeTitleHtml(publication.title) }}
+                />
               </div>
 
               {/* Authors */}

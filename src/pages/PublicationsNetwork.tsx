@@ -4,6 +4,7 @@ import { Hand, Circle } from 'lucide-react'
 import PublicationSphere from '../components/PublicationSphere'
 import { usePublications } from '../hooks/usePublications'
 import type { Publication } from '../types/publications'
+import { sanitizeTitleHtml } from '../utils/sanitizeTitleHtml'
 
 export default function PublicationsNetwork() {
   const { publications } = usePublications()
@@ -138,9 +139,10 @@ export default function PublicationsNetwork() {
             </div>
 
             <div className="space-y-2">
-              <h2 className="text-base md:text-lg font-semibold text-charcoal-blue leading-snug line-clamp-3">
-                {selectedPublication.title}
-              </h2>
+              <h2
+                className="text-base md:text-lg font-semibold text-charcoal-blue leading-snug line-clamp-3"
+                dangerouslySetInnerHTML={{ __html: sanitizeTitleHtml(selectedPublication.title) }}
+              />
               {selectedPublication.journal && (
                 <p className="text-xs text-charcoal-blue/70">
                   {selectedPublication.journal}

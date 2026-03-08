@@ -6,6 +6,7 @@ import { ExternalLink, Search, ArrowUp, ArrowDown, Globe } from 'lucide-react'
 import { usePublications } from '../hooks/usePublications'
 import type { Publication, SortOption, SortOrder } from '../types/publications'
 import PublicationDetail from '../components/PublicationDetail'
+import { sanitizeTitleHtml } from '../utils/sanitizeTitleHtml'
 
 /** Normaliza texto para comparar nombres (minúsculas, sin acentos). */
 function normalizeForMatch(s: string): string {
@@ -71,7 +72,7 @@ export default function Publications() {
     return Array.from(tagsMap.entries())
       .sort((a, b) => {
         if (b[1] !== a[1]) return b[1] - a[1]
-        return a[0].localeCompare(b[0])
+        return b[0].localeCompare(a[0]) // orden alfabético inverso (z..a)
       })
       .slice(0, 20)
       .map(entry => entry[0])
@@ -309,10 +310,11 @@ export default function Publications() {
                       {pub.year}
                     </p>
 
-                    {/* Título */}
-                    <h3 className="font-serif text-xl md:text-2xl font-semibold text-cobalt-blue mb-4 hover:text-hover-blue transition-colors leading-tight">
-                      {pub.title}
-                    </h3>
+                    {/* Título (puede contener <i>, <em>, <b>, <strong> desde la fuente) */}
+                    <h3
+                      className="font-serif text-xl md:text-2xl font-semibold text-cobalt-blue mb-4 hover:text-hover-blue transition-colors leading-tight"
+                      dangerouslySetInnerHTML={{ __html: sanitizeTitleHtml(pub.title) }}
+                    />
 
                     {/* Métricas en badges */}
                     <div className="flex flex-wrap items-center gap-2 mb-4">
