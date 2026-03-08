@@ -17,6 +17,9 @@ export default function Research() {
   }, [])
   const { t } = useTranslation()
   const { research: historyContent, projects } = useLocalizedData()
+  const researchHeroSrc = historyContent?.heroImage
+    ? `${baseUrl}${String(historyContent.heroImage).replace(/^\//, '')}`
+    : `${baseUrl}mangrove-homesection.jpg`
 
   // Default gradients to alternate between if no image is available
   const defaultGradients = [
@@ -58,7 +61,7 @@ export default function Research() {
       <section className="relative h-[40vh] md:h-[50vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src={`${baseUrl}mangrove-homesection.jpg`}
+            src={researchHeroSrc}
             alt="Research background"
             className="w-full h-full object-cover"
           />

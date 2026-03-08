@@ -61,6 +61,7 @@ collections:
         file: "src/data/page_research.json"
         i18n: true
         fields:
+          - { label: "Imagen Hero (sección superior)", name: "heroImage", widget: "image", required: false, i18n: true }
           - { label: "Título de Historia", name: "historyTitle", widget: "string", i18n: true }
           - { label: "Contenido narrativo", name: "historyContent", widget: "text", i18n: true }
       - name: "proyectos"
@@ -90,12 +91,18 @@ collections:
   # ─── Equipo ─────────────────────────────────────────────────────────────────
   - name: "equipo"
     label: "Equipo"
-    description: "PI (ES+EN en una pantalla), miembros, personal técnico, colaboradores, egresados y fotos."
+    description: "PI (ES+EN en una pantalla), miembros, personal técnico, colaboradores, egresados y fotos. Incluye imagen hero de la página."
     i18n:
       structure: single_file
       locales: [es, en]
       default_locale: es
     files:
+      - name: "pagina_equipo"
+        label: "Página Equipo — Imagen Hero"
+        file: "src/data/page_people.json"
+        i18n: true
+        fields:
+          - { label: "Imagen Hero (sección superior)", name: "heroImage", widget: "image", required: false, i18n: true }
       - name: "pi"
         label: "Investigadora Principal — PI (ES + EN)"
         file: "src/data/pi_info.json"

@@ -11,12 +11,14 @@ import { useLocalizedData } from '../hooks/useLocalizedData'
 import { emailToDisplayText, emailToMailtoHref } from '../utils/emailDisplay'
 
 const baseUrl = import.meta.env.BASE_URL
-const PeopleHeroImage = `${baseUrl}people_hero_section.png`
 const DraElsaGongora = `${baseUrl}DraElsaGongora.jpg`
 
 export default function People() {
   const { t } = useTranslation()
-  const { pi: piContent } = useLocalizedData()
+  const { pi: piContent, pagePeople } = useLocalizedData()
+  const peopleHeroSrc = pagePeople?.heroImage
+    ? `${baseUrl}${String(pagePeople.heroImage).replace(/^\//, '')}`
+    : `${baseUrl}people_hero_section.png`
   const piOrcidUrl = piContent?.orcidUrl != null ? String(piContent.orcidUrl) : ''
   const [selectedImage, setSelectedImage] = useState<{ year: string; image: string } | null>(null)
   
@@ -88,7 +90,7 @@ export default function People() {
       <section className="relative h-[40vh] md:h-[50vh] flex items-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src={PeopleHeroImage}
+            src={peopleHeroSrc}
             alt="Lab Group"
             className="w-full h-full object-cover object-top"
           />
