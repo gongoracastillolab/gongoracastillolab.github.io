@@ -202,7 +202,7 @@ collections:
   # ─── Divulgación ────────────────────────────────────────────────────────────
   - name: "divulgacion"
     label: "Divulgación"
-    description: "Podcasts, videos, eventos y artículos. ES y EN en la misma pantalla."
+    description: "Podcasts, videos, eventos y artículos. ES y EN en la misma pantalla. Imagen y galería: sube solo en la columna ESPAÑOL; la web usa esa misma imagen también en inglés. En el panel inglés del admin no se verá la miniatura (limitación de Decap en listas), pero en la página pública sí. Opcional: en inglés puedes pegar la misma URL de imagen (Insert from URL) para ver la miniatura también ahí."
     i18n:
       structure: single_file
       locales: [es, en]
@@ -225,11 +225,12 @@ collections:
               - { label: "Fecha", name: "eventDate", widget: "string", required: false, hint: "Formato YYYY-MM-DD (ej. 2023-11-09)" }
               - { label: "URL principal", name: "url", widget: "string", required: false }
               - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
-              - { label: "Imagen", name: "image", widget: "image", required: false }
+              - { label: "Imagen", name: "image", widget: "image", required: false, hint: "Subir en la columna Español; la web la reutiliza en inglés." }
               - label: "Galería de fotos (eventos)"
                 name: "images"
                 widget: "list"
                 required: false
+                hint: "Añadir fotos en la columna Español; la web las reutiliza en inglés."
                 fields:
                   - { label: "Foto", name: "src", widget: "image" }
                   - { label: "Subtítulo", name: "caption", widget: "string", required: false }
