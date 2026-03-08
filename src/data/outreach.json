@@ -428,14 +428,25 @@
         "description": "As part of February 11th, International Day of Women and Girls in Science (11F), the CICY Botanical Garden Visitor Center welcomed girls who took part in activities and hands-on sessions designed to spark their scientific curiosity. Graduate students from the lab led the activities, sharing their experience and introducing participants to the fascinating world of research. The day became a fun and motivating learning space, highlighting the role of women in science and encouraging scientific vocations from an early age."
       },
       {
-        "id": "verano-teleton-crit-2025",
-        "type": "event",
-        "title": "Teletón Summer Program for CRIT Yucatán Community (2025)",
-        "description": "Outreach activity as part of the Teletón Summer Program, aimed at the CRIT Yucatán community. The laboratory brings science and genomics research closer to families and participants.\n\nIncludes workshops and activities adapted to share scientific work and spark curiosity about biology and bioinformatics.",
+        "urls": null,
         "eventDate": "2025-07-01",
         "url": null,
-        "urls": null,
-        "image": null
+        "title": "Teletón Summer Program for CRIT Yucatán Community (2025)",
+        "images": [
+          {
+            "src": "/div_event_crit_2025_2.jpg"
+          },
+          {
+            "src": "/div_event_crit_2025_4.jpg"
+          },
+          {
+            "src": "/div_event_crit_2025_3.jpg"
+          }
+        ],
+        "type": "event",
+        "id": "verano-teleton-crit-2025",
+        "image": "/div_event_crit_2025_1.jpg",
+        "description": "Outreach activity as part of the Teletón Summer Program, aimed at the CRIT Yucatán community. The laboratory brings science and genomics research closer to families and participants.\n\nIncludes workshops and activities adapted to share scientific work and spark curiosity about biology and bioinformatics."
       },
       {
         "urls": null,
