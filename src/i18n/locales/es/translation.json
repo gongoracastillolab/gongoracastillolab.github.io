@@ -161,6 +161,18 @@
       "typePodcast": "PODCAST",
       "typeVideo": "VIDEO"
     },
+    "publicationsNetwork": {
+      "subtitle": "Red de citaciones",
+      "title": "Explora nuestra red de publicaciones",
+      "description": "Descubre nuestras publicaciones y su impacto en la red de citaciones.",
+      "legendDrag": "Arrastrar",
+      "legendCitedBy": "Quienes nos citan",
+      "legendReferences": "Referencias",
+      "cardBrand": "GCLab Publications",
+      "cardAuthors": "Autores",
+      "cardCitations": "Citas",
+      "cardGo": "Ir"
+    },
     "publicationDetail": {
       "title": "Detalles de la Publicación",
       "authors": "Autores",

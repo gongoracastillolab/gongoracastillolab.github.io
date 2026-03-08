@@ -1,5 +1,6 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import { Hand, Circle } from 'lucide-react'
 import PublicationSphere from '../components/PublicationSphere'
 import { usePublications } from '../hooks/usePublications'
@@ -7,6 +8,7 @@ import type { Publication } from '../types/publications'
 import { sanitizeTitleHtml } from '../utils/sanitizeTitleHtml'
 
 export default function PublicationsNetwork() {
+  const { t } = useTranslation()
   const { publications } = usePublications()
   const [selectedDoi, setSelectedDoi] = useState<string | null>(null)
   const [cardPositionIndex, setCardPositionIndex] = useState<number>(0)
@@ -81,13 +83,13 @@ export default function PublicationsNetwork() {
             className="max-w-3xl space-y-5"
           >
             <p className="text-sm font-medium uppercase tracking-[0.25em] text-cobalt-blue">
-              Red de citaciones
+              {t('publicationsNetwork.subtitle')}
             </p>
             <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light text-charcoal-blue leading-tight">
-              Explora nuestra red de publicaciones
+              {t('publicationsNetwork.title')}
             </h1>
             <p className="text-base md:text-lg text-charcoal-blue/85 leading-relaxed max-w-2xl">
-              Descubre nuestras publicaciones y su impacto en la red de citaciones.
+              {t('publicationsNetwork.description')}
             </p>
           </motion.div>
         </div>
@@ -103,16 +105,16 @@ export default function PublicationsNetwork() {
         >
           <span className="flex items-center gap-2 text-xs text-charcoal-blue/70">
             <Hand className="w-4 h-4 text-charcoal-blue/60" strokeWidth={2} aria-hidden />
-            <span>Arrastrar</span>
+            <span>{t('publicationsNetwork.legendDrag')}</span>
           </span>
           <span className="w-px h-4 bg-charcoal-blue/20 hidden sm:block" aria-hidden />
           <span className="flex items-center gap-2 text-xs text-charcoal-blue/70">
             <Circle className="w-3 h-3 fill-emerald-600 text-emerald-600" aria-hidden />
-            <span>Quienes nos citan</span>
+            <span>{t('publicationsNetwork.legendCitedBy')}</span>
           </span>
           <span className="flex items-center gap-2 text-xs text-charcoal-blue/70">
             <Circle className="w-3 h-3 fill-cobalt-blue text-cobalt-blue" aria-hidden />
-            <span>Referencias</span>
+            <span>{t('publicationsNetwork.legendReferences')}</span>
           </span>
         </motion.div>
       </div>
@@ -129,7 +131,7 @@ export default function PublicationsNetwork() {
           <div className="pointer-events-auto max-w-sm w-full rounded-3xl bg-gradient-to-br from-white/95 via-white/90 to-[#f4f4f7] border border-white/60 backdrop-blur-xl px-7 py-6 space-y-4" style={{ boxShadow: '0 25px 50px -12px rgba(0,0,0,0.22), 0 12px 28px -8px rgba(0,0,0,0.15)' }}>
             <div className="flex items-center justify-between text-xs text-charcoal-blue/60">
               <span className="font-semibold uppercase tracking-[0.18em] text-cobalt-blue/90">
-                GCLab Publications
+                {t('publicationsNetwork.cardBrand')}
               </span>
               {selectedPublication.year && (
                 <span className="rounded-full bg-white/90 px-3 py-1 border border-pale-slate text-[11px] font-medium text-charcoal-blue/70">
@@ -153,13 +155,13 @@ export default function PublicationsNetwork() {
             <div className="space-y-1 text-xs text-charcoal-blue/70">
               {selectedPublication.authors?.length > 0 && (
                 <p className="line-clamp-2">
-                  <span className="font-semibold text-charcoal-blue/80">Autores: </span>
+                  <span className="font-semibold text-charcoal-blue/80">{t('publicationsNetwork.cardAuthors')}: </span>
                   {selectedPublication.authors.join(', ')}
                 </p>
               )}
               {selectedPublication.citations !== undefined && (
                 <p>
-                  <span className="font-semibold text-charcoal-blue/80">Citas: </span>
+                  <span className="font-semibold text-charcoal-blue/80">{t('publicationsNetwork.cardCitations')}: </span>
                   {selectedPublication.citations}
                 </p>
               )}
@@ -184,7 +186,7 @@ export default function PublicationsNetwork() {
                   rel="noreferrer"
                   className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-charcoal-blue text-white shadow-md hover:bg-cobalt-blue transition-colors"
                 >
-                  <span className="text-xs font-semibold">Go</span>
+                  <span className="text-xs font-semibold">{t('publicationsNetwork.cardGo')}</span>
                 </a>
               ) : null}
             </div>

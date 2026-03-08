@@ -264,10 +264,10 @@ collections:
               - { label: "URLs adicionales", name: "urls", widget: "list", required: false }
 
   # ─── Configuración ──────────────────────────────────────────────────────────
-  # Textos de interfaz (menú, botones, etiquetas, mensajes). Se usan en i18n aparte del contenido por página.
+  # Textos de interfaz (menú, botones, etiquetas, mensajes). Incluye también la página «Red de citaciones» (publicationsNetwork). Se usan en i18n. Editar con cuidado.
   - name: "config"
     label: "Configuración"
-    description: "Traducciones de la interfaz: menú de navegación, botones, etiquetas, mensajes (loading, errores, etc.). Archivos usados por i18n. Editar con cuidado."
+    description: "Traducciones de la interfaz: menú, botones, etiquetas, mensajes, y textos de la página Red de citaciones (esfera). Archivos usados por i18n. Editar con cuidado."
     files:
       - label: "Traducciones (ES)"
         name: "traducciones_es"

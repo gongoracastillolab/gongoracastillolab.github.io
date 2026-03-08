@@ -161,6 +161,18 @@
       "typePodcast": "PODCAST",
       "typeVideo": "VIDEO"
     },
+    "publicationsNetwork": {
+      "subtitle": "Citation network",
+      "title": "Explore our publication network",
+      "description": "Discover our publications and their impact on the citation network.",
+      "legendDrag": "Drag",
+      "legendCitedBy": "Those who cite us",
+      "legendReferences": "References",
+      "cardBrand": "GCLab Publications",
+      "cardAuthors": "Authors",
+      "cardCitations": "Citations",
+      "cardGo": "Go"
+    },
     "publicationDetail": {
       "title": "Publication Details",
       "authors": "Authors",
