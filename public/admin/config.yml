@@ -30,7 +30,7 @@ collections:
   # ─── Inicio ─────────────────────────────────────────────────────────────────
   - name: "inicio"
     label: "Inicio"
-    description: "Hero, descripción y contacto. Edita español e inglés en la misma pantalla."
+    description: "Portada, descripción y contacto. Edita español e inglés en la misma pantalla."
     i18n:
       structure: single_file
       locales: [es, en]
@@ -41,8 +41,8 @@ collections:
         file: "src/data/page_home.json"
         i18n: true
         fields:
-          - { label: "Título Principal (Hero)", name: "title", widget: "string", i18n: true }
-          - { label: "Subtítulo / Tagline (Hero)", name: "heroTagline", widget: "string", i18n: true }
+          - { label: "Título Principal (Portada)", name: "title", widget: "string", i18n: true }
+          - { label: "Subtítulo / Tagline (Portada)", name: "heroTagline", widget: "string", i18n: true }
           - { label: "Descripción", name: "description", widget: "text", i18n: true, hint: "Un párrafo por línea. Línea en blanco entre párrafos." }
           - { label: "Texto de Contacto", name: "contactText", widget: "text", i18n: true }
           - { label: "Email de Contacto", name: "contactEmail", widget: "string", i18n: true }
@@ -61,7 +61,7 @@ collections:
         file: "src/data/page_research.json"
         i18n: true
         fields:
-          - { label: "Imagen Hero (sección superior)", name: "heroImage", widget: "image", required: false, i18n: true }
+          - { label: "Imagen de Portada", name: "heroImage", widget: "image", required: false, i18n: true }
           - { label: "Título de Historia", name: "historyTitle", widget: "string", i18n: true }
           - { label: "Contenido narrativo", name: "historyContent", widget: "text", i18n: true }
       - name: "proyectos"
@@ -90,14 +90,14 @@ collections:
 
   # ─── Equipo (contenido único: misma info en ES y EN) ─────────────────────────
   - name: "equipo_single"
-    label: "Equipo (contenido único)"
-    description: "Hero de la página, miembros, personal técnico, colaboradores, egresados y fotos de grupo. Una sola versión (se usa en ambos idiomas)."
+    label: "Equipo"
+    description: "Portada de la página, miembros, personal técnico, colaboradores, egresados y fotos de grupo. Una sola versión (se usa en ambos idiomas)."
     files:
       - name: "pagina_equipo"
-        label: "Página Equipo — Imagen Hero"
+        label: "Página Equipo — Portada"
         file: "src/data/page_people.json"
         fields:
-          - { label: "Imagen Hero (sección superior)", name: "heroImage", widget: "image", required: false }
+          - { label: "Imagen de Portada", name: "heroImage", widget: "image", required: false }
       - label: "Miembros activos"
         name: "miembros"
         file: "src/data/members.json"
@@ -135,20 +135,12 @@ collections:
                   - { label: "Técnico", value: "people.alumni.roles.technical" }
                   - { label: "PI Asociado", value: "people.alumni.roles.pi" }
               - { label: "Imagen", name: "image", widget: "image", required: false }
-          - label: "Colaboradores"
+          - label: "Instituciones colaboradoras (logos)"
             name: "collaborators"
             widget: "list"
             fields:
-              - { label: "Nombre", name: "name", widget: "string" }
-              - { label: "Afiliación", name: "affiliation", widget: "string" }
-              - label: "País"
-                name: "countryKey"
-                widget: "select"
-                options:
-                  - { label: "México", value: "people.alumni.countries.mexico" }
-                  - { label: "USA", value: "people.alumni.countries.usa" }
-                  - { label: "Francia", value: "people.alumni.countries.france" }
-                  - { label: "España", value: "people.alumni.countries.spain" }
+              - { label: "Logo", name: "logo", widget: "image" }
+              - { label: "Nombre de la institución", name: "name", widget: "string" }
       - label: "Egresados"
         name: "egresados"
         file: "src/data/alumni.json"
@@ -180,7 +172,7 @@ collections:
 
   # ─── Equipo — PI (bilingüe ES + EN) ─────────────────────────────────────────
   - name: "equipo"
-    label: "Equipo — PI (ES + EN)"
+    label: "Investigadora Principal"
     description: "Datos de la Investigadora Principal. Edita español e inglés en la misma pantalla."
     i18n:
       structure: single_file

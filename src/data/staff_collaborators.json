@@ -12,35 +12,9 @@
     }
   ],
   "collaborators": [
-    {
-      "name": "Dr. John Smith",
-      "affiliation": "University of California, Berkeley",
-      "countryKey": "people.alumni.countries.usa"
-    },
-    {
-      "name": "Dra. María García",
-      "affiliation": "Universidad Nacional Autónoma de México",
-      "countryKey": "people.alumni.countries.mexico"
-    },
-    {
-      "name": "Dr. Pierre Dubois",
-      "affiliation": "CNRS, France",
-      "countryKey": "people.alumni.countries.france"
-    },
-    {
-      "name": "Dr. Kevin Childs",
-      "affiliation": "Michigan State University",
-      "countryKey": "people.alumni.countries.usa"
-    },
-    {
-      "name": "Dra. Lina Quesada-Ocampo",
-      "affiliation": "North Carolina State University",
-      "countryKey": "people.alumni.countries.usa"
-    },
-    {
-      "name": "Dra. Susana De la Torre-Zavala",
-      "affiliation": "Universidad Autónoma de Nuevo León",
-      "countryKey": "people.alumni.countries.mexico"
-    }
+    { "logo": "colab_cicy_logo.jpg", "name": "CICY" },
+    { "logo": "colab_msu_logo.png", "name": "Michigan State University" },
+    { "logo": "colab_uady_logo.png", "name": "Universidad Autónoma de Yucatán" },
+    { "logo": "colab_unam_logo.png", "name": "UNAM" }
   ]
 }

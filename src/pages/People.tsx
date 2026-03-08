@@ -77,12 +77,10 @@ export default function People() {
     image: staff.image ? `${baseUrl}${staff.image}` : null
   }))
 
-  const collaboratingInstitutions = [
-    { logo: `${baseUrl}colab_cicy_logo.jpg`, name: 'CICY' },
-    { logo: `${baseUrl}colab_msu_logo.png`, name: 'Michigan State University' },
-    { logo: `${baseUrl}colab_uady_logo.png`, name: 'Universidad Autónoma de Yucatán' },
-    { logo: `${baseUrl}colab_unam_logo.png`, name: 'UNAM' },
-  ]
+  const collaboratingInstitutions = (staffCollaboratorsData.collaborators ?? []).map((inst: { logo?: string; name?: string }) => ({
+    logo: inst.logo ? `${baseUrl}${String(inst.logo).replace(/^\//, '')}` : '',
+    name: inst.name ?? ''
+  })).filter((inst) => inst.logo)
 
   return (
     <div className="relative">
