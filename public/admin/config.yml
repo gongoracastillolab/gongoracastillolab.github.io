@@ -1,8 +1,9 @@
-# git-gateway solo funciona con Netlify. En GitHub Pages hace falta backend: github + OAuth App + proxy.
-# Ver docs/01_guias/DEPLOYMENT.md sección Decap CMS.
 backend:
-  name: git-gateway
+  name: github
   branch: main
+  repo: gongoracastillolab/gongoracastillolab.github.io
+  base_url: https://decap-auth-gclab.gongoracastillolab.workers.dev
+  auth_endpoint: auth
 
 local_backend: true
 

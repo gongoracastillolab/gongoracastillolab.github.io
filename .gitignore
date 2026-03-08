@@ -25,3 +25,4 @@ dist-ssr
 
 # Documentación local
 docs/
+.cursor/
