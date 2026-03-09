@@ -91,7 +91,7 @@ collections:
   # ─── Equipo (contenido único: misma info en ES y EN) ─────────────────────────
   - name: "equipo_single"
     label: "Equipo"
-    description: "Portada de la página, miembros, personal técnico, colaboradores, egresados y fotos de grupo. Una sola versión (se usa en ambos idiomas)."
+    description: "Portada de la página, miembros, personal técnico, colaboradores, egresados y fotos de grupo."
     files:
       - name: "pagina_equipo"
         label: "Página Equipo — Portada"
@@ -202,7 +202,7 @@ collections:
   # ─── Divulgación ────────────────────────────────────────────────────────────
   - name: "divulgacion"
     label: "Divulgación"
-    description: "Podcasts, videos, eventos y artículos. ES y EN en la misma pantalla. Imagen y galería: sube solo en la columna ESPAÑOL; la web usa esa misma imagen también en inglés. En el panel inglés del admin no se verá la miniatura (limitación de Decap en listas), pero en la página pública sí. Opcional: en inglés puedes pegar la misma URL de imagen (Insert from URL) para ver la miniatura también ahí."
+    description: "Podcasts, videos, eventos y artículos. ES y EN en la misma pantalla. Sube imágenes solo en la columna ESPAÑOL; se mostrarán también en inglés (miniatura visible en público, opcional insertar URL en EN para verla en el panel)."
     i18n:
       structure: single_file
       locales: [es, en]
@@ -257,7 +257,7 @@ collections:
   # Textos de interfaz (menú, botones, etiquetas, mensajes, Red de citaciones). El campo «translation» es JSON en formato texto; la app lo parsea. Editar con cuidado.
   - name: "config"
     label: "Configuración"
-    description: "Traducciones de la interfaz: menú, botones, etiquetas, mensajes y página Red de citaciones. Aquí se edita el JSON completo; debe ser JSON válido."
+    description: "Traducciones de la interfaz: menú, botones, etiquetas y mensajes. Aquí se edita el JSON completo."
     files:
       - label: "Traducciones (ES)"
         name: "traducciones_es"
