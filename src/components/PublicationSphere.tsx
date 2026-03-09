@@ -21,7 +21,8 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick, o
 
     const scene = new THREE.Scene()
     const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 100)
-    camera.position.z = 12
+    const isMobile = () => (container?.clientWidth ?? width) < 640
+    camera.position.z = isMobile() ? 16 : 12
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true })
     renderer.setSize(width, height)
@@ -56,8 +57,9 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick, o
 
     const geometry = new THREE.BufferGeometry()
 
+    const pointSizeBase = width < 640 ? 0.14 : 0.09
     const material = new THREE.PointsMaterial({
-      size: 0.09,
+      size: pointSizeBase,
       vertexColors: true,
       transparent: true,
       opacity: 0.95,
@@ -205,8 +207,9 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick, o
           new THREE.BufferAttribute(new Float32Array(ownColorsArray), 3)
         )
 
+        const ownPointSize = width < 640 ? 0.42 : 0.3
         materialOwn = new THREE.PointsMaterial({
-          size: 0.3, // tamaño base de nuestras publicaciones (un poco más grande)
+          size: ownPointSize, // más grande en móvil para mejor tap
           vertexColors: true,
           transparent: true,
           opacity: 0.98,
@@ -488,6 +491,7 @@ export default function PublicationSphere({ onOwnNodeClick, onBackgroundClick, o
       const newHeight = container.clientHeight || height
       renderer.setSize(newWidth, newHeight)
       camera.aspect = newWidth / newHeight
+      camera.position.z = newWidth < 640 ? 16 : 12
       camera.updateProjectionMatrix()
     }
 

@@ -235,6 +235,24 @@ collections:
                   - { label: "Foto", name: "src", widget: "image" }
                   - { label: "Subtítulo", name: "caption", widget: "string", required: false }
 
+  # ─── Red de publicaciones (sphere) ───────────────────────────────────────────
+  - name: "red_publicaciones"
+    label: "Red de publicaciones (sphere)"
+    description: "Título, subtítulo y tagline de la página de la esfera de citaciones. ES y EN en la misma pantalla."
+    i18n:
+      structure: single_file
+      locales: [es, en]
+      default_locale: es
+    files:
+      - name: "sphere_hero"
+        label: "Texto hero — Red de citaciones (ES + EN)"
+        file: "src/data/page_publications_network.json"
+        i18n: true
+        fields:
+          - { label: "Subtítulo (ej. CITATION NETWORK)", name: "subtitle", widget: "string", i18n: true }
+          - { label: "Título (ej. Explore our publication network)", name: "title", widget: "string", i18n: true }
+          - { label: "Tagline / Descripción", name: "description", widget: "text", i18n: true }
+
   # ─── Configuración ──────────────────────────────────────────────────────────
   # Textos de interfaz (menú, botones, etiquetas, mensajes, Red de citaciones). El campo «translation» es JSON en formato texto; la app lo parsea. Editar con cuidado.
   - name: "config"

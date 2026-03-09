@@ -4,12 +4,17 @@ import { useTranslation } from 'react-i18next'
 import { Hand, Circle } from 'lucide-react'
 import PublicationSphere from '../components/PublicationSphere'
 import { usePublications } from '../hooks/usePublications'
+import { useLocalizedData } from '../hooks/useLocalizedData'
 import type { Publication } from '../types/publications'
 import { sanitizeTitleHtml } from '../utils/sanitizeTitleHtml'
 
 export default function PublicationsNetwork() {
   const { t } = useTranslation()
   const { publications } = usePublications()
+  const { publicationsNetworkHero } = useLocalizedData()
+  const heroSubtitle = publicationsNetworkHero?.subtitle ?? t('publicationsNetwork.subtitle')
+  const heroTitle = publicationsNetworkHero?.title ?? t('publicationsNetwork.title')
+  const heroDescription = publicationsNetworkHero?.description ?? t('publicationsNetwork.description')
   const [selectedDoi, setSelectedDoi] = useState<string | null>(null)
   const [cardPositionIndex, setCardPositionIndex] = useState<number>(0)
   const [showInteractHint, setShowInteractHint] = useState(true)
@@ -31,7 +36,7 @@ export default function PublicationsNetwork() {
         : 'items-end pb-10'
 
   return (
-    <section className="relative min-h-[90vh] overflow-hidden">
+    <section className="relative min-h-[90vh] overflow-hidden pb-[env(safe-area-inset-bottom)]">
       {/* Fondo estético: blancos, grises azulados y toques de azul cobalto muy suaves */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -83,19 +88,19 @@ export default function PublicationsNetwork() {
             className="max-w-3xl space-y-5"
           >
             <p className="text-sm font-medium uppercase tracking-[0.25em] text-cobalt-blue">
-              {t('publicationsNetwork.subtitle')}
+              {heroSubtitle}
             </p>
             <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl font-light text-charcoal-blue leading-tight">
-              {t('publicationsNetwork.title')}
+              {heroTitle}
             </h1>
             <p className="text-base md:text-lg text-charcoal-blue/85 leading-relaxed max-w-2xl">
-              {t('publicationsNetwork.description')}
+              {heroDescription}
             </p>
           </motion.div>
         </div>
       </div>
 
-      {/* Banda de simbología: estilo coherente con las tarjetas de la red */}
+      {/* Banda de simbología: debajo de la card cuando hay nodo seleccionado */}
       <div className="absolute bottom-0 left-0 right-0 z-10 flex justify-center px-4 pb-6 md:pb-8 pointer-events-none">
         <motion.div
           initial={{ opacity: 0, y: 8 }}
@@ -119,16 +124,16 @@ export default function PublicationsNetwork() {
         </motion.div>
       </div>
 
-      {/* Tarjeta de publicación seleccionada */}
+      {/* Tarjeta de publicación seleccionada — encima de la simbología (z-20); bordes siempre redondeados */}
       {selectedPublication && (
         <motion.div
           initial={{ opacity: 0, x: 40 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 40 }}
           transition={{ duration: 0.35 }}
-          className={`pointer-events-none absolute inset-y-0 right-0 flex pr-6 md:pr-10 ${cardAlignClass}`}
+          className={`pointer-events-none absolute inset-x-0 bottom-0 flex justify-center px-4 pb-4 md:inset-y-0 md:right-0 md:left-auto md:px-0 md:pb-0 md:pr-6 md:pl-0 lg:pr-10 z-20 ${cardAlignClass}`}
         >
-          <div className="pointer-events-auto max-w-sm w-full rounded-3xl bg-gradient-to-br from-white/95 via-white/90 to-[#f4f4f7] border border-white/60 backdrop-blur-xl px-7 py-6 space-y-4" style={{ boxShadow: '0 25px 50px -12px rgba(0,0,0,0.22), 0 12px 28px -8px rgba(0,0,0,0.15)' }}>
+          <div className="pointer-events-auto w-full max-w-sm md:max-w-sm rounded-3xl bg-gradient-to-br from-white/95 via-white/90 to-[#f4f4f7] border border-white/60 backdrop-blur-xl px-5 py-5 sm:px-7 sm:py-6 space-y-3 sm:space-y-4 max-h-[70vh] overflow-y-auto md:max-h-none md:overflow-visible" style={{ boxShadow: '0 25px 50px -12px rgba(0,0,0,0.22), 0 12px 28px -8px rgba(0,0,0,0.15)' }}>
             <div className="flex items-center justify-between text-xs text-charcoal-blue/60">
               <span className="font-semibold uppercase tracking-[0.18em] text-cobalt-blue/90">
                 {t('publicationsNetwork.cardBrand')}
@@ -142,7 +147,7 @@ export default function PublicationsNetwork() {
 
             <div className="space-y-2">
               <h2
-                className="text-base md:text-lg font-semibold text-charcoal-blue leading-snug line-clamp-3"
+                className="text-base sm:text-lg font-semibold text-charcoal-blue leading-snug line-clamp-4 sm:line-clamp-3"
                 dangerouslySetInnerHTML={{ __html: sanitizeTitleHtml(selectedPublication.title) }}
               />
               {selectedPublication.journal && (
@@ -154,7 +159,7 @@ export default function PublicationsNetwork() {
 
             <div className="space-y-1 text-xs text-charcoal-blue/70">
               {selectedPublication.authors?.length > 0 && (
-                <p className="line-clamp-2">
+                <p className="line-clamp-3 sm:line-clamp-2">
                   <span className="font-semibold text-charcoal-blue/80">{t('publicationsNetwork.cardAuthors')}: </span>
                   {selectedPublication.authors.join(', ')}
                 </p>
@@ -167,10 +172,10 @@ export default function PublicationsNetwork() {
               )}
             </div>
 
-            <div className="flex items-center justify-between pt-2">
-              <div className="flex flex-col text-[11px] text-charcoal-blue/60">
+            <div className="flex items-center justify-between pt-2 gap-3">
+              <div className="flex flex-col text-[11px] text-charcoal-blue/60 min-w-0 flex-1">
                 {selectedPublication.doi && (
-                  <span className="truncate max-w-[180px]">
+                  <span className="truncate max-w-full sm:max-w-[180px]">
                     DOI: {selectedPublication.doi}
                   </span>
                 )}
@@ -184,7 +189,7 @@ export default function PublicationsNetwork() {
                   }
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center h-10 w-10 rounded-full bg-charcoal-blue text-white shadow-md hover:bg-cobalt-blue transition-colors"
+                  className="inline-flex items-center justify-center min-h-[44px] min-w-[44px] h-10 w-10 rounded-full bg-charcoal-blue text-white shadow-md hover:bg-cobalt-blue transition-colors shrink-0"
                 >
                   <span className="text-xs font-semibold">{t('publicationsNetwork.cardGo')}</span>
                 </a>

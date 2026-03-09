@@ -43,29 +43,29 @@ export default function Home() {
           ></div>
         </div>
 
-        {/* Immersive Centered Chord Diagram */}
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[120vh] h-[120vh] z-0 overflow-visible opacity-40"> {/* Change opacity to 50% */}
+        {/* Immersive Centered Chord Diagram — móvil: más visible y encaja en viewport; escritorio: igual */}
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vmin] h-[100vmin] max-w-[120vh] max-h-[120vh] md:w-[120vh] md:h-[120vh] md:max-w-none md:max-h-none z-0 overflow-visible opacity-65 md:opacity-40">
           <ChordDiagram />
         </div>
 
-        <div className="container-custom relative z-10 py-20 flex flex-col items-center text-center pointer-events-none">
-          {/* Hero Content */}
+        <div className="container-custom relative z-10 py-12 md:py-20 flex flex-col items-center text-center pointer-events-none px-4">
+          {/* Hero Content — móvil: texto más grande y legible */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="max-w-4xl pointer-events-none"
           >
-            <h1 className="font-serif text-lg md:text-xl lg:text-5xl text-gray-700 mb-10 leading-tight select-none max-w-3xl mx-auto">
+            <h1 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-700 mb-6 md:mb-10 leading-tight select-none max-w-3xl mx-auto">
               {String((content as { heroTagline?: string }).heroTagline ?? content.title ?? '')}
             </h1>
             <div className="pointer-events-auto inline-block">
               <Link
                 to="/research#proyectos"
-                className="inline-flex items-center space-x-2 btn-primary"
+                className="inline-flex items-center space-x-2 btn-primary text-base min-h-[48px] px-6 py-3 md:min-h-0 md:px-4 md:py-2"
               >
                 <span>{t('home.cta')}</span>
-                <ArrowRight className="w-5 h-5" />
+                <ArrowRight className="w-5 h-5 shrink-0" />
               </Link>
             </div>
           </motion.div>
