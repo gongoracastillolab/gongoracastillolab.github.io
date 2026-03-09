@@ -1,12 +1,12 @@
 {
   "es": {
-    "subtitle": "Red de citaciones",
-    "title": "Explora nuestra red de publicaciones",
+    "subtitle": "Red de publicaciones",
+    "title": "Explora nuestra publicaciones",
     "description": "Descubre nuestras publicaciones y su impacto en la red de citaciones."
   },
   "en": {
-    "subtitle": "Citation network",
-    "title": "Explore our publication network",
+    "subtitle": "Publication network",
+    "title": "Explore our publications",
     "description": "Discover our publications and their impact on the citation network."
   }
 }
