@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         {/* Immersive Centered Chord Diagram — móvil: más visible y encaja en viewport; escritorio: igual */}
-        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vmin] h-[100vmin] max-w-[120vh] max-h-[120vh] md:w-[120vh] md:h-[120vh] md:max-w-none md:max-h-none z-0 overflow-visible opacity-65 md:opacity-40">
+        <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[100vmin] h-[100vmin] max-w-[120vh] max-h-[120vh] md:w-[120vh] md:h-[120vh] md:max-w-none md:max-h-none z-0 overflow-visible">
           <ChordDiagram />
         </div>
 

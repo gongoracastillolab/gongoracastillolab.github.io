@@ -98,6 +98,8 @@ export default function ChordDiagram() {
       .style("stroke", d3.rgb(chromosomeColor).darker(0.2).toString())
       .attr("d", arc as any)
       .attr("class", d => `arc arc-${d.index}`)
+      .style("opacity", 0.4) // Opacidad base para arcos
+      .style("stroke-opacity", 0.4) // Sincronizar borde
       .on("mouseenter", (_event, d) => { setHoveredIndex(d.index); isPausedRef.current = true; })
       .on("mouseleave", () => { setHoveredIndex(null); isPausedRef.current = false; })
 
@@ -150,11 +152,11 @@ export default function ChordDiagram() {
       .attr("class", "ribbon")
       .attr("d", ribbon as any)
       .style("fill", (_d: any, i: number) => ribbonColors[i % ribbonColors.length])
-      .style("fill-opacity", 0.35)
+      .style("fill-opacity", 0.15) // Opacidad base reducida para ribbons
       .style("stroke", (_d: any, i: number) => d3.rgb(ribbonColors[i % ribbonColors.length]).darker(0.6).toString())
       .style("stroke-width", 0.5)
-      .style("stroke-opacity", 1)  // Agregar opacidad del stroke
-      .on("mouseenter", (_event, d: any) => { setHoveredRibbon({ source: d.source.index, target: d.target.index }); isPausedRef.current = true; })
+      .style("stroke-opacity", 0.15)  // Reducido para que no destaque sobre el relleno
+      .on("mouseenter", (_event, d: any) => { setHoveredIndex(null); setHoveredRibbon({ source: d.source.index, target: d.target.index }); isPausedRef.current = true; })
       .on("mouseleave", () => { setHoveredRibbon(null); isPausedRef.current = false; })
 
     // --- Timers ---
@@ -215,10 +217,10 @@ export default function ChordDiagram() {
         allRibbons.filter((_d, i) => rIndices.includes(i))
           .transition()
           .duration(800)
-          .style("fill-opacity", 0.70)   // ← Opacidad en el pico del pulso
+          .style("fill-opacity", 0.35)   // Reducido de 0.70 para mantener sutil
           .transition()
           .duration(1500)
-          .style("fill-opacity", 0.3)    // ← Opacidad tras el pulso (antes de volver a 0.1)
+          .style("fill-opacity", 0.15)    // Vuelve a la base 0.15
       }
     }
 
@@ -241,7 +243,7 @@ export default function ChordDiagram() {
       .interrupt().transition().duration(200)
       .style("fill", (_d: any, i: number) => {
         if (hoveredRibbon?.source === _d.source.index && hoveredRibbon?.target === _d.target.index) {
-          return d3.rgb(ribbonColors[i % ribbonColors.length]).brighter(0.8).toString()
+          return d3.rgb(ribbonColors[i % ribbonColors.length]).brighter(0.4).toString()
         }
         if (hoveredIndex !== null && (_d.source.index === hoveredIndex || _d.target.index === hoveredIndex)) {
           return ribbonColors[i % ribbonColors.length]
@@ -252,21 +254,21 @@ export default function ChordDiagram() {
         // Si hay hover en ribbon específico
         if (hoveredRibbon) {
           if (hoveredRibbon.source === d.source.index && hoveredRibbon.target === d.target.index) {
-            return 0.85  // Ribbon seleccionado: opacidad fuerte
+            return 0.80 // Bajado de 1.0 para suavizar la intensidad
           }
-          return 0.08   // Todos los demás: muy tenue
+          return 0.04   // Todos los demás: muy tenue
         }
         
         // Si hay hover en cromosoma
         if (hoveredIndex !== null) {
           if (d.source.index === hoveredIndex || d.target.index === hoveredIndex) {
-            return 0.85   // Ribbons conectados al cromosoma: opacidad fuerte
+            return 0.80   // Ribbons conectados al cromosoma: opacidad fuerte
           }
-          return 0.08    // Todos los demás: muy tenue
+          return 0.04    // Todos los demás: muy tenue
         }
         
-        // Sin hover: opacidad normal
-        return 0.35
+        // Sin hover: opacidad base sutil
+        return 0.15
       })
       .style("stroke-opacity", (d: any) => {
         // Si hay hover en ribbon específico
@@ -285,14 +287,16 @@ export default function ChordDiagram() {
           return 0.08      // Todos los demás: stroke muy tenue
         }
         
-        // Sin hover: stroke normal
-        return 1
+        // Sin hover: stroke muy tenue
+        return 0.15
       })
 
     svg.selectAll<SVGPathElement, any>(".arc")
       .transition().duration(200)
       .style("fill", (d: any) => (hoveredRibbon?.source === d.index || hoveredRibbon?.target === d.index) || hoveredIndex === d.index ? '#004aad' : '#cbd5e1')
-      .style("opacity", (d: any) => (hoveredRibbon ? (d.index === hoveredRibbon.source || d.index === hoveredRibbon.target ? 1 : 0.2) : hoveredIndex !== null ? (d.index === hoveredIndex ? 1 : 0.3) : 1))
+      .style("stroke", (d: any) => (hoveredRibbon?.source === d.index || hoveredRibbon?.target === d.index) || hoveredIndex === d.index ? '#004aad' : d3.rgb('#cbd5e1').darker(0.2).toString())
+      .style("opacity", (d: any) => (hoveredRibbon ? (d.index === hoveredRibbon.source || d.index === hoveredRibbon.target ? 1 : 0.1) : hoveredIndex !== null ? (d.index === hoveredIndex ? 1 : 0.1) : 0.4))
+      .style("stroke-opacity", (d: any) => (hoveredRibbon ? (d.index === hoveredRibbon.source || d.index === hoveredRibbon.target ? 1 : 0.1) : hoveredIndex !== null ? (d.index === hoveredIndex ? 1 : 0.1) : 0.4))
 
     const grayScale = d3.scaleOrdinal<number, string>()
       .domain(d3.range(12))
@@ -302,7 +306,7 @@ export default function ChordDiagram() {
       .transition().duration(200)
       .style("fill", (d: any) => (hoveredRibbon?.source === d.index || hoveredRibbon?.target === d.index) || hoveredIndex === d.index ? '#004aad' : grayScale(d.index))
       .style("stroke", (d: any) => (hoveredRibbon?.source === d.index || hoveredRibbon?.target === d.index) || hoveredIndex === d.index ? '#004aad' : '#64748b')
-      .style("opacity", (d: any) => (hoveredRibbon ? (d.index === hoveredRibbon.source || d.index === hoveredRibbon.target ? 1.0 : 0.1) : hoveredIndex !== null ? (d.index === hoveredIndex ? 1.0 : 0.1) : 0.4))
+      .style("opacity", (d: any) => (hoveredRibbon ? (d.index === hoveredRibbon.source || d.index === hoveredRibbon.target ? 1.0 : 0.05) : hoveredIndex !== null ? (d.index === hoveredIndex ? 1.0 : 0.05) : 0.2))
 
   }, [hoveredIndex, hoveredRibbon])
 
