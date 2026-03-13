@@ -11,7 +11,7 @@ backend:
 local_backend: true
 
 media_folder: "public"
-public_folder: "/"
+public_folder: ""
 
 logo:
   src: "/logo_GClab.png"

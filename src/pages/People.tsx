@@ -24,7 +24,7 @@ export default function People() {
   
   const groupPhotos = (groupPhotosData as any).groupPhotos.map((photo: any) => ({
     ...photo,
-    image: `${baseUrl}${photo.image}`
+    image: `${baseUrl}${photo.image.replace(/^\//, '')}`
   }))
   
   const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0)
@@ -68,13 +68,13 @@ export default function People() {
   const labMembers = (membersData as any).members.map((member: any) => ({
     ...member,
     role: t(member.roleKey),
-    image: member.image ? `${baseUrl}${member.image}` : null
+    image: member.image ? `${baseUrl}${member.image.replace(/^\//, '')}` : null
   }))
 
   const technicalStaff = staffCollaboratorsData.technicalStaff.map(staff => ({
     ...staff,
     role: t(staff.roleKey),
-    image: staff.image ? `${baseUrl}${staff.image}` : null
+    image: staff.image ? `${baseUrl}${staff.image.replace(/^\//, '')}` : null
   }))
 
   const collaboratingInstitutions = (staffCollaboratorsData.collaborators ?? []).map((inst: { logo?: string; name?: string }) => ({

@@ -178,7 +178,7 @@ export default function Research() {
                         <div className="relative w-full max-w-md mx-auto aspect-[4/3] lg:aspect-[4/4] rounded-xl overflow-hidden bg-white-smoke group-hover:shadow-xl transition-all duration-300">
                           {project.image ? (
                             <img
-                              src={`${baseUrl}${project.image}`}
+                              src={`${baseUrl}${project.image.replace(/^\//, '')}`}
                               alt={projectTitle}
                               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                             />

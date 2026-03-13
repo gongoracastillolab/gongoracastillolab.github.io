@@ -136,18 +136,18 @@
         "title": "Verano Teletón dirigido a comunidad CRIT Yucatán (2025)",
         "images": [
           {
-            "src": "/div_event_crit_2025_2.jpg"
+            "src": "div_event_crit_2025_2.jpg"
           },
           {
-            "src": "/div_event_crit_2025_4.jpg"
+            "src": "div_event_crit_2025_4.jpg"
           },
           {
-            "src": "/div_event_crit_2025_3.jpg"
+            "src": "div_event_crit_2025_3.jpg"
           }
         ],
         "type": "event",
         "id": "verano-teleton-crit-2025",
-        "image": "/div_event_crit_2025_1.jpg",
+        "image": "div_event_crit_2025_1.jpg",
         "description": "Actividad de divulgación en el marco del Verano Teletón, dirigida a la comunidad del CRIT Yucatán. El laboratorio acerca la ciencia y la investigación en genómica a las familias y participantes del programa.\n\nIncluye talleres y dinámicas adaptadas para compartir el quehacer científico y despertar curiosidad por la biología y la bioinformática."
       },
       {
@@ -434,18 +434,18 @@
         "title": "Teletón Summer Program for CRIT Yucatán Community (2025)",
         "images": [
           {
-            "src": "/div_event_crit_2025_2.jpg"
+            "src": "div_event_crit_2025_2.jpg"
           },
           {
-            "src": "/div_event_crit_2025_4.jpg"
+            "src": "div_event_crit_2025_4.jpg"
           },
           {
-            "src": "/div_event_crit_2025_3.jpg"
+            "src": "div_event_crit_2025_3.jpg"
           }
         ],
         "type": "event",
         "id": "verano-teleton-crit-2025",
-        "image": "/div_event_crit_2025_1.jpg",
+        "image": "div_event_crit_2025_1.jpg",
         "description": "Outreach activity as part of the Teletón Summer Program, aimed at the CRIT Yucatán community. The laboratory brings science and genomics research closer to families and participants.\n\nIncludes workshops and activities adapted to share scientific work and spark curiosity about biology and bioinformatics."
       },
       {
