@@ -24,7 +24,7 @@
           "Domestication",
           "Plant Biology"
         ],
-        "image": "project_papaya.jpg"
+        "image": "/proj_papaya.jpg"
       },
       {
         "id": "vanilla",
@@ -36,7 +36,7 @@
           "Metagenomics",
           "Biodiversity"
         ],
-        "image": "project_vanilla.jpg"
+        "image": "/proj_vainilla.jpg"
       },
       {
         "id": "chlamydomonas",
@@ -102,7 +102,7 @@
           "Domestication",
           "Plant Biology"
         ],
-        "image": "project_papaya.jpg"
+        "image": "/proj_papaya.jpg"
       },
       {
         "id": "vanilla",
@@ -114,7 +114,7 @@
           "Metagenomics",
           "Biodiversity"
         ],
-        "image": "project_vanilla.jpg"
+        "image": "/proj_vainilla.jpg"
       },
       {
         "id": "chlamydomonas",
