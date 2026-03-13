@@ -12,9 +12,25 @@
     }
   ],
   "collaborators": [
-    { "logo": "colab_cicy_logo.jpg", "name": "CICY" },
-    { "logo": "colab_msu_logo.png", "name": "Michigan State University" },
-    { "logo": "colab_uady_logo.png", "name": "Universidad Autónoma de Yucatán" },
-    { "logo": "colab_unam_logo.png", "name": "UNAM" }
+    {
+      "logo": "colab_cicy_logo.jpg",
+      "name": "CICY"
+    },
+    {
+      "logo": "colab_msu_logo.png",
+      "name": "Michigan State University"
+    },
+    {
+      "logo": "colab_uady_logo.png",
+      "name": "Universidad Autónoma de Yucatán"
+    },
+    {
+      "logo": "colab_unam_logo.png",
+      "name": "UNAM"
+    },
+    {
+      "name": "North Carolina State University",
+      "logo": "/colab_ncs.png"
+    }
   ]
 }
